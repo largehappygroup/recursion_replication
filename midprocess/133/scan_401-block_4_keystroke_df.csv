@@ -1,0 +1,893 @@
+vol_num,block,stim_id,stim_name,keystrokes
+0,4,,,[]
+1,4,,,[]
+2,4,,,[]
+3,4,,,[]
+4,4,,,[]
+5,4,,,[]
+6,4,,,[]
+7,4,,,[]
+8,4,,,[]
+9,4,,,[]
+10,4,,,[]
+11,4,,,[]
+12,4,,,[]
+13,4,,,[]
+14,4,,,[]
+15,4,,,[]
+16,4,,,[]
+17,4,,,[]
+18,4,,,[]
+19,4,,,[]
+20,4,101,rec_palindrome,[]
+21,4,101,rec_palindrome,[]
+22,4,101,rec_palindrome,[]
+23,4,101,rec_palindrome,[]
+24,4,101,rec_palindrome,['<K:D x=2>']
+25,4,101,rec_palindrome,['<K:D x=5>']
+26,4,101,rec_palindrome,['<K:D x=3>']
+27,4,101,rec_palindrome,"['<K:R x=2>', '<K:U x=2>']"
+28,4,101,rec_palindrome,['\t']
+29,4,101,rec_palindrome,[]
+30,4,101,rec_palindrome,"['i', 'f', ' ', '<K:BS x=2>']"
+31,4,101,rec_palindrome,"['f', '<K:BS>', 'f']"
+32,4,101,rec_palindrome,[]
+33,4,101,rec_palindrome,[]
+34,4,101,rec_palindrome,[]
+35,4,101,rec_palindrome,[]
+36,4,101,rec_palindrome,[]
+37,4,101,rec_palindrome,[]
+38,4,101,rec_palindrome,[]
+39,4,101,rec_palindrome,[]
+40,4,101,rec_palindrome,[]
+41,4,101,rec_palindrome,[]
+42,4,101,rec_palindrome,[]
+43,4,101,rec_palindrome,[]
+44,4,101,rec_palindrome,['<K:BS x=2>']
+45,4,101,rec_palindrome,['i']
+46,4,101,rec_palindrome,"['f', '<K:BS x=2>']"
+47,4,101,rec_palindrome,"['i', 'f']"
+48,4,101,rec_palindrome,"['<K:BS x=2>', 'f']"
+49,4,101,rec_palindrome,"['i', '<K:BS x=2>']"
+50,4,101,rec_palindrome,[]
+51,4,101,rec_palindrome,[]
+52,4,101,rec_palindrome,[]
+53,4,101,rec_palindrome,[]
+54,4,101,rec_palindrome,[]
+55,4,101,rec_palindrome,[]
+56,4,101,rec_palindrome,[]
+57,4,101,rec_palindrome,[]
+58,4,101,rec_palindrome,[]
+59,4,101,rec_palindrome,[]
+60,4,101,rec_palindrome,[]
+61,4,101,rec_palindrome,[]
+62,4,101,rec_palindrome,[]
+63,4,101,rec_palindrome,[]
+64,4,101,rec_palindrome,[]
+65,4,101,rec_palindrome,[]
+66,4,101,rec_palindrome,[]
+67,4,101,rec_palindrome,[]
+68,4,101,rec_palindrome,[]
+69,4,101,rec_palindrome,[]
+70,4,101,rec_palindrome,[]
+71,4,101,rec_palindrome,"['o', 'g', ' ', '<K:BS>']"
+72,4,101,rec_palindrome,"['<K:BS x=2>', 'i', 'f']"
+73,4,101,rec_palindrome,"[' ', 's', 't', 'a', 'r', 't']"
+74,4,101,rec_palindrome,[]
+75,4,101,rec_palindrome,[' ']
+76,4,101,rec_palindrome,['<K:BS>']
+77,4,101,rec_palindrome,['<K:BS x=4>']
+78,4,101,rec_palindrome,['t']
+79,4,101,rec_palindrome,"['a', 'r', 't', ' ']"
+80,4,101,rec_palindrome,[]
+81,4,101,rec_palindrome,[]
+82,4,101,rec_palindrome,"['<K:S>', '.']"
+83,4,101,rec_palindrome,"['=', ' ', 'e']"
+84,4,101,rec_palindrome,"['n', 'd']"
+85,4,101,rec_palindrome,[]
+86,4,101,rec_palindrome,[]
+87,4,101,rec_palindrome,[]
+88,4,101,rec_palindrome,"['<K:S>', 'l']"
+89,4,101,rec_palindrome,"['<K:BS>', '<K:S x=2>', ';']"
+90,4,101,rec_palindrome,"['\r', 'r']"
+91,4,101,rec_palindrome,"['e', 't', 'i', 'r', '<K:BS>']"
+92,4,101,rec_palindrome,"['<K:BS>', 'u', 'r', 'n', 'n']"
+93,4,101,rec_palindrome,"['<K:BS>', ' ', 't', 'r', 'u', 'e']"
+94,4,101,rec_palindrome,"['<K:BS x=4>', '<K:S>', 't', 'u', 'r']"
+95,4,101,rec_palindrome,"['<K:BS x=2>', 'r', 'e']"
+96,4,101,rec_palindrome,"['<K:BS x=5>', 'r']"
+97,4,101,rec_palindrome,"['u', 'e']"
+98,4,101,rec_palindrome,['<K:D x=2>']
+99,4,101,rec_palindrome,"['<K:D>', '\t']"
+100,4,101,rec_palindrome,[]
+101,4,101,rec_palindrome,[]
+102,4,101,rec_palindrome,[]
+103,4,101,rec_palindrome,"['r', 'e', 't', 'i']"
+104,4,101,rec_palindrome,"['r', '<K:BS x=4>']"
+105,4,101,rec_palindrome,['<K:BS>']
+106,4,101,rec_palindrome,[]
+107,4,101,rec_palindrome,[]
+108,4,101,rec_palindrome,[]
+109,4,101,rec_palindrome,['<K:U x=2>']
+110,4,101,rec_palindrome,"['\t', '\r', '<K:U>']"
+111,4,101,rec_palindrome,"['e', 'l', 'i', 'f']"
+112,4,101,rec_palindrome,"[' ', 's']"
+113,4,101,rec_palindrome,['<K:BS>']
+114,4,101,rec_palindrome,[]
+115,4,101,rec_palindrome,"['s', 't', 'r', 'i', 'n']"
+116,4,101,rec_palindrome,"['g', '[']"
+117,4,101,rec_palindrome,[]
+118,4,101,rec_palindrome,"['s', 't', 'a', 'r']"
+119,4,101,rec_palindrome,"['t', ""'""]"
+120,4,101,rec_palindrome,"['<K:BS>', ']']"
+121,4,101,rec_palindrome,[]
+122,4,101,rec_palindrome,"[' ', '<K:S x=2>', '1']"
+123,4,101,rec_palindrome,"['<K:BS>', '<K:S>', '1']"
+124,4,101,rec_palindrome,['<K:BS>']
+125,4,101,rec_palindrome,"['<K:S>', '1']"
+126,4,101,rec_palindrome,"['=', ' ']"
+127,4,101,rec_palindrome,[]
+128,4,101,rec_palindrome,"['s', 't']"
+129,4,101,rec_palindrome,"['r', 'i', 'n', 'g', '[']"
+130,4,101,rec_palindrome,"['e', 'n', 'd']"
+131,4,101,rec_palindrome,['\r']
+132,4,101,rec_palindrome,['<K:BS x=6>']
+133,4,101,rec_palindrome,['<K:BS x=6>']
+134,4,101,rec_palindrome,['<K:BS x=19>']
+135,4,101,rec_palindrome,['<K:BS x=3>']
+136,4,101,rec_palindrome,"['[', '<K:BS>', ']']"
+137,4,101,rec_palindrome,[]
+138,4,101,rec_palindrome,"['<K:S>', ';']"
+139,4,101,rec_palindrome,"['\r', 'r', 'e']"
+140,4,101,rec_palindrome,"['t', 'i', 'r', 'm', '<K:BS x=2>']"
+141,4,101,rec_palindrome,"['<K:BS>', 'u', 'r', 'n', ' ']"
+142,4,101,rec_palindrome,"['<K:S>', 'f', 'a', 'l', 's', 'e']"
+143,4,101,rec_palindrome,['<K:D x=3>']
+144,4,101,rec_palindrome,[]
+145,4,101,rec_palindrome,[]
+146,4,101,rec_palindrome,"['r', 'e', 't', 'i', 'r']"
+147,4,101,rec_palindrome,"['m', '<K:BS x=4>']"
+148,4,101,rec_palindrome,"['r', '<K:BS>', 't']"
+149,4,101,rec_palindrome,"['r', '<K:BS>', 'u', 'r']"
+150,4,101,rec_palindrome,"['n', ' ', 'i', 's', ' ', '<K:S>']"
+151,4,101,rec_palindrome,"['<K:BS>', '<K:S>', 'p', 'a', 'l']"
+152,4,101,rec_palindrome,"['i', 'n', 'd', 'r', 'o', 'm', 'e']"
+153,4,101,rec_palindrome,"['<K:S>', '9']"
+154,4,101,rec_palindrome,"['s', 't', 'r', 'i', 'n']"
+155,4,101,rec_palindrome,"['g', ',', ' ', 's']"
+156,4,101,rec_palindrome,"['t', 'a', 't', '<K:BS>', 'r']"
+157,4,101,rec_palindrome,"['t', ' ', '<K:S>', '=', ' ', '1']"
+158,4,101,rec_palindrome,"[',', ' ', 'e']"
+159,4,101,rec_palindrome,"['n', 'd', ' ', '-', ' ', '1']"
+160,4,101,rec_palindrome,"['<K:S>', '-', '<K:BS>', '<K:S>', '0']"
+161,4,101,rec_palindrome,[]
+162,4,101,rec_palindrome,[]
+163,4,101,rec_palindrome,"['\r', '\r']"
+164,4,101,rec_palindrome,"['q', 'q']"
+165,4,101,rec_palindrome,"['q', '<K:BS>', 'q']"
+166,4,,,[]
+167,4,,,[]
+168,4,,,[]
+169,4,402,lis_vehicles,[]
+170,4,402,lis_vehicles,[]
+171,4,402,lis_vehicles,[]
+172,4,402,lis_vehicles,[]
+173,4,402,lis_vehicles,"['c', 'a', 'r']"
+174,4,402,lis_vehicles,"[',', ' ', 'p', 'l']"
+175,4,402,lis_vehicles,"['a', 'n', 'e', ',', ' ']"
+176,4,402,lis_vehicles,[]
+177,4,402,lis_vehicles,[]
+178,4,402,lis_vehicles,[]
+179,4,402,lis_vehicles,[]
+180,4,402,lis_vehicles,['s']
+181,4,402,lis_vehicles,"['c', 'o', 'o', 't', 'e', 'r', ',', ' ']"
+182,4,402,lis_vehicles,"['b', 'i', 'c', 'y', 'c', 'l']"
+183,4,402,lis_vehicles,"['e', ',', ' ']"
+184,4,402,lis_vehicles,[]
+185,4,402,lis_vehicles,"['w', 'h']"
+186,4,402,lis_vehicles,['<K:BS x=2>']
+187,4,402,lis_vehicles,[]
+188,4,402,lis_vehicles,['<K:BS>']
+189,4,402,lis_vehicles,"[' ', 't', 'r']"
+190,4,402,lis_vehicles,"['u', 'c', 'k', ',', ' ']"
+191,4,402,lis_vehicles,"['b', 'u', 's', ',']"
+192,4,402,lis_vehicles,[' ']
+193,4,402,lis_vehicles,[]
+194,4,402,lis_vehicles,[]
+195,4,402,lis_vehicles,[]
+196,4,402,lis_vehicles,[]
+197,4,402,lis_vehicles,[]
+198,4,402,lis_vehicles,[]
+199,4,402,lis_vehicles,[]
+200,4,402,lis_vehicles,[]
+201,4,402,lis_vehicles,['h']
+202,4,402,lis_vehicles,"['e', 'l', 'i', 'c', 'o', 'p', 't']"
+203,4,402,lis_vehicles,"['e', 'r', ',']"
+204,4,402,lis_vehicles,[' ']
+205,4,402,lis_vehicles,[]
+206,4,402,lis_vehicles,[]
+207,4,402,lis_vehicles,[]
+208,4,402,lis_vehicles,[]
+209,4,402,lis_vehicles,['f']
+210,4,402,lis_vehicles,"['<K:BS>', 'e', 'f', '<K:BS x=2>', 'f', 'e']"
+211,4,402,lis_vehicles,['<K:BS x=2>']
+212,4,402,lis_vehicles,[]
+213,4,402,lis_vehicles,[]
+214,4,402,lis_vehicles,"['f', '<K:BS>']"
+215,4,402,lis_vehicles,"['f', '<K:BS>', 'f', '<K:BS>', 'f', '<K:BS>', 'f']"
+216,4,402,lis_vehicles,"['<K:BS>', 'f', '<K:BS>', 'f', '<K:BS>', 'f']"
+217,4,402,lis_vehicles,['<K:BS>']
+218,4,402,lis_vehicles,"['b', 'o', 'a', 't']"
+219,4,402,lis_vehicles,"[',', ' ']"
+220,4,402,lis_vehicles,"['j', 'e', 't', 's', 'k', 'i']"
+221,4,402,lis_vehicles,"[',', ' ']"
+222,4,402,lis_vehicles,[]
+223,4,402,lis_vehicles,[]
+224,4,402,lis_vehicles,[]
+225,4,402,lis_vehicles,[]
+226,4,402,lis_vehicles,[]
+227,4,402,lis_vehicles,[]
+228,4,402,lis_vehicles,"['c', 'r']"
+229,4,402,lis_vehicles,['u']
+230,4,402,lis_vehicles,"['i', 's']"
+231,4,402,lis_vehicles,['e']
+232,4,402,lis_vehicles,['q']
+233,4,402,lis_vehicles,"['q', 'q', 'q']"
+234,4,,,[]
+235,4,,,[]
+236,4,403,lis_vegetables,[]
+237,4,403,lis_vegetables,[]
+238,4,403,lis_vegetables,[]
+239,4,403,lis_vegetables,[]
+240,4,403,lis_vegetables,"['s', 'a', 'm', 'e']"
+241,4,403,lis_vegetables,"['q', '<K:BS>', ' ', 'q', 'u', 'e']"
+242,4,403,lis_vegetables,"['s', 't', 'i', 'o']"
+243,4,403,lis_vegetables,['<K:BS>']
+244,4,403,lis_vegetables,['<K:BS x=16>']
+245,4,403,lis_vegetables,[]
+246,4,403,lis_vegetables,"['c', 'a', 'r', 'r', 'o', 't', ',', ' ']"
+247,4,403,lis_vegetables,"['b', 'e']"
+248,4,403,lis_vegetables,['<K:BS x=2>']
+249,4,403,lis_vegetables,[]
+250,4,403,lis_vegetables,"['b', '<K:BS>']"
+251,4,403,lis_vegetables,"['c', 'e', 'l', 'e', 'r']"
+252,4,403,lis_vegetables,['y']
+253,4,403,lis_vegetables,"[',', ' ', 'b', 'r']"
+254,4,403,lis_vegetables,"['o', 'c', 'c', 'o', 'l']"
+255,4,403,lis_vegetables,"['i', ',', ' ']"
+256,4,403,lis_vegetables,[]
+257,4,403,lis_vegetables,[]
+258,4,403,lis_vegetables,[]
+259,4,403,lis_vegetables,[]
+260,4,403,lis_vegetables,[]
+261,4,403,lis_vegetables,"['h', 'r', '<K:BS x=2>']"
+262,4,403,lis_vegetables,"['g', 'r', 'e']"
+263,4,403,lis_vegetables,"['e', 'n', ' ', 'b', 'e', 'a']"
+264,4,403,lis_vegetables,"['n', 's', ',']"
+265,4,403,lis_vegetables,[' ']
+266,4,403,lis_vegetables,[]
+267,4,403,lis_vegetables,"['p', 'o']"
+268,4,403,lis_vegetables,"['t', 'a', 't', '<K:BS>']"
+269,4,403,lis_vegetables,['<K:BS x=3>']
+270,4,403,lis_vegetables,['<K:BS>']
+271,4,403,lis_vegetables,[]
+272,4,403,lis_vegetables,"['a', 's']"
+273,4,403,lis_vegetables,"['p', 'a', 'r']"
+274,4,403,lis_vegetables,"['a', 'g', 'u', 's', ',']"
+275,4,403,lis_vegetables,[' ']
+276,4,403,lis_vegetables,[]
+277,4,403,lis_vegetables,[]
+278,4,403,lis_vegetables,[]
+279,4,403,lis_vegetables,[]
+280,4,403,lis_vegetables,[]
+281,4,403,lis_vegetables,[]
+282,4,403,lis_vegetables,[]
+283,4,403,lis_vegetables,[]
+284,4,403,lis_vegetables,"['t', 'o', '<K:BS>']"
+285,4,403,lis_vegetables,['<K:BS>']
+286,4,403,lis_vegetables,"['f', '<K:BS>']"
+287,4,403,lis_vegetables,"['f', '<K:BS>']"
+288,4,403,lis_vegetables,[]
+289,4,403,lis_vegetables,"['l', 'e', 't', 't', 'u']"
+290,4,403,lis_vegetables,"['c', 'e', ',', ' ']"
+291,4,403,lis_vegetables,[]
+292,4,403,lis_vegetables,[]
+293,4,403,lis_vegetables,[]
+294,4,403,lis_vegetables,[]
+295,4,403,lis_vegetables,[]
+296,4,403,lis_vegetables,[]
+297,4,403,lis_vegetables,[]
+298,4,403,lis_vegetables,[]
+299,4,403,lis_vegetables,"['f', '<K:BS>', 'f']"
+300,4,403,lis_vegetables,['<K:BS>']
+301,4,403,lis_vegetables,[]
+302,4,403,lis_vegetables,[]
+303,4,403,lis_vegetables,[]
+304,4,403,lis_vegetables,[]
+305,4,403,lis_vegetables,"['b', 'r', 'u', 's']"
+306,4,403,lis_vegetables,"['s', 'e', 'l', ' ', 's', 'p', 'r', 'o']"
+307,4,403,lis_vegetables,"['u', 't', 's', 'm']"
+308,4,403,lis_vegetables,"[' ', '<K:BS x=2>']"
+309,4,403,lis_vegetables,"[',', ' ']"
+310,4,403,lis_vegetables,[]
+311,4,403,lis_vegetables,[]
+312,4,403,lis_vegetables,[]
+313,4,403,lis_vegetables,[]
+314,4,403,lis_vegetables,[]
+315,4,403,lis_vegetables,['c']
+316,4,403,lis_vegetables,"['<K:BS>', 's', '<K:BS>']"
+317,4,403,lis_vegetables,[]
+318,4,403,lis_vegetables,[]
+319,4,403,lis_vegetables,['<K:BS>']
+320,4,403,lis_vegetables,[' ']
+321,4,403,lis_vegetables,[]
+322,4,403,lis_vegetables,[]
+323,4,403,lis_vegetables,[]
+324,4,403,lis_vegetables,"['f', '<K:BS>']"
+325,4,403,lis_vegetables,"['a', 'r', 't', 'i']"
+326,4,403,lis_vegetables,['c']
+327,4,403,lis_vegetables,['<K:BS x=4>']
+328,4,403,lis_vegetables,"['<K:BS>', 'e', 'g']"
+329,4,403,lis_vegetables,"['g', 'p', 'l', 'a']"
+330,4,403,lis_vegetables,"['n', 't', ',']"
+331,4,403,lis_vegetables,[' ']
+332,4,403,lis_vegetables,[]
+333,4,403,lis_vegetables,[]
+334,4,403,lis_vegetables,"['c', 'a', 'u', 'l', 'i', 'f']"
+335,4,403,lis_vegetables,"['l', 'o', 'w', 'e', 'r', '\t']"
+336,4,403,lis_vegetables,['\t']
+337,4,403,lis_vegetables,['<K:D x=2>']
+338,4,403,lis_vegetables,"['\t', 'q', 'q']"
+339,4,403,lis_vegetables,['q']
+340,4,,,[]
+341,4,105,rec_intPalindrome,[]
+342,4,105,rec_intPalindrome,['<K:D>']
+343,4,105,rec_intPalindrome,['<K:D x=5>']
+344,4,105,rec_intPalindrome,['<K:D x=3>']
+345,4,105,rec_intPalindrome,['<K:D>']
+346,4,105,rec_intPalindrome,"['<K:U>', '<K:D>']"
+347,4,105,rec_intPalindrome,['<K:U>']
+348,4,105,rec_intPalindrome,['<K:D>']
+349,4,105,rec_intPalindrome,[]
+350,4,105,rec_intPalindrome,['\t']
+351,4,105,rec_intPalindrome,[]
+352,4,105,rec_intPalindrome,[]
+353,4,105,rec_intPalindrome,[]
+354,4,105,rec_intPalindrome,[]
+355,4,105,rec_intPalindrome,[]
+356,4,105,rec_intPalindrome,[]
+357,4,105,rec_intPalindrome,[]
+358,4,105,rec_intPalindrome,[]
+359,4,105,rec_intPalindrome,[]
+360,4,105,rec_intPalindrome,[]
+361,4,105,rec_intPalindrome,[]
+362,4,105,rec_intPalindrome,[]
+363,4,105,rec_intPalindrome,[]
+364,4,105,rec_intPalindrome,[]
+365,4,105,rec_intPalindrome,[]
+366,4,105,rec_intPalindrome,[]
+367,4,105,rec_intPalindrome,[]
+368,4,105,rec_intPalindrome,[]
+369,4,105,rec_intPalindrome,[]
+370,4,105,rec_intPalindrome,[]
+371,4,105,rec_intPalindrome,[]
+372,4,105,rec_intPalindrome,[]
+373,4,105,rec_intPalindrome,[]
+374,4,105,rec_intPalindrome,[]
+375,4,105,rec_intPalindrome,[]
+376,4,105,rec_intPalindrome,[]
+377,4,105,rec_intPalindrome,[]
+378,4,105,rec_intPalindrome,[]
+379,4,105,rec_intPalindrome,[]
+380,4,105,rec_intPalindrome,[]
+381,4,105,rec_intPalindrome,[]
+382,4,105,rec_intPalindrome,[]
+383,4,105,rec_intPalindrome,[]
+384,4,105,rec_intPalindrome,[]
+385,4,105,rec_intPalindrome,"['i', 'f']"
+386,4,105,rec_intPalindrome,[]
+387,4,105,rec_intPalindrome,[]
+388,4,105,rec_intPalindrome,[]
+389,4,105,rec_intPalindrome,[]
+390,4,105,rec_intPalindrome,[]
+391,4,105,rec_intPalindrome,[]
+392,4,105,rec_intPalindrome,[]
+393,4,105,rec_intPalindrome,[]
+394,4,105,rec_intPalindrome,[]
+395,4,105,rec_intPalindrome,[]
+396,4,105,rec_intPalindrome,[]
+397,4,105,rec_intPalindrome,['<K:S>']
+398,4,105,rec_intPalindrome,"['0', '<K:BS>', '<K:S>', '9']"
+399,4,105,rec_intPalindrome,[]
+400,4,105,rec_intPalindrome,[]
+401,4,105,rec_intPalindrome,['x']
+402,4,105,rec_intPalindrome,"[' ', ',']"
+403,4,105,rec_intPalindrome,['<K:BS>']
+404,4,105,rec_intPalindrome,"['<K:S>', ',', ' ']"
+405,4,105,rec_intPalindrome,"['1', '-']"
+406,4,105,rec_intPalindrome,"['<K:BS>', '0', '<K:S>', '0']"
+407,4,105,rec_intPalindrome,"['<K:S>', ';', '\r']"
+408,4,105,rec_intPalindrome,"['r', 'e', 't', 'i', 'r']"
+409,4,105,rec_intPalindrome,"['<K:BS x=2>', 'u']"
+410,4,105,rec_intPalindrome,"['r', 'n', ' ', '<K:S>', 't', 'r', 'u', 'e']"
+411,4,105,rec_intPalindrome,['<K:D x=3>']
+412,4,105,rec_intPalindrome,[]
+413,4,105,rec_intPalindrome,[]
+414,4,105,rec_intPalindrome,[]
+415,4,105,rec_intPalindrome,['<K:U x=2>']
+416,4,105,rec_intPalindrome,"['\r', '\t']"
+417,4,105,rec_intPalindrome,"['<K:U>', '\t']"
+418,4,105,rec_intPalindrome,[]
+419,4,105,rec_intPalindrome,[]
+420,4,105,rec_intPalindrome,[]
+421,4,105,rec_intPalindrome,[]
+422,4,105,rec_intPalindrome,[]
+423,4,105,rec_intPalindrome,[]
+424,4,105,rec_intPalindrome,[]
+425,4,105,rec_intPalindrome,[]
+426,4,105,rec_intPalindrome,[]
+427,4,105,rec_intPalindrome,[]
+428,4,105,rec_intPalindrome,[]
+429,4,105,rec_intPalindrome,[]
+430,4,105,rec_intPalindrome,[]
+431,4,105,rec_intPalindrome,[]
+432,4,105,rec_intPalindrome,[]
+433,4,105,rec_intPalindrome,[]
+434,4,105,rec_intPalindrome,['i']
+435,4,105,rec_intPalindrome,['f']
+436,4,105,rec_intPalindrome,[]
+437,4,105,rec_intPalindrome,[]
+438,4,105,rec_intPalindrome,[]
+439,4,105,rec_intPalindrome,[]
+440,4,105,rec_intPalindrome,[]
+441,4,105,rec_intPalindrome,[]
+442,4,105,rec_intPalindrome,[]
+443,4,105,rec_intPalindrome,[]
+444,4,105,rec_intPalindrome,[]
+445,4,105,rec_intPalindrome,[]
+446,4,105,rec_intPalindrome,[]
+447,4,105,rec_intPalindrome,[]
+448,4,105,rec_intPalindrome,[]
+449,4,105,rec_intPalindrome,[]
+450,4,105,rec_intPalindrome,[]
+451,4,105,rec_intPalindrome,[]
+452,4,105,rec_intPalindrome,['<K:BS x=2>']
+453,4,105,rec_intPalindrome,"['i', 'f']"
+454,4,105,rec_intPalindrome,[]
+455,4,105,rec_intPalindrome,[]
+456,4,105,rec_intPalindrome,['<K:BS>']
+457,4,105,rec_intPalindrome,['<K:BS>']
+458,4,105,rec_intPalindrome,[]
+459,4,105,rec_intPalindrome,[]
+460,4,105,rec_intPalindrome,[]
+461,4,105,rec_intPalindrome,[]
+462,4,105,rec_intPalindrome,[]
+463,4,105,rec_intPalindrome,[]
+464,4,105,rec_intPalindrome,[]
+465,4,105,rec_intPalindrome,[]
+466,4,105,rec_intPalindrome,[]
+467,4,105,rec_intPalindrome,[]
+468,4,105,rec_intPalindrome,[]
+469,4,105,rec_intPalindrome,[]
+470,4,105,rec_intPalindrome,[]
+471,4,105,rec_intPalindrome,[]
+472,4,105,rec_intPalindrome,[]
+473,4,105,rec_intPalindrome,[]
+474,4,105,rec_intPalindrome,[]
+475,4,105,rec_intPalindrome,[]
+476,4,105,rec_intPalindrome,[]
+477,4,105,rec_intPalindrome,[]
+478,4,105,rec_intPalindrome,[]
+479,4,105,rec_intPalindrome,[]
+480,4,105,rec_intPalindrome,[]
+481,4,105,rec_intPalindrome,[]
+482,4,105,rec_intPalindrome,[]
+483,4,105,rec_intPalindrome,[]
+484,4,105,rec_intPalindrome,[]
+485,4,105,rec_intPalindrome,['f']
+486,4,105,rec_intPalindrome,['<K:BS>']
+487,4,105,rec_intPalindrome,[]
+488,4,105,rec_intPalindrome,[]
+489,4,105,rec_intPalindrome,[]
+490,4,105,rec_intPalindrome,[]
+491,4,105,rec_intPalindrome,[]
+492,4,105,rec_intPalindrome,[]
+493,4,105,rec_intPalindrome,[]
+494,4,105,rec_intPalindrome,[]
+495,4,105,rec_intPalindrome,[]
+496,4,105,rec_intPalindrome,[]
+497,4,105,rec_intPalindrome,[]
+498,4,105,rec_intPalindrome,[]
+499,4,105,rec_intPalindrome,['f']
+500,4,105,rec_intPalindrome,['<K:BS>']
+501,4,105,rec_intPalindrome,[]
+502,4,105,rec_intPalindrome,[]
+503,4,105,rec_intPalindrome,"['g', '<K:BS>']"
+504,4,105,rec_intPalindrome,"['f', 'i', 'r']"
+505,4,105,rec_intPalindrome,"['s', 't', ' ', '=']"
+506,4,105,rec_intPalindrome,[' ']
+507,4,105,rec_intPalindrome,"['1', '2']"
+508,4,105,rec_intPalindrome,['<K:BS x=2>']
+509,4,105,rec_intPalindrome,"['x', ' ']"
+510,4,105,rec_intPalindrome,"['=', '<K:BS>']"
+511,4,105,rec_intPalindrome,[]
+512,4,105,rec_intPalindrome,[]
+513,4,105,rec_intPalindrome,['<K:BS>']
+514,4,105,rec_intPalindrome,[' ']
+515,4,105,rec_intPalindrome,[]
+516,4,105,rec_intPalindrome,['<K:BS x=6>']
+517,4,105,rec_intPalindrome,['<K:BS x=4>']
+518,4,105,rec_intPalindrome,[]
+519,4,105,rec_intPalindrome,[]
+520,4,105,rec_intPalindrome,['<K:BS>']
+521,4,105,rec_intPalindrome,[]
+522,4,105,rec_intPalindrome,"['q', '<K:BS>', '\t']"
+523,4,105,rec_intPalindrome,[]
+524,4,105,rec_intPalindrome,[]
+525,4,105,rec_intPalindrome,[]
+526,4,105,rec_intPalindrome,[]
+527,4,105,rec_intPalindrome,[]
+528,4,105,rec_intPalindrome,[]
+529,4,105,rec_intPalindrome,[]
+530,4,105,rec_intPalindrome,[]
+531,4,105,rec_intPalindrome,[]
+532,4,105,rec_intPalindrome,[]
+533,4,105,rec_intPalindrome,[]
+534,4,105,rec_intPalindrome,[]
+535,4,105,rec_intPalindrome,[]
+536,4,105,rec_intPalindrome,[]
+537,4,105,rec_intPalindrome,[]
+538,4,105,rec_intPalindrome,[]
+539,4,105,rec_intPalindrome,[]
+540,4,105,rec_intPalindrome,[]
+541,4,105,rec_intPalindrome,[]
+542,4,105,rec_intPalindrome,[]
+543,4,105,rec_intPalindrome,[]
+544,4,105,rec_intPalindrome,[]
+545,4,105,rec_intPalindrome,[]
+546,4,105,rec_intPalindrome,"['w', 'h', 'i']"
+547,4,105,rec_intPalindrome,"['k', '<K:BS x=3>']"
+548,4,105,rec_intPalindrome,['<K:BS>']
+549,4,105,rec_intPalindrome,[]
+550,4,105,rec_intPalindrome,[]
+551,4,105,rec_intPalindrome,[]
+552,4,105,rec_intPalindrome,[]
+553,4,105,rec_intPalindrome,[]
+554,4,105,rec_intPalindrome,[]
+555,4,105,rec_intPalindrome,[]
+556,4,105,rec_intPalindrome,[]
+557,4,105,rec_intPalindrome,[]
+558,4,105,rec_intPalindrome,[]
+559,4,105,rec_intPalindrome,[]
+560,4,105,rec_intPalindrome,[]
+561,4,105,rec_intPalindrome,[]
+562,4,105,rec_intPalindrome,[]
+563,4,105,rec_intPalindrome,[]
+564,4,105,rec_intPalindrome,[]
+565,4,105,rec_intPalindrome,[]
+566,4,105,rec_intPalindrome,[]
+567,4,105,rec_intPalindrome,[]
+568,4,105,rec_intPalindrome,[]
+569,4,105,rec_intPalindrome,[]
+570,4,105,rec_intPalindrome,[]
+571,4,105,rec_intPalindrome,[]
+572,4,105,rec_intPalindrome,['<K:BS x=3>']
+573,4,105,rec_intPalindrome,['<K:BS x=2>']
+574,4,105,rec_intPalindrome,[]
+575,4,105,rec_intPalindrome,['<K:D x=2>']
+576,4,105,rec_intPalindrome,['<K:D>']
+577,4,105,rec_intPalindrome,[]
+578,4,105,rec_intPalindrome,[]
+579,4,105,rec_intPalindrome,[]
+580,4,105,rec_intPalindrome,[]
+581,4,105,rec_intPalindrome,"['t', 'r', 'y', 'u']"
+582,4,105,rec_intPalindrome,['<K:BS x=4>']
+583,4,105,rec_intPalindrome,"['r', 'e', 't', 'u', 'r', 'n', ' ']"
+584,4,105,rec_intPalindrome,"['i', 's', '<K:S>', '-', 'n', 'u']"
+585,4,105,rec_intPalindrome,"['m', '<K:S>', '-', 'p', 'a']"
+586,4,105,rec_intPalindrome,"['l', 'i', 'n', 'd', 'r', 'o']"
+587,4,105,rec_intPalindrome,"['m', 'e', '<K:S>']"
+588,4,105,rec_intPalindrome,"['0', '<K:S>', '9']"
+589,4,105,rec_intPalindrome,[]
+590,4,105,rec_intPalindrome,['x']
+591,4,105,rec_intPalindrome,[]
+592,4,105,rec_intPalindrome,[]
+593,4,105,rec_intPalindrome,[' ']
+594,4,105,rec_intPalindrome,[]
+595,4,105,rec_intPalindrome,[]
+596,4,105,rec_intPalindrome,[]
+597,4,105,rec_intPalindrome,[]
+598,4,105,rec_intPalindrome,[]
+599,4,105,rec_intPalindrome,[]
+600,4,105,rec_intPalindrome,[]
+601,4,105,rec_intPalindrome,[]
+602,4,105,rec_intPalindrome,[]
+603,4,105,rec_intPalindrome,[]
+604,4,105,rec_intPalindrome,[]
+605,4,105,rec_intPalindrome,[]
+606,4,105,rec_intPalindrome,[]
+607,4,105,rec_intPalindrome,[]
+608,4,105,rec_intPalindrome,[]
+609,4,105,rec_intPalindrome,[]
+610,4,105,rec_intPalindrome,[]
+611,4,105,rec_intPalindrome,[]
+612,4,105,rec_intPalindrome,[]
+613,4,105,rec_intPalindrome,[]
+614,4,105,rec_intPalindrome,[]
+615,4,105,rec_intPalindrome,[]
+616,4,105,rec_intPalindrome,[]
+617,4,105,rec_intPalindrome,[]
+618,4,105,rec_intPalindrome,[]
+619,4,105,rec_intPalindrome,[]
+620,4,105,rec_intPalindrome,[]
+621,4,105,rec_intPalindrome,[]
+622,4,105,rec_intPalindrome,[]
+623,4,105,rec_intPalindrome,[]
+624,4,105,rec_intPalindrome,[]
+625,4,105,rec_intPalindrome,[]
+626,4,105,rec_intPalindrome,['<K:BS>']
+627,4,105,rec_intPalindrome,[]
+628,4,105,rec_intPalindrome,[' ']
+629,4,105,rec_intPalindrome,"['<K:BS>', ' ']"
+630,4,105,rec_intPalindrome,[]
+631,4,105,rec_intPalindrome,['-']
+632,4,105,rec_intPalindrome,['<K:BS>']
+633,4,105,rec_intPalindrome,[]
+634,4,105,rec_intPalindrome,[]
+635,4,105,rec_intPalindrome,[]
+636,4,105,rec_intPalindrome,[]
+637,4,105,rec_intPalindrome,[]
+638,4,105,rec_intPalindrome,[]
+639,4,105,rec_intPalindrome,[]
+640,4,105,rec_intPalindrome,[]
+641,4,105,rec_intPalindrome,[]
+642,4,105,rec_intPalindrome,[]
+643,4,105,rec_intPalindrome,[]
+644,4,105,rec_intPalindrome,['<K:BS x=3>']
+645,4,105,rec_intPalindrome,['<K:U x=2>']
+646,4,105,rec_intPalindrome,"['<K:U>', '<K:D>']"
+647,4,105,rec_intPalindrome,['\r']
+648,4,105,rec_intPalindrome,"['<K:U>', 'w']"
+649,4,105,rec_intPalindrome,"['h', 'i', 'l', '<K:BS>']"
+650,4,105,rec_intPalindrome,['<K:BS x=3>']
+651,4,105,rec_intPalindrome,['\r']
+652,4,105,rec_intPalindrome,[]
+653,4,105,rec_intPalindrome,[]
+654,4,105,rec_intPalindrome,[]
+655,4,105,rec_intPalindrome,"['r', 'u', '<K:BS x=2>']"
+656,4,105,rec_intPalindrome,"['t', 'i', '<K:BS x=2>', 'r']"
+657,4,105,rec_intPalindrome,"['i', '4', 'w', '<K:BS>']"
+658,4,105,rec_intPalindrome,"['<K:BS x=3>', 'f']"
+659,4,105,rec_intPalindrome,"['i', '4']"
+660,4,105,rec_intPalindrome,"['<K:BS>', 'r']"
+661,4,105,rec_intPalindrome,"['s', 't', ' ']"
+662,4,105,rec_intPalindrome,"['d', 'i', 'i', '<K:BS>']"
+663,4,105,rec_intPalindrome,['<K:BS x=3>']
+664,4,105,rec_intPalindrome,"[' ', '=', ' ']"
+665,4,105,rec_intPalindrome,"['<K:BS>', ' ']"
+666,4,105,rec_intPalindrome,['x']
+667,4,105,rec_intPalindrome,"['\r', 'w', 'h', 'i']"
+668,4,105,rec_intPalindrome,"['e', 'l', '<K:BS x=2>', 'l', 'e']"
+669,4,105,rec_intPalindrome,"[' ', 'f', 'i', 'r', 's', 'd']"
+670,4,105,rec_intPalindrome,['<K:BS x=2>']
+671,4,105,rec_intPalindrome,"['s', 't', ' ', '<K:S>', '.', ' ']"
+672,4,105,rec_intPalindrome,['1']
+673,4,105,rec_intPalindrome,"['0', '<K:S>', ';', '\r']"
+674,4,105,rec_intPalindrome,[]
+675,4,105,rec_intPalindrome,[]
+676,4,105,rec_intPalindrome,"['f', 'o', '<K:BS>']"
+677,4,105,rec_intPalindrome,"['i', 'r', 's', 't', ' ', '<K:S>']"
+678,4,105,rec_intPalindrome,"['1', '<K:BS>', '<K:S>']"
+679,4,105,rec_intPalindrome,"['2', '<K:BS>', '3', '<K:S>']"
+680,4,105,rec_intPalindrome,"['<K:BS>', '<K:S>', '4']"
+681,4,105,rec_intPalindrome,"['<K:BS>', '<K:S>', '3', '<K:BS>']"
+682,4,105,rec_intPalindrome,"['<K:S>', '5']"
+683,4,105,rec_intPalindrome,"['=', ' ']"
+684,4,105,rec_intPalindrome,"['1', '0']"
+685,4,105,rec_intPalindrome,[]
+686,4,105,rec_intPalindrome,[]
+687,4,105,rec_intPalindrome,[]
+688,4,105,rec_intPalindrome,[]
+689,4,105,rec_intPalindrome,[]
+690,4,105,rec_intPalindrome,[]
+691,4,105,rec_intPalindrome,[]
+692,4,105,rec_intPalindrome,[]
+693,4,105,rec_intPalindrome,[]
+694,4,105,rec_intPalindrome,[]
+695,4,105,rec_intPalindrome,[]
+696,4,105,rec_intPalindrome,[]
+697,4,105,rec_intPalindrome,[]
+698,4,105,rec_intPalindrome,"['\r', '<K:BS>']"
+699,4,105,rec_intPalindrome,['<K:BS x=3>']
+700,4,105,rec_intPalindrome,[]
+701,4,105,rec_intPalindrome,"['s', 'e', 'c']"
+702,4,105,rec_intPalindrome,"['o', 'n', 'd']"
+703,4,105,rec_intPalindrome,"[',']"
+704,4,105,rec_intPalindrome,[]
+705,4,105,rec_intPalindrome,[]
+706,4,105,rec_intPalindrome,[]
+707,4,105,rec_intPalindrome,"['<K:BS>', ' ', '=']"
+708,4,105,rec_intPalindrome,['<K:BS x=2>']
+709,4,105,rec_intPalindrome,"[' ', '=', ' ']"
+710,4,105,rec_intPalindrome,['x']
+711,4,105,rec_intPalindrome,[]
+712,4,105,rec_intPalindrome,[]
+713,4,105,rec_intPalindrome,[]
+714,4,105,rec_intPalindrome,[]
+715,4,105,rec_intPalindrome,[]
+716,4,105,rec_intPalindrome,[]
+717,4,105,rec_intPalindrome,['<K:BS x=2>']
+718,4,105,rec_intPalindrome,['<K:BS x=4>']
+719,4,105,rec_intPalindrome,['<K:BS x=3>']
+720,4,105,rec_intPalindrome,['<K:BS>']
+721,4,105,rec_intPalindrome,"['w', 'h', 'i', 'l']"
+722,4,105,rec_intPalindrome,"['e', 's']"
+723,4,105,rec_intPalindrome,"['<K:BS>', ' ', 's', 'e', 'c', 'o', 'n']"
+724,4,105,rec_intPalindrome,"['d', '<K:BS x=4>']"
+725,4,105,rec_intPalindrome,['<K:BS x=2>']
+726,4,105,rec_intPalindrome,[]
+727,4,105,rec_intPalindrome,[]
+728,4,105,rec_intPalindrome,"['s', 'e', 'c']"
+729,4,105,rec_intPalindrome,"['p', 'm', '<K:BS x=2>']"
+730,4,105,rec_intPalindrome,['<K:BS x=4>']
+731,4,105,rec_intPalindrome,['<K:BS x=4>']
+732,4,105,rec_intPalindrome,['<K:BS>']
+733,4,105,rec_intPalindrome,[]
+734,4,105,rec_intPalindrome,[]
+735,4,105,rec_intPalindrome,[]
+736,4,105,rec_intPalindrome,[]
+737,4,105,rec_intPalindrome,[]
+738,4,105,rec_intPalindrome,['\r']
+739,4,105,rec_intPalindrome,[]
+740,4,105,rec_intPalindrome,[]
+741,4,105,rec_intPalindrome,[]
+742,4,105,rec_intPalindrome,[]
+743,4,105,rec_intPalindrome,[]
+744,4,105,rec_intPalindrome,[]
+745,4,105,rec_intPalindrome,[]
+746,4,105,rec_intPalindrome,[]
+747,4,105,rec_intPalindrome,[]
+748,4,105,rec_intPalindrome,[]
+749,4,105,rec_intPalindrome,[]
+750,4,105,rec_intPalindrome,[]
+751,4,105,rec_intPalindrome,['`']
+752,4,105,rec_intPalindrome,[]
+753,4,105,rec_intPalindrome,[]
+754,4,105,rec_intPalindrome,[]
+755,4,105,rec_intPalindrome,[]
+756,4,105,rec_intPalindrome,[]
+757,4,105,rec_intPalindrome,[]
+758,4,105,rec_intPalindrome,[]
+759,4,105,rec_intPalindrome,[]
+760,4,105,rec_intPalindrome,[]
+761,4,105,rec_intPalindrome,[]
+762,4,105,rec_intPalindrome,[]
+763,4,105,rec_intPalindrome,[]
+764,4,105,rec_intPalindrome,[]
+765,4,105,rec_intPalindrome,[]
+766,4,105,rec_intPalindrome,"['2', '4']"
+767,4,105,rec_intPalindrome,"['4', '0', '<K:BS>']"
+768,4,105,rec_intPalindrome,['<K:BS x=3>']
+769,4,105,rec_intPalindrome,[]
+770,4,105,rec_intPalindrome,['<K:BS>']
+771,4,105,rec_intPalindrome,"['w', 'h']"
+772,4,105,rec_intPalindrome,"['i', 'l', 'e', ' ']"
+773,4,105,rec_intPalindrome,[]
+774,4,105,rec_intPalindrome,['<K:BS x=3>']
+775,4,105,rec_intPalindrome,"['<K:BS x=3>', 's', 'e', 'o']"
+776,4,105,rec_intPalindrome,"['<K:BS>', 'c', 'o', 'n', 'd', ' ', '=']"
+777,4,105,rec_intPalindrome,"[' ', 'x']"
+778,4,105,rec_intPalindrome,[]
+779,4,105,rec_intPalindrome,"['\r', 'w', 'h', 'i']"
+780,4,105,rec_intPalindrome,"['l', 'e', ' ', 's', 'e', 'c', 'o', 'n']"
+781,4,105,rec_intPalindrome,['d']
+782,4,105,rec_intPalindrome,[]
+783,4,105,rec_intPalindrome,[' ']
+784,4,105,rec_intPalindrome,[]
+785,4,105,rec_intPalindrome,"['<K:S>', ',']"
+786,4,105,rec_intPalindrome,"['<K:BS>', '<K:S>']"
+787,4,105,rec_intPalindrome,"[',', ' ', '1', '0']"
+788,4,105,rec_intPalindrome,"['<K:S>', ';']"
+789,4,105,rec_intPalindrome,[]
+790,4,105,rec_intPalindrome,[]
+791,4,105,rec_intPalindrome,[]
+792,4,105,rec_intPalindrome,[]
+793,4,105,rec_intPalindrome,['<K:U>']
+794,4,105,rec_intPalindrome,['<K:L>']
+795,4,105,rec_intPalindrome,['<K:R>']
+796,4,105,rec_intPalindrome,['<K:D>']
+797,4,105,rec_intPalindrome,['<K:R x=6>']
+798,4,105,rec_intPalindrome,"['=', '<K:BS x=2>']"
+799,4,105,rec_intPalindrome,['<K:U>']
+800,4,105,rec_intPalindrome,[]
+801,4,105,rec_intPalindrome,"['<K:D>', '<K:U>']"
+802,4,105,rec_intPalindrome,[]
+803,4,105,rec_intPalindrome,[]
+804,4,105,rec_intPalindrome,[]
+805,4,105,rec_intPalindrome,[]
+806,4,105,rec_intPalindrome,[]
+807,4,105,rec_intPalindrome,[]
+808,4,105,rec_intPalindrome,[]
+809,4,105,rec_intPalindrome,[]
+810,4,105,rec_intPalindrome,[]
+811,4,105,rec_intPalindrome,[]
+812,4,105,rec_intPalindrome,[]
+813,4,105,rec_intPalindrome,[]
+814,4,105,rec_intPalindrome,[]
+815,4,105,rec_intPalindrome,[]
+816,4,105,rec_intPalindrome,[]
+817,4,105,rec_intPalindrome,[]
+818,4,105,rec_intPalindrome,[]
+819,4,105,rec_intPalindrome,[]
+820,4,105,rec_intPalindrome,[]
+821,4,105,rec_intPalindrome,[]
+822,4,105,rec_intPalindrome,[]
+823,4,,,[]
+824,4,,,[]
+825,4,,,[]
+826,4,,,[]
+827,4,409,lis_tools,[]
+828,4,409,lis_tools,[]
+829,4,409,lis_tools,[]
+830,4,409,lis_tools,"['f', '<K:BS>']"
+831,4,409,lis_tools,[]
+832,4,409,lis_tools,"['s', 'p', '<K:BS x=2>']"
+833,4,409,lis_tools,"['s', 'h']"
+834,4,409,lis_tools,"['o', 'v', 'e', 'l', ',', ' ']"
+835,4,409,lis_tools,[]
+836,4,409,lis_tools,"['h', 'a', 'm', 'm', 'e', 'r']"
+837,4,409,lis_tools,"[',', ' ']"
+838,4,409,lis_tools,[]
+839,4,409,lis_tools,[]
+840,4,409,lis_tools,[]
+841,4,409,lis_tools,[]
+842,4,409,lis_tools,[]
+843,4,409,lis_tools,['e']
+844,4,409,lis_tools,"['<K:BS>', 'f', '<K:BS>', 'f']"
+845,4,409,lis_tools,"['<K:BS>', 'f']"
+846,4,409,lis_tools,['<K:BS>']
+847,4,409,lis_tools,[]
+848,4,409,lis_tools,[]
+849,4,409,lis_tools,[]
+850,4,409,lis_tools,[]
+851,4,409,lis_tools,[]
+852,4,409,lis_tools,[]
+853,4,409,lis_tools,[]
+854,4,409,lis_tools,[]
+855,4,409,lis_tools,[]
+856,4,409,lis_tools,['s']
+857,4,409,lis_tools,"['c', '<K:BS>', 'i', 's']"
+858,4,409,lis_tools,"['s', 'o', 'r', ',', ' ']"
+859,4,409,lis_tools,"['p', 'e', '<K:BS x=2>']"
+860,4,409,lis_tools,"['p', '<K:BS>']"
+861,4,409,lis_tools,[]
+862,4,409,lis_tools,"['<K:BS x=2>', 's']"
+863,4,409,lis_tools,"[',', '<K:BS>']"
+864,4,409,lis_tools,"['m', '<K:BS>']"
+865,4,409,lis_tools,"[',']"
+866,4,409,lis_tools,"[' ', 'k', 'n', 'i']"
+867,4,409,lis_tools,"['f', 'e', ',']"
+868,4,409,lis_tools,[' ']
+869,4,409,lis_tools,[]
+870,4,409,lis_tools,[]
+871,4,409,lis_tools,[]
+872,4,409,lis_tools,"['h', 'a', 'm']"
+873,4,409,lis_tools,"['m', 'e', 'r', 'j', 'a']"
+874,4,409,lis_tools,"['c', 'k']"
+875,4,409,lis_tools,[]
+876,4,409,lis_tools,[]
+877,4,409,lis_tools,"[',']"
+878,4,409,lis_tools,"[' ', 's', 'c', 'r']"
+879,4,409,lis_tools,"['e', 'w', 'd', 'r', 'i', 'v', 'e', 'r']"
+880,4,409,lis_tools,"[',', ' ', 'm', 'e']"
+881,4,409,lis_tools,"['a', 's', 'u']"
+882,4,409,lis_tools,"['r', 'i', 'n', 'g', ' ', 't', 'a', 'p']"
+883,4,409,lis_tools,"['e', ',', ' ']"
+884,4,409,lis_tools,[]
+885,4,409,lis_tools,[]
+886,4,409,lis_tools,[]
+887,4,409,lis_tools,[]
+888,4,409,lis_tools,[]
+889,4,409,lis_tools,[]
+890,4,409,lis_tools,"['f', '<K:BS>']"
+891,4,409,lis_tools,[]

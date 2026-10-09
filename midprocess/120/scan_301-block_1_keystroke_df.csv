@@ -1,0 +1,462 @@
+vol_num,block,stim_id,stim_name,keystrokes
+0,1,,,[]
+1,1,,,[]
+2,1,,,[]
+3,1,,,[]
+4,1,,,[]
+5,1,,,[]
+6,1,,,[]
+7,1,,,[]
+8,1,,,[]
+9,1,,,[]
+10,1,,,[]
+11,1,,,[]
+12,1,,,[]
+13,1,,,[]
+14,1,,,[]
+15,1,,,[]
+16,1,,,[]
+17,1,,,[]
+18,1,,,[]
+19,1,,,[]
+20,1,304,pro_bright,[]
+21,1,304,pro_bright,[]
+22,1,304,pro_bright,[]
+23,1,304,pro_bright,[]
+24,1,304,pro_bright,['<K:S x=8>']
+25,1,304,pro_bright,['<K:S>']
+26,1,304,pro_bright,"['w', 'h', 'i', 'c', 'h']"
+27,1,304,pro_bright,"[' ', 'i', 's', ' ']"
+28,1,304,pro_bright,"['b', 'r', 'i', 'g', 'h']"
+29,1,304,pro_bright,"['t', 'e', 'r', ' ', 't']"
+30,1,304,pro_bright,"['h', 'a', 'n', ' ']"
+31,1,304,pro_bright,"['a', ' ', 'f', 'l']"
+32,1,304,pro_bright,"['o', 'o', 'd', 'l', 'i', 'g', 'h']"
+33,1,304,pro_bright,"['t', ',', ' ', 'w', 'h', 'i', 'c']"
+34,1,304,pro_bright,"['h', ' ', 'i', 's', ' ', 'b', 'r']"
+35,1,304,pro_bright,"['i', 'g', 'h', 't', 'e', 'r', ' ', 't']"
+36,1,304,pro_bright,"['h', 'a', 'n', ' ', 'a', ' ']"
+37,1,304,pro_bright,"['f', 'l', 'o']"
+38,1,304,pro_bright,"['u', 'r', 'e', 's']"
+39,1,304,pro_bright,"['c', 'e', 'n', 't']"
+40,1,304,pro_bright,[' ']
+41,1,304,pro_bright,"['l', 'i', 'g', 'h', 't']"
+42,1,304,pro_bright,"[',', ' ']"
+43,1,304,pro_bright,"['w', 'h']"
+44,1,304,pro_bright,"['i', 'c', 'h', ' ', 'i', 's', ' ']"
+45,1,304,pro_bright,"['b', 'r', 'i', 'g', 'h', 't']"
+46,1,304,pro_bright,"['e', 'r', ' ', 't', 'h', 'a', 'n', ' ']"
+47,1,304,pro_bright,"['a', 'n', ' ', '<K:S>', 'l', 'e', 'd']"
+48,1,304,pro_bright,"[',', ' ', 'w', 'h', 'i']"
+49,1,304,pro_bright,"['c', 'h', ' ', 'i', 's', ' ', 'b']"
+50,1,304,pro_bright,"['r', 'i', 'g', 'h', 't', 'e', 'r']"
+51,1,304,pro_bright,"[' ', 't', 'h', 'a', 'n', ' ', 'a']"
+52,1,304,pro_bright,[' ']
+53,1,304,pro_bright,"['l', 'a', 'm', 'p']"
+54,1,304,pro_bright,"[',', ' ']"
+55,1,304,pro_bright,"['w', 'h', 'i', 'c', 'h', ' ', 'i']"
+56,1,304,pro_bright,"['s', ' ', 'b', 'r', 'i', 'g', 'h', 't']"
+57,1,304,pro_bright,"['e', 'r', ' ', 't', 'h', 'a', 'n']"
+58,1,304,pro_bright,"[' ', 'a', ' ']"
+59,1,304,pro_bright,[]
+60,1,304,pro_bright,"['p', 'h', 'o']"
+61,1,304,pro_bright,"['n', 'e', '<K:BS>']"
+62,1,304,pro_bright,"['<K:BS x=4>', '<K:S>', 't']"
+63,1,304,pro_bright,"['<K:S>', 'v', ' ', 's', 'c']"
+64,1,304,pro_bright,"['r', 'e', 'e', 'n']"
+65,1,304,pro_bright,"[',', ' ', 'w', 'h', 'i']"
+66,1,304,pro_bright,"['c', 'h', ' ', '<K:S>', 'i', ' ']"
+67,1,304,pro_bright,"['<K:BS x=2>', 'i', 's', ' ']"
+68,1,304,pro_bright,"['b', 'i', 'r', 'g', 'h', 't']"
+69,1,304,pro_bright,"['e', 'r', ' ', 't', 'h', 'a']"
+70,1,304,pro_bright,"['n', ' ', 'a', ' ']"
+71,1,304,pro_bright,[]
+72,1,304,pro_bright,"['p', 'h', 'o', 'n', 'e']"
+73,1,304,pro_bright,"[' ', 's', 'c', 'r', 'e']"
+74,1,304,pro_bright,"['e', 'n', ',', ' ', 'w', 'h']"
+75,1,304,pro_bright,"['i', 'c', 'h', ' ', 'i', 's', ' ']"
+76,1,304,pro_bright,"['p', '<K:BS>', 'b', 'r', 'i']"
+77,1,304,pro_bright,"['g', 'h', 't', 'e', 'r']"
+78,1,304,pro_bright,"[' ', 'g', 'h', '<K:BS>']"
+79,1,304,pro_bright,"['<K:BS>', 'h', 'a', ' ', 'n', '<K:BS>']"
+80,1,304,pro_bright,"['<K:BS>', 'n', ' ', 'a', ' ']"
+81,1,304,pro_bright,[]
+82,1,304,pro_bright,[]
+83,1,304,pro_bright,[]
+84,1,304,pro_bright,[]
+85,1,304,pro_bright,[]
+86,1,304,pro_bright,[]
+87,1,304,pro_bright,[]
+88,1,304,pro_bright,[]
+89,1,304,pro_bright,[]
+90,1,304,pro_bright,[]
+91,1,304,pro_bright,[]
+92,1,304,pro_bright,"['<K:S>', 'g']"
+93,1,304,pro_bright,"['a', 'm', 'e', '<K:S>']"
+94,1,304,pro_bright,"['b', 'o', 'y', ' ', 's']"
+95,1,304,pro_bright,"['c', 'r', 'e', 'e', 'n']"
+96,1,304,pro_bright,"[',', ' ', 'w', 'h', 'i', 'c', 'h']"
+97,1,304,pro_bright,"[' ', 'i', 's', ' ', 'b']"
+98,1,304,pro_bright,"['i', 'r', '<K:BS x=2>']"
+99,1,304,pro_bright,"['r', 'i', 'g', 'h', 't', 'e', 'r']"
+100,1,304,pro_bright,"[' ', 't', 'h', 'a', 'n', ' ', 'a', ' ']"
+101,1,304,pro_bright,['n']
+102,1,304,pro_bright,"['i', 'g', 'h', 't', ' ', 's']"
+103,1,304,pro_bright,"['k', 'y']"
+104,1,304,pro_bright,"[' ', 'o', 'n', ' ', 'a', ' ']"
+105,1,304,pro_bright,"['c', 'o', '<K:BS>', 'l']"
+106,1,304,pro_bright,"['o', 'u', 'd', 'y', ' ', 'n']"
+107,1,304,pro_bright,"['i', 'g', 'h', 't', ',', ' ', '<K:BS>']"
+108,1,304,pro_bright,"['<K:BS x=2>', ',', ' ', 'w', 'h']"
+109,1,304,pro_bright,"['i', 'c', 'h', ' ', 'i', 's', ' ']"
+110,1,304,pro_bright,"['b', 'r', 'i', 'g', 'h', 't', 'e']"
+111,1,304,pro_bright,"['r', ' ', 't', 'h', 'a', 'n', ' ']"
+112,1,304,pro_bright,"['b', '<K:BS>', 'p']"
+113,1,304,pro_bright,"['i', 't', '<K:BS x=3>']"
+114,1,304,pro_bright,"['i', 't', 'c', 'h', ' ', 'b']"
+115,1,304,pro_bright,"['l', 'a', 'c', 'k', '.']"
+116,1,304,pro_bright,[]
+117,1,304,pro_bright,"['q', 'q']"
+118,1,304,pro_bright,"['q', '<K:BS>']"
+119,1,,,['q']
+120,1,,,[]
+121,1,,,[]
+122,1,,,[]
+123,1,100,rec_fibonacci,[]
+124,1,100,rec_fibonacci,[]
+125,1,100,rec_fibonacci,[]
+126,1,100,rec_fibonacci,[]
+127,1,100,rec_fibonacci,['<K:D x=3>']
+128,1,100,rec_fibonacci,['<K:D x=4>']
+129,1,100,rec_fibonacci,"['<K:D>', '\t']"
+130,1,100,rec_fibonacci,[]
+131,1,100,rec_fibonacci,[]
+132,1,100,rec_fibonacci,[]
+133,1,100,rec_fibonacci,[]
+134,1,100,rec_fibonacci,[]
+135,1,100,rec_fibonacci,[]
+136,1,100,rec_fibonacci,"['i', 'f', '<K:S>']"
+137,1,100,rec_fibonacci,"[' ', '8']"
+138,1,100,rec_fibonacci,"['<K:BS>', '9']"
+139,1,100,rec_fibonacci,"['<K:S>', '0']"
+140,1,100,rec_fibonacci,[]
+141,1,100,rec_fibonacci,[]
+142,1,100,rec_fibonacci,"[' ', '<K:S>']"
+143,1,100,rec_fibonacci,['<K:S x=15>']
+144,1,100,rec_fibonacci,"['<K:S x=23>', 'i']"
+145,1,100,rec_fibonacci,['<K:BS>']
+146,1,100,rec_fibonacci,"['p', '<K:BS>']"
+147,1,100,rec_fibonacci,"['[', '<K:S>']"
+148,1,100,rec_fibonacci,"['\r', '\r']"
+149,1,100,rec_fibonacci,"['\\', '<K:BS>']"
+150,1,100,rec_fibonacci,"['<K:BS>', '<K:S>', '<K:BS>']"
+151,1,100,rec_fibonacci,[']']
+152,1,100,rec_fibonacci,['<K:U>']
+153,1,100,rec_fibonacci,"['<K:R>', '<K:U>', '<K:R>']"
+154,1,100,rec_fibonacci,"['<K:R>', 'n']"
+155,1,100,rec_fibonacci,"[' ', '=']"
+156,1,100,rec_fibonacci,"['=', '<K:BS>']"
+157,1,100,rec_fibonacci,['<K:BS>']
+158,1,100,rec_fibonacci,"['=', '=', ' ']"
+159,1,100,rec_fibonacci,['1']
+160,1,100,rec_fibonacci,['<K:D x=2>']
+161,1,100,rec_fibonacci,['<K:U>']
+162,1,100,rec_fibonacci,[]
+163,1,100,rec_fibonacci,"['<K:U>', '<K:R>']"
+164,1,100,rec_fibonacci,"['<K:L>', '\\']"
+165,1,100,rec_fibonacci,"['<K:BS x=2>', '-']"
+166,1,100,rec_fibonacci,"['<K:BS>', '-']"
+167,1,100,rec_fibonacci,['<K:BS>']
+168,1,100,rec_fibonacci,['0']
+169,1,100,rec_fibonacci,['<K:D>']
+170,1,100,rec_fibonacci,[]
+171,1,100,rec_fibonacci,"['r', 'e', 't', 'u', 'r', 'n']"
+172,1,100,rec_fibonacci,"[';', '<K:D>']"
+173,1,100,rec_fibonacci,['<K:D x=3>']
+174,1,100,rec_fibonacci,['\t']
+175,1,100,rec_fibonacci,[]
+176,1,100,rec_fibonacci,[]
+177,1,100,rec_fibonacci,[]
+178,1,100,rec_fibonacci,"['r', 'e', 't']"
+179,1,100,rec_fibonacci,"['u', 'r', 'n']"
+180,1,100,rec_fibonacci,[' ']
+181,1,100,rec_fibonacci,"['n', ' ']"
+182,1,100,rec_fibonacci,['<K:S>']
+183,1,100,rec_fibonacci,['<K:U x=3>']
+184,1,100,rec_fibonacci,"['<K:U>', '<K:R x=2>']"
+185,1,100,rec_fibonacci,"['<K:L>', ' ', 'p']"
+186,1,100,rec_fibonacci,"['<K:BS>', '9']"
+187,1,100,rec_fibonacci,"['<K:BS>', '0']"
+188,1,100,rec_fibonacci,['<K:D x=2>']
+189,1,100,rec_fibonacci,"['<K:D x=2>', '<K:L>']"
+190,1,100,rec_fibonacci,['<K:L>']
+191,1,100,rec_fibonacci,['<K:R>']
+192,1,100,rec_fibonacci,[]
+193,1,100,rec_fibonacci,"[' ', '<K:S>', '=']"
+194,1,100,rec_fibonacci,"[' ', '<K:S>']"
+195,1,100,rec_fibonacci,[]
+196,1,100,rec_fibonacci,['<K:S x=3>']
+197,1,100,rec_fibonacci,"['<K:S x=21>', 'f']"
+198,1,100,rec_fibonacci,"['i', 'b', 'a']"
+199,1,100,rec_fibonacci,"['n', 'n', 'a', 'c', 'i']"
+200,1,100,rec_fibonacci,['<K:BS x=3>']
+201,1,100,rec_fibonacci,"['<K:BS x=3>', 'o']"
+202,1,100,rec_fibonacci,"['n', 'a', 'c']"
+203,1,100,rec_fibonacci,"['c', 'i', '<K:S>', '9', 'n']"
+204,1,100,rec_fibonacci,"[' ', '-']"
+205,1,100,rec_fibonacci,"[' ', '1', '<K:S>', '9']"
+206,1,100,rec_fibonacci,"['<K:S>', '<K:BS>', '0']"
+207,1,100,rec_fibonacci,[';']
+208,1,100,rec_fibonacci,['<K:BS>']
+209,1,100,rec_fibonacci,[]
+210,1,100,rec_fibonacci,['<K:D>']
+211,1,100,rec_fibonacci,[]
+212,1,100,rec_fibonacci,['<K:D>']
+213,1,100,rec_fibonacci,['<K:D>']
+214,1,100,rec_fibonacci,['<K:U>']
+215,1,100,rec_fibonacci,['<K:D>']
+216,1,100,rec_fibonacci,[]
+217,1,100,rec_fibonacci,[]
+218,1,100,rec_fibonacci,[]
+219,1,100,rec_fibonacci,[]
+220,1,100,rec_fibonacci,[]
+221,1,100,rec_fibonacci,[]
+222,1,100,rec_fibonacci,['<K:D>']
+223,1,100,rec_fibonacci,"['<K:U>', '<K:R>']"
+224,1,100,rec_fibonacci,"['<K:U>', '\t']"
+225,1,100,rec_fibonacci,[]
+226,1,100,rec_fibonacci,[]
+227,1,100,rec_fibonacci,['c']
+228,1,100,rec_fibonacci,"['o', 'i', 't', '<K:BS>']"
+229,1,100,rec_fibonacci,"['<K:BS>', 'u', 't']"
+230,1,100,rec_fibonacci,"[' ', '<K:S>', ',', ',', ' ']"
+231,1,100,rec_fibonacci,[]
+232,1,100,rec_fibonacci,[]
+233,1,100,rec_fibonacci,"['n', '<K:BS>']"
+234,1,100,rec_fibonacci,['n']
+235,1,100,rec_fibonacci,"[' ', '<K:S>', ',', ',', ' ']"
+236,1,100,rec_fibonacci,['<K:BS>']
+237,1,100,rec_fibonacci,"[' ', '<K:S>', ""'""]"
+238,1,100,rec_fibonacci,"[""'"", ';']"
+239,1,100,rec_fibonacci,[]
+240,1,100,rec_fibonacci,[]
+241,1,100,rec_fibonacci,"['q', 'q']"
+242,1,100,rec_fibonacci,"['q', 'q']"
+243,1,,,[]
+244,1,,,[]
+245,1,,,[]
+246,1,,,[]
+247,1,205,it_sum,[]
+248,1,205,it_sum,[]
+249,1,205,it_sum,['<K:D x=6>']
+250,1,205,it_sum,['<K:D x=4>']
+251,1,205,it_sum,"['<K:R>', '<K:U>', '<K:R>']"
+252,1,205,it_sum,"['<K:U x=3>', '<K:R>']"
+253,1,205,it_sum,['<K:R x=5>']
+254,1,205,it_sum,['<K:R x=2>']
+255,1,205,it_sum,['<K:R x=3>']
+256,1,205,it_sum,"['<K:R>', '<K:L x=4>']"
+257,1,205,it_sum,"['<K:L>', '<K:D>']"
+258,1,205,it_sum,"['<K:R>', '<K:U>', '<K:S>']"
+259,1,205,it_sum,"['<K:S x=19>', '9']"
+260,1,205,it_sum,['0']
+261,1,205,it_sum,['<K:L>']
+262,1,205,it_sum,[]
+263,1,205,it_sum,[]
+264,1,205,it_sum,"['i', ' ']"
+265,1,205,it_sum,"['i', 'n', ' ']"
+266,1,205,it_sum,[]
+267,1,205,it_sum,[]
+268,1,205,it_sum,[]
+269,1,205,it_sum,[]
+270,1,205,it_sum,[]
+271,1,205,it_sum,[]
+272,1,205,it_sum,[]
+273,1,205,it_sum,"['<K:R>', '<K:BS>']"
+274,1,205,it_sum,['<K:BS x=7>']
+275,1,205,it_sum,"['<K:BS x=3>', 'w', 'j']"
+276,1,205,it_sum,"['o', '<K:BS x=2>']"
+277,1,205,it_sum,"['<K:BS>', 'f', 'p', 'r']"
+278,1,205,it_sum,"[' ', '<K:BS x=3>', 'o']"
+279,1,205,it_sum,"['r', ' ', '<K:S>', '0']"
+280,1,205,it_sum,"['<K:BS>', '9']"
+281,1,205,it_sum,"['<K:S>', '0']"
+282,1,205,it_sum,['<K:L>']
+283,1,205,it_sum,"['k', '<K:BS>']"
+284,1,205,it_sum,"['i', ' ']"
+285,1,205,it_sum,[]
+286,1,205,it_sum,"['i', 'n', ' ']"
+287,1,205,it_sum,[]
+288,1,205,it_sum,['<K:BS x=3>']
+289,1,205,it_sum,['<K:BS x=4>']
+290,1,205,it_sum,"['<K:BS x=3>', 'w']"
+291,1,205,it_sum,"['h', 'i', 't', 'l', '<K:BS>']"
+292,1,205,it_sum,"['<K:BS>', 'l', 'e', ' ']"
+293,1,205,it_sum,['i']
+294,1,205,it_sum,"[' ', '<K:BS>']"
+295,1,205,it_sum,"['<K:BS>', '<K:S>', '9']"
+296,1,205,it_sum,"['i', '<K:BS>', ' ']"
+297,1,205,it_sum,"['<K:S>', ',', ' ']"
+298,1,205,it_sum,['<K:BS>']
+299,1,205,it_sum,[]
+300,1,205,it_sum,[]
+301,1,205,it_sum,['<K:BS x=2>']
+302,1,205,it_sum,"['<K:BS>', 'c', 'o', 'u', 'n', 't', ' ']"
+303,1,205,it_sum,"['<K:S>', ',', ' ']"
+304,1,205,it_sum,[]
+305,1,205,it_sum,"['<K:BS x=2>', '<K:S>']"
+306,1,205,it_sum,"[',', '-']"
+307,1,205,it_sum,"['<K:BS>', '-']"
+308,1,205,it_sum,"['<K:BS>', '=']"
+309,1,205,it_sum,[]
+310,1,205,it_sum,"[' ', 'n']"
+311,1,205,it_sum,['<K:D x=2>']
+312,1,205,it_sum,['<K:U>']
+313,1,205,it_sum,"['<K:D>', '\t']"
+314,1,205,it_sum,"['\t', '\t', '<K:BS>']"
+315,1,205,it_sum,[]
+316,1,205,it_sum,['c']
+317,1,205,it_sum,['<K:BS>']
+318,1,205,it_sum,[]
+319,1,205,it_sum,"['s', 'u', 'm']"
+320,1,205,it_sum,"[' ', '=', ' ']"
+321,1,205,it_sum,['s']
+322,1,205,it_sum,"['<K:BS>', 's']"
+323,1,205,it_sum,"['u', '<K:BS x=4>']"
+324,1,205,it_sum,"['<K:S>', '=', '-']"
+325,1,205,it_sum,"['<K:BS>', '=']"
+326,1,205,it_sum,[' ']
+327,1,205,it_sum,[]
+328,1,205,it_sum,"['n', ';']"
+329,1,205,it_sum,[]
+330,1,205,it_sum,[]
+331,1,205,it_sum,"['\r', 'c', 'o', 'u']"
+332,1,205,it_sum,"['n', 't', '<K:S>', '-']"
+333,1,205,it_sum,"['-', '<K:BS>', '0', '<K:BS>']"
+334,1,205,it_sum,"['0', '0', '<K:BS>']"
+335,1,205,it_sum,['<K:BS x=2>']
+336,1,205,it_sum,"['t', '<K:S>', '=', '=']"
+337,1,205,it_sum,[';']
+338,1,205,it_sum,['<K:D x=3>']
+339,1,205,it_sum,['\t']
+340,1,205,it_sum,"['r', 'e', 't', 'u', 'r']"
+341,1,205,it_sum,"['n', ' ']"
+342,1,205,it_sum,"['s', 'u', 'm']"
+343,1,205,it_sum,[';']
+344,1,205,it_sum,['<K:D>']
+345,1,205,it_sum,"['q', 'q']"
+346,1,205,it_sum,['q']
+347,1,,,[]
+348,1,,,[]
+349,1,,,[]
+350,1,,,[]
+351,1,,,[]
+352,1,300,pro_weight,[]
+353,1,300,pro_weight,[]
+354,1,300,pro_weight,[]
+355,1,300,pro_weight,[]
+356,1,300,pro_weight,[]
+357,1,300,pro_weight,"['a', ' ', 'c']"
+358,1,300,pro_weight,"['a', 'r', ',', ' ', 'w', 'h']"
+359,1,300,pro_weight,"['i', 'c', 'h', ' ', 'i', 's', ' ']"
+360,1,300,pro_weight,"['h', 'a', 'e', '<K:BS x=2>', 'e']"
+361,1,300,pro_weight,"['a', 'v', 'e', '<K:BS>']"
+362,1,300,pro_weight,"['i', 'e', 'r', ' ']"
+363,1,300,pro_weight,"['t', 'h', 'a', 'n', ' ']"
+364,1,300,pro_weight,"['a', ' ']"
+365,1,300,pro_weight,"['m', 'o']"
+366,1,300,pro_weight,"['t', 'o', 'r', 'c', 'y']"
+367,1,300,pro_weight,"['c', 'l', 'e', ',', ' ']"
+368,1,300,pro_weight,"['w', 'h', 'i', 'c', 'h', ' ']"
+369,1,300,pro_weight,"['i', 's', ' ', 'b', '<K:BS>']"
+370,1,300,pro_weight,"['h', 'e', 'a', 'v', 'e', '<K:BS>']"
+371,1,300,pro_weight,"['i', 'e', 'r', ' ', 't', 'h', 'a', 'n', ' ']"
+372,1,300,pro_weight,"['a', 'n', ' ']"
+373,1,300,pro_weight,"['e', 'l', 'e', 'c', 't']"
+374,1,300,pro_weight,"['r', 'i']"
+375,1,300,pro_weight,['<K:BS>']
+376,1,300,pro_weight,"['i', 'c']"
+377,1,300,pro_weight,"[' ', 'b', 'i', 'c', 'y']"
+378,1,300,pro_weight,"['c', 'l', 'e', ',', ' ']"
+379,1,300,pro_weight,"['w', 'h', 'i', 'c', 'h', ' ', 'i', 's']"
+380,1,300,pro_weight,"[' ', 'h', 'e', 'a', 'v', 'i']"
+381,1,300,pro_weight,"['e', 'r', ' ', 't', 'h', 'a', 'n', ' ', 'a']"
+382,1,300,pro_weight,"[' ', 'm', 'a', 'n']"
+383,1,300,pro_weight,"['a', '<K:BS>', 'u', 'a']"
+384,1,300,pro_weight,"['l', ' ', 'b', 'y']"
+385,1,300,pro_weight,"['=', '<K:BS x=2>', 'i', 'c']"
+386,1,300,pro_weight,"['u', 'c', '<K:BS>']"
+387,1,300,pro_weight,"['<K:BS>', 'y', 'c', 'l']"
+388,1,300,pro_weight,"['e', ',', ' ', 'w', 'h', 'i', 'c']"
+389,1,300,pro_weight,"['h', ' ', 'i', 's', ' ', 'h', 'e']"
+390,1,300,pro_weight,"['a', 'v', 'e', '<K:BS>', 'i', 'e', 'r']"
+391,1,300,pro_weight,"[' ', 't', 'h', 'a', 'n', ' ', 'a', ' ']"
+392,1,300,pro_weight,[]
+393,1,300,pro_weight,"['s', 'c']"
+394,1,300,pro_weight,"['o', 'o', 't', 'e', 'r']"
+395,1,300,pro_weight,"[',', ' ']"
+396,1,300,pro_weight,"['w', 'h', 'i', 'c', 'h', ' ', 'i', 's', ' ']"
+397,1,300,pro_weight,"['h', 'e', 'a', 'v', 'e']"
+398,1,300,pro_weight,"['r', ' ', 't', 'h', 'a', 'n', ' ']"
+399,1,300,pro_weight,"['a', ' ']"
+400,1,300,pro_weight,['<K:BS>']
+401,1,300,pro_weight,"[' ', 'h', 'e', 'l']"
+402,1,300,pro_weight,['<K:BS>']
+403,1,300,pro_weight,['<K:BS x=3>']
+404,1,300,pro_weight,[]
+405,1,300,pro_weight,[]
+406,1,300,pro_weight,[]
+407,1,300,pro_weight,"[' ', 'h', 'e', 'l']"
+408,1,300,pro_weight,"['m', 'e', 't', ',', ' ']"
+409,1,300,pro_weight,"['w', 'h', 'i', 'c', 'h', ' ', 'i', 's', ' ']"
+410,1,300,pro_weight,"['h', 'e', 'a', 'v', 'i']"
+411,1,300,pro_weight,"['e', 'r', ' ', 'a', 't', '<K:BS>']"
+412,1,300,pro_weight,"['<K:BS>', 't', 'h', 'a', 'n', ' ', 'a', ' ']"
+413,1,300,pro_weight,[]
+414,1,300,pro_weight,[]
+415,1,300,pro_weight,[]
+416,1,300,pro_weight,[]
+417,1,300,pro_weight,[]
+418,1,300,pro_weight,"['s', 'h', 'i', 'r', 't', ',']"
+419,1,300,pro_weight,"[' ', 'w', 'h', 'i', 'c', 'h', ' ']"
+420,1,300,pro_weight,"['i', 's', ' ', 'h', 'e', 'a', 'v']"
+421,1,300,pro_weight,"['i', 'e', 'r', ' ', 't', 'h', 'a', 'n', ' ']"
+422,1,300,pro_weight,"['a', ' ']"
+423,1,300,pro_weight,[]
+424,1,300,pro_weight,"['p', 'i', 'e']"
+425,1,300,pro_weight,[]
+426,1,300,pro_weight,"['c', '<K:BS>']"
+427,1,300,pro_weight,['<K:BS x=3>']
+428,1,300,pro_weight,[]
+429,1,300,pro_weight,"['p', 'a', 'p']"
+430,1,300,pro_weight,"['e', 'r', ' ', 'c', 'l']"
+431,1,300,pro_weight,"['i', 'p', ',']"
+432,1,300,pro_weight,"[' ', 'w', 'i']"
+433,1,300,pro_weight,"['<K:BS>', 'h', 'i']"
+434,1,300,pro_weight,"['c', ' ', '<K:BS>', 'h']"
+435,1,300,pro_weight,"[' ', 'w', '<K:BS>', 'i']"
+436,1,300,pro_weight,"['s', ' ', 'h', 'e', 'a', 'v', 'i', 'e', 'r']"
+437,1,300,pro_weight,"[' ', 't', 'h', 'a', 'n', ' ', 'a', ' ']"
+438,1,300,pro_weight,[]
+439,1,300,pro_weight,[]
+440,1,300,pro_weight,"['c', 'r']"
+441,1,300,pro_weight,"['u', 'm', 'b', ',', ' ', 'w', 'h', 'i']"
+442,1,300,pro_weight,"['c', 'h', ' ', 'i', 's', ' ', 'h']"
+443,1,300,pro_weight,"['e', 'a', 'v', 'i', 'e', 'r', ' ', 'a']"
+444,1,300,pro_weight,"['t', '<K:BS x=2>', 't', 'h', 'a', 'n']"
+445,1,300,pro_weight,"[' ', 'a', '<K:BS>', 's']"
+446,1,300,pro_weight,"['<K:BS>', 'd', 'i', 's', 't', '<K:BS>']"
+447,1,300,pro_weight,"['<K:BS x=2>', 's', 't']"
+448,1,300,pro_weight,"['q', 'q']"
+449,1,300,pro_weight,['q']
+450,1,,,[]
+451,1,,,[]
+452,1,,,[]
+453,1,,,[]
+454,1,,,[]
+455,1,,,[]
+456,1,,,[]
+457,1,,,[]
+458,1,,,[]
+459,1,,,[]
+460,1,,,[]

@@ -1,0 +1,476 @@
+vol_num,block,stim_id,stim_name,keystrokes
+0,6,,,[]
+1,6,,,[]
+2,6,,,[]
+3,6,,,[]
+4,6,,,[]
+5,6,,,[]
+6,6,,,[]
+7,6,,,[]
+8,6,,,[]
+9,6,,,[]
+10,6,,,[]
+11,6,,,[]
+12,6,,,[]
+13,6,,,[]
+14,6,,,[]
+15,6,,,[]
+16,6,,,[]
+17,6,,,[]
+18,6,,,[]
+19,6,,,[]
+20,6,405,lis_clothing,[]
+21,6,405,lis_clothing,[]
+22,6,405,lis_clothing,[]
+23,6,405,lis_clothing,[]
+24,6,405,lis_clothing,['s']
+25,6,405,lis_clothing,"['h', 'i', 'r']"
+26,6,405,lis_clothing,"['t', ',', ' ', 't']"
+27,6,405,lis_clothing,"[' ', 's', 'h', 'i', 'r', 't']"
+28,6,405,lis_clothing,"[',', ' ', 'j']"
+29,6,405,lis_clothing,"['a', 'c', 'k', 'e']"
+30,6,405,lis_clothing,"['t', ',', ' ']"
+31,6,405,lis_clothing,"['t', 'a', 'n', 'k', ' ', 't', 'o']"
+32,6,405,lis_clothing,"['p', ',', ' ']"
+33,6,405,lis_clothing,"['s', 'k', 'i', 'r', 't']"
+34,6,405,lis_clothing,"[',', ' ', 'p']"
+35,6,405,lis_clothing,"['a', 'n', 't', 's', ',', ' ', 's']"
+36,6,405,lis_clothing,"['h', 'o', 'r', 't', 's', ',', ' ']"
+37,6,405,lis_clothing,[]
+38,6,405,lis_clothing,[]
+39,6,405,lis_clothing,"['c', 'o']"
+40,6,405,lis_clothing,"['a', 't', ',', ' ']"
+41,6,405,lis_clothing,['h']
+42,6,405,lis_clothing,"['a', 't', ',', ' ']"
+43,6,405,lis_clothing,[]
+44,6,405,lis_clothing,"['s', 'k', 'a', 'r']"
+45,6,405,lis_clothing,"['f', ',', ' ']"
+46,6,405,lis_clothing,['<K:BS x=4>']
+47,6,405,lis_clothing,"['<K:BS x=2>', 'c', 'a', 'r']"
+48,6,405,lis_clothing,"[',', '<K:BS>', 'd', ',']"
+49,6,405,lis_clothing,"['<K:BS x=2>', 'f']"
+50,6,405,lis_clothing,"[',', ' ', 'w']"
+51,6,405,lis_clothing,"['<K:BS>', 's', 'w']"
+52,6,405,lis_clothing,"['e', 'a', 't', 'e']"
+53,6,405,lis_clothing,['r']
+54,6,405,lis_clothing,[]
+55,6,405,lis_clothing,[]
+56,6,405,lis_clothing,"[' ', 'q']"
+57,6,405,lis_clothing,"['q', 'q']"
+58,6,,,[]
+59,6,,,[]
+60,6,,,[]
+61,6,,,[]
+62,6,,,[]
+63,6,202,it_palindrome,[]
+64,6,202,it_palindrome,[]
+65,6,202,it_palindrome,[]
+66,6,202,it_palindrome,[]
+67,6,202,it_palindrome,['<K:D x=6>']
+68,6,202,it_palindrome,"['<K:D x=4>', '<K:U x=2>', '<K:D>']"
+69,6,202,it_palindrome,['<K:U>']
+70,6,202,it_palindrome,['<K:U>']
+71,6,202,it_palindrome,['<K:D x=2>']
+72,6,202,it_palindrome,['<K:R x=5>']
+73,6,202,it_palindrome,['<K:R x=2>']
+74,6,202,it_palindrome,['<K:R>']
+75,6,202,it_palindrome,[]
+76,6,202,it_palindrome,[]
+77,6,202,it_palindrome,[]
+78,6,202,it_palindrome,[]
+79,6,202,it_palindrome,[]
+80,6,202,it_palindrome,[]
+81,6,202,it_palindrome,[]
+82,6,202,it_palindrome,[]
+83,6,202,it_palindrome,['<K:BS>']
+84,6,202,it_palindrome,['<K:BS x=3>']
+85,6,202,it_palindrome,"['w', 'g', 'u', 'k', 'e']"
+86,6,202,it_palindrome,"['=', '<K:BS x=5>']"
+87,6,202,it_palindrome,"['g', 'u', '<K:BS>']"
+88,6,202,it_palindrome,"['<K:BS>', 'h', 'i', 'l']"
+89,6,202,it_palindrome,"['e', ' ', 'n', 'o', 't', ' ']"
+90,6,202,it_palindrome,"['d', 'o', 'n', 'e', '<K:U>']"
+91,6,202,it_palindrome,"['<K:U>', '\r', '\t']"
+92,6,202,it_palindrome,['<K:BS>']
+93,6,202,it_palindrome,"['d', 'i', 'b', 'e', ' ']"
+94,6,202,it_palindrome,"['=', '=', '=', '<K:BS>']"
+95,6,202,it_palindrome,['<K:BS x=6>']
+96,6,202,it_palindrome,"['i', '<K:BS>']"
+97,6,202,it_palindrome,"['o', 'n', 'e', ' ', '=']"
+98,6,202,it_palindrome,"[' ', '<K:S>', 'f', 'a', ';', 's']"
+99,6,202,it_palindrome,"['e', '<K:BS x=4>']"
+100,6,202,it_palindrome,['a']
+101,6,202,it_palindrome,"['k', 's', '<K:BS x=2>']"
+102,6,202,it_palindrome,"['k', '<K:BS>', 'j']"
+103,6,202,it_palindrome,"['=', '<K:BS>']"
+104,6,202,it_palindrome,"['<K:BS>', 'j']"
+105,6,202,it_palindrome,"['<K:BS>', 'l']"
+106,6,202,it_palindrome,"['s', 'e', '<K:D x=2>']"
+107,6,202,it_palindrome,['<K:R x=2>']
+108,6,202,it_palindrome,"['<K:R x=3>', '<K:BS x=2>']"
+109,6,202,it_palindrome,['<K:BS>']
+110,6,202,it_palindrome,['<K:D x=2>']
+111,6,202,it_palindrome,['<K:U x=2>']
+112,6,202,it_palindrome,"['<K:U x=2>', '\r']"
+113,6,202,it_palindrome,"['s', 't', 'a']"
+114,6,202,it_palindrome,"['r', 't', ' ', '=']"
+115,6,202,it_palindrome,"[' ', '9']"
+116,6,202,it_palindrome,"['<K:BS>', '-']"
+117,6,202,it_palindrome,"['<K:BS>', '=', '<K:BS>']"
+118,6,202,it_palindrome,"['9', '<K:BS>', '8']"
+119,6,202,it_palindrome,"['<K:BS>', '0']"
+120,6,202,it_palindrome,['\r']
+121,6,202,it_palindrome,"['e', 'n', 'd', ' ']"
+122,6,202,it_palindrome,"['-', ' ', '<K:BS x=2>']"
+123,6,202,it_palindrome,"['=', ' ']"
+124,6,202,it_palindrome,"['l', 'e', 'n', '<K:S>', '9']"
+125,6,202,it_palindrome,"['s', 't']"
+126,6,202,it_palindrome,"['r', 'i', 'n', 'g', '<K:S>']"
+127,6,202,it_palindrome,"['9', '<K:BS>', '<K:S>', '0']"
+128,6,202,it_palindrome,"['-', '1']"
+129,6,202,it_palindrome,['<K:D x=3>']
+130,6,202,it_palindrome,['<K:D>']
+131,6,202,it_palindrome,"['u', 'f', '=', '=']"
+132,6,202,it_palindrome,['<K:BS x=4>']
+133,6,202,it_palindrome,"['u', '<K:BS>']"
+134,6,202,it_palindrome,"['u', '<K:BS x=2>']"
+135,6,202,it_palindrome,"['i', 'f']"
+136,6,202,it_palindrome,[' ']
+137,6,202,it_palindrome,[]
+138,6,202,it_palindrome,[]
+139,6,202,it_palindrome,"['s', 't', 'r', 'i', 'n']"
+140,6,202,it_palindrome,"['g', '[']"
+141,6,202,it_palindrome,['s']
+142,6,202,it_palindrome,"['t', 'a', 'r', 't']"
+143,6,202,it_palindrome,['[']
+144,6,202,it_palindrome,"[' ', '<K:S>', '<K:BS x=2>']"
+145,6,202,it_palindrome,"['p', '<K:BS>']"
+146,6,202,it_palindrome,"[']', '<K:BS>', ' ', '<K:S>']"
+147,6,202,it_palindrome,"['1', '-']"
+148,6,202,it_palindrome,"['<K:BS>', '=', '-', '<K:BS>']"
+149,6,202,it_palindrome,['<K:BS x=2>']
+150,6,202,it_palindrome,[]
+151,6,202,it_palindrome,[]
+152,6,202,it_palindrome,[]
+153,6,202,it_palindrome,"['<K:S>', '1']"
+154,6,202,it_palindrome,"['-', '<K:BS>']"
+155,6,202,it_palindrome,"['=', ' ', 's']"
+156,6,202,it_palindrome,"['t', 'r', 'i', 'n', 'g', '[']"
+157,6,202,it_palindrome,"['e', 'n', 'd']"
+158,6,202,it_palindrome,"['[', '<K:BS>']"
+159,6,202,it_palindrome,[']']
+160,6,202,it_palindrome,"['<K:S>', 'l']"
+161,6,202,it_palindrome,"['<K:BS>', '<K:S>', ';']"
+162,6,202,it_palindrome,['\r']
+163,6,202,it_palindrome,"['r', 'e', 't', 'u']"
+164,6,202,it_palindrome,"['r', 'n', ' ', '<K:S>']"
+165,6,202,it_palindrome,"['f', 'a', 'l', 's', 'e']"
+166,6,202,it_palindrome,"['\r', '<K:S>']"
+167,6,202,it_palindrome,"['s', 't', 'a', 'r']"
+168,6,202,it_palindrome,"['t', ' ']"
+169,6,202,it_palindrome,"['-', '<K:BS>']"
+170,6,202,it_palindrome,"['<K:S>', '=', '=', ' ', '1']"
+171,6,202,it_palindrome,"['\r', 'e', 'n', 'd']"
+172,6,202,it_palindrome,"[' ', '-']"
+173,6,202,it_palindrome,"['=', ' ', '1']"
+174,6,202,it_palindrome,[]
+175,6,202,it_palindrome,[]
+176,6,202,it_palindrome,[]
+177,6,202,it_palindrome,[]
+178,6,202,it_palindrome,[]
+179,6,202,it_palindrome,['\r']
+180,6,202,it_palindrome,"['<K:S>', '\t']"
+181,6,202,it_palindrome,['<K:S>']
+182,6,202,it_palindrome,"['\t', '<K:L x=2>']"
+183,6,202,it_palindrome,"['<K:L x=2>', 'r', 'e']"
+184,6,202,it_palindrome,"['t', 'u', 'r', 'n', ' ', '<K:S>']"
+185,6,202,it_palindrome,"['t', 'r', 'u', 'e']"
+186,6,202,it_palindrome,['<K:L x=10>']
+187,6,202,it_palindrome,"['<K:L>', '\r', '<K:U>']"
+188,6,202,it_palindrome,[]
+189,6,202,it_palindrome,['<K:U x=2>']
+190,6,202,it_palindrome,"['<K:U>', '<K:R x=8>']"
+191,6,202,it_palindrome,"['<K:R>', '<K:U>', '<K:R x=8>']"
+192,6,202,it_palindrome,['<K:R x=18>']
+193,6,202,it_palindrome,"[' ', 'o', 'r']"
+194,6,202,it_palindrome,"[' ', 's', 't', 'a']"
+195,6,202,it_palindrome,"['r', 't', ' ']"
+196,6,202,it_palindrome,"['<K:S>', '.']"
+197,6,202,it_palindrome,[]
+198,6,202,it_palindrome,['=']
+199,6,202,it_palindrome,"['<K:BS>', ' ']"
+200,6,202,it_palindrome,"['e', 'n', 'd']"
+201,6,202,it_palindrome,['<K:D>']
+202,6,202,it_palindrome,"['<K:D x=10>', '<K:U>']"
+203,6,202,it_palindrome,['<K:U x=3>']
+204,6,202,it_palindrome,['<K:BS x=4>']
+205,6,202,it_palindrome,['<K:BS>']
+206,6,202,it_palindrome,[]
+207,6,202,it_palindrome,['q']
+208,6,202,it_palindrome,['q']
+209,6,,,['q']
+210,6,,,[]
+211,6,,,[]
+212,6,,,[]
+213,6,401,lis_office,[]
+214,6,401,lis_office,[]
+215,6,401,lis_office,"['d', 't']"
+216,6,401,lis_office,"['<K:BS x=2>', 's', 't', 'a']"
+217,6,401,lis_office,"['p', 'l', 'e', 'r', ',']"
+218,6,401,lis_office,"[' ', 'p', 'e', 'n', 'c', 'i', 'l']"
+219,6,401,lis_office,"[',', ' ', 'p']"
+220,6,401,lis_office,"['a', 'p', 'e', 'r', ',', ' ']"
+221,6,401,lis_office,[]
+222,6,401,lis_office,[]
+223,6,401,lis_office,"['p', 'a', 'p', 'e', 'r']"
+224,6,401,lis_office,"['c', 'l']"
+225,6,401,lis_office,"['i', 'p']"
+226,6,401,lis_office,"[',', ' ', 's', 'p']"
+227,6,401,lis_office,"['<K:BS>', 't', 'a', 'p', 'l']"
+228,6,401,lis_office,"['e', ',', ' ']"
+229,6,401,lis_office,[]
+230,6,401,lis_office,[]
+231,6,401,lis_office,['p']
+232,6,401,lis_office,"['e', 'n', ',', ' ']"
+233,6,401,lis_office,[]
+234,6,401,lis_office,"['m', 'a', 'r', 'e']"
+235,6,401,lis_office,"['<K:BS>', 'k', 'e', 'r', ',', ' ']"
+236,6,401,lis_office,"['e', 't', 'a', 's']"
+237,6,401,lis_office,"['<K:BS x=3>', 'r', 'a', 's']"
+238,6,401,lis_office,"['e', 'r', ',', ' ', 'f']"
+239,6,401,lis_office,"['o', 'l', 'd', 'e', 'r', ',']"
+240,6,401,lis_office,[' ']
+241,6,401,lis_office,[]
+242,6,401,lis_office,[]
+243,6,401,lis_office,[]
+244,6,401,lis_office,[]
+245,6,401,lis_office,[]
+246,6,401,lis_office,[]
+247,6,401,lis_office,[]
+248,6,401,lis_office,[]
+249,6,401,lis_office,[]
+250,6,401,lis_office,[]
+251,6,401,lis_office,[]
+252,6,401,lis_office,[]
+253,6,401,lis_office,['p']
+254,6,401,lis_office,"['a', 'p', 'e', 'r', 'w']"
+255,6,401,lis_office,"['e', 'i', 'g', 'h', 't']"
+256,6,401,lis_office,"[' ', 'q']"
+257,6,401,lis_office,['q']
+258,6,,,['q']
+259,6,,,[]
+260,6,106,rec_symmetric,[]
+261,6,106,rec_symmetric,[]
+262,6,106,rec_symmetric,[]
+263,6,106,rec_symmetric,[]
+264,6,106,rec_symmetric,['<K:D>']
+265,6,106,rec_symmetric,['<K:D x=11>']
+266,6,106,rec_symmetric,['<K:CTRLT>']
+267,6,106,rec_symmetric,"['<K:CTRLT>', '\t']"
+268,6,106,rec_symmetric,[]
+269,6,106,rec_symmetric,[]
+270,6,106,rec_symmetric,[]
+271,6,106,rec_symmetric,[]
+272,6,106,rec_symmetric,"['i', 'f']"
+273,6,106,rec_symmetric,[]
+274,6,106,rec_symmetric,[]
+275,6,106,rec_symmetric,"[' ', 'r', 'o']"
+276,6,106,rec_symmetric,"['o', 't']"
+277,6,106,rec_symmetric,"[' ', 'i', 's']"
+278,6,106,rec_symmetric,"[' ', '<K:S>', 'n', 'o']"
+279,6,106,rec_symmetric,"['n', 'e', '<K:S>', ';', '\r']"
+280,6,106,rec_symmetric,[]
+281,6,106,rec_symmetric,"['r', 'e', 't', 'u', 'r']"
+282,6,106,rec_symmetric,"['n', ' ']"
+283,6,106,rec_symmetric,[]
+284,6,106,rec_symmetric,[]
+285,6,106,rec_symmetric,[]
+286,6,106,rec_symmetric,[]
+287,6,106,rec_symmetric,[]
+288,6,106,rec_symmetric,[]
+289,6,106,rec_symmetric,[]
+290,6,106,rec_symmetric,[]
+291,6,106,rec_symmetric,[]
+292,6,106,rec_symmetric,[]
+293,6,106,rec_symmetric,[]
+294,6,106,rec_symmetric,[]
+295,6,106,rec_symmetric,[]
+296,6,106,rec_symmetric,[]
+297,6,106,rec_symmetric,[]
+298,6,106,rec_symmetric,[]
+299,6,106,rec_symmetric,[]
+300,6,106,rec_symmetric,[]
+301,6,106,rec_symmetric,[]
+302,6,106,rec_symmetric,[]
+303,6,106,rec_symmetric,['<K:D x=3>']
+304,6,106,rec_symmetric,['q']
+305,6,106,rec_symmetric,"['<K:BS>', '\t']"
+306,6,106,rec_symmetric,[]
+307,6,106,rec_symmetric,[]
+308,6,106,rec_symmetric,[]
+309,6,106,rec_symmetric,[]
+310,6,106,rec_symmetric,[]
+311,6,106,rec_symmetric,[]
+312,6,106,rec_symmetric,[]
+313,6,106,rec_symmetric,[]
+314,6,106,rec_symmetric,[]
+315,6,106,rec_symmetric,[]
+316,6,106,rec_symmetric,"['r', 'e', 't']"
+317,6,106,rec_symmetric,"['u', 'r', 'n', ' ', 'i', 'd']"
+318,6,106,rec_symmetric,"['=', 's', '<K:BS>']"
+319,6,106,rec_symmetric,"['<K:BS x=2>', 's', '<K:CTRLT>', '0']"
+320,6,106,rec_symmetric,"['<K:BS>', '<K:S>', '-']"
+321,6,106,rec_symmetric,"['s', 'u', '<K:BS>']"
+322,6,106,rec_symmetric,"['<K:BS>', 's', '<K:BS>']"
+323,6,106,rec_symmetric,"['<K:CTRLT>', 's', 'y']"
+324,6,106,rec_symmetric,"['m', 'm', 'e', 'r', '<K:BS>']"
+325,6,106,rec_symmetric,"['t', 'r', 'i', 'c', '<K:S>']"
+326,6,106,rec_symmetric,['9']
+327,6,106,rec_symmetric,"['r', 'o', 'o']"
+328,6,106,rec_symmetric,"['t', '.', 'l']"
+329,6,106,rec_symmetric,"['e', 'f', 't', '<K:S>', '0']"
+330,6,106,rec_symmetric,[]
+331,6,106,rec_symmetric,[' ']
+332,6,106,rec_symmetric,"['=', '=']"
+333,6,106,rec_symmetric,[' ']
+334,6,106,rec_symmetric,[]
+335,6,106,rec_symmetric,['<K:BS x=3>']
+336,6,106,rec_symmetric,[]
+337,6,106,rec_symmetric,[]
+338,6,106,rec_symmetric,[]
+339,6,106,rec_symmetric,"['=', '=']"
+340,6,106,rec_symmetric,"[' ', 'r']"
+341,6,106,rec_symmetric,"['o', 'o', '<K:BS>']"
+342,6,106,rec_symmetric,"['<K:BS x=2>', 'u', 's']"
+343,6,106,rec_symmetric,['<K:BS x=2>']
+344,6,106,rec_symmetric,[]
+345,6,106,rec_symmetric,[]
+346,6,106,rec_symmetric,['<K:U x=3>']
+347,6,106,rec_symmetric,['<K:D>']
+348,6,106,rec_symmetric,['<K:D x=2>']
+349,6,106,rec_symmetric,['<K:BS x=2>']
+350,6,106,rec_symmetric,"['<K:BS x=2>', '\r', 'r']"
+351,6,106,rec_symmetric,['<K:BS x=3>']
+352,6,106,rec_symmetric,"['<K:S>', '9']"
+353,6,106,rec_symmetric,"['<K:BS>', '<K:S>', '8']"
+354,6,106,rec_symmetric,"['<K:BS>', '<K:S>', '-', '<K:BS>']"
+355,6,106,rec_symmetric,"['=', '<K:BS x=2>']"
+356,6,106,rec_symmetric,['<K:BS x=19>']
+357,6,106,rec_symmetric,['<K:BS x=8>']
+358,6,106,rec_symmetric,"['<K:BS>', 'u', 's']"
+359,6,106,rec_symmetric,"['<K:BS x=2>', 'i', 's']"
+360,6,106,rec_symmetric,"['<K:S>', '-', 's']"
+361,6,106,rec_symmetric,"['u', 'm', 'm', '<K:BS x=2>']"
+362,6,106,rec_symmetric,"['<K:BS>', 'y', 'm', 'm']"
+363,6,106,rec_symmetric,"['e', 't', 'r', 'i', 'c', '<K:S>']"
+364,6,106,rec_symmetric,"['9', 'r']"
+365,6,106,rec_symmetric,"['o', 'o', 't', '.', 'l', 'e']"
+366,6,106,rec_symmetric,"['f', 't', '<K:S>', '0']"
+367,6,106,rec_symmetric,"['\r', 'u']"
+368,6,106,rec_symmetric,"['<K:BS>', 'i', 's']"
+369,6,106,rec_symmetric,"['<K:S>', '0', '<K:BS>']"
+370,6,106,rec_symmetric,"['<K:S>', '0', '<K:BS>', '-']"
+371,6,106,rec_symmetric,"['s', 'y']"
+372,6,106,rec_symmetric,"['n', 'n', 'e']"
+373,6,106,rec_symmetric,"['<K:BS x=2>', 'n']"
+374,6,106,rec_symmetric,"['<K:BS>', '=', '<K:BS x=2>', 'n']"
+375,6,106,rec_symmetric,"['n', 'e', '<K:BS x=2>']"
+376,6,106,rec_symmetric,"['<K:BS>', 'n', 'n']"
+377,6,106,rec_symmetric,"['<K:BS x=2>', 'm', 'm']"
+378,6,106,rec_symmetric,"['e', 't', 'r', 'i']"
+379,6,106,rec_symmetric,"['c', '<K:S>', '9']"
+380,6,106,rec_symmetric,"['r', 'o', 'o', 't', '.']"
+381,6,106,rec_symmetric,"['r', 'i', 'g', 'h', 't', '<K:S>', '0']"
+382,6,106,rec_symmetric,['<K:U>']
+383,6,106,rec_symmetric,[]
+384,6,106,rec_symmetric,[]
+385,6,106,rec_symmetric,[]
+386,6,106,rec_symmetric,[]
+387,6,106,rec_symmetric,[]
+388,6,106,rec_symmetric,['<K:U x=4>']
+389,6,106,rec_symmetric,['<K:D>']
+390,6,106,rec_symmetric,[]
+391,6,106,rec_symmetric,[]
+392,6,106,rec_symmetric,[]
+393,6,106,rec_symmetric,[]
+394,6,106,rec_symmetric,[]
+395,6,106,rec_symmetric,[]
+396,6,106,rec_symmetric,[]
+397,6,106,rec_symmetric,[]
+398,6,106,rec_symmetric,[]
+399,6,106,rec_symmetric,[]
+400,6,106,rec_symmetric,[]
+401,6,106,rec_symmetric,[]
+402,6,106,rec_symmetric,['<K:D>']
+403,6,106,rec_symmetric,"['<K:D x=2>', '<K:U x=2>']"
+404,6,106,rec_symmetric,"['<K:U x=2>', '<K:D>']"
+405,6,106,rec_symmetric,"['<K:U>', '<K:L x=2>']"
+406,6,106,rec_symmetric,"['<K:L x=5>', '<K:R>']"
+407,6,106,rec_symmetric,[]
+408,6,106,rec_symmetric,[]
+409,6,106,rec_symmetric,[]
+410,6,106,rec_symmetric,[]
+411,6,106,rec_symmetric,[]
+412,6,106,rec_symmetric,[]
+413,6,106,rec_symmetric,[]
+414,6,106,rec_symmetric,[]
+415,6,106,rec_symmetric,[]
+416,6,106,rec_symmetric,[]
+417,6,106,rec_symmetric,[]
+418,6,106,rec_symmetric,[]
+419,6,106,rec_symmetric,[]
+420,6,106,rec_symmetric,[]
+421,6,106,rec_symmetric,['<K:D>']
+422,6,106,rec_symmetric,['<K:D x=3>']
+423,6,106,rec_symmetric,[]
+424,6,106,rec_symmetric,[]
+425,6,106,rec_symmetric,['<K:D x=2>']
+426,6,106,rec_symmetric,['<K:U>']
+427,6,106,rec_symmetric,['<K:R x=12>']
+428,6,106,rec_symmetric,['<K:R>']
+429,6,106,rec_symmetric,[]
+430,6,106,rec_symmetric,[]
+431,6,106,rec_symmetric,[]
+432,6,106,rec_symmetric,[]
+433,6,106,rec_symmetric,[]
+434,6,106,rec_symmetric,['<K:U x=3>']
+435,6,106,rec_symmetric,"['<K:U x=2>', '<K:L>']"
+436,6,106,rec_symmetric,"['<K:S>', '<K:L>']"
+437,6,106,rec_symmetric,['<K:L x=4>']
+438,6,106,rec_symmetric,['<K:L x=2>']
+439,6,106,rec_symmetric,['<K:BS x=2>']
+440,6,106,rec_symmetric,"[',', '=']"
+441,6,106,rec_symmetric,"['<K:BS x=2>', ',']"
+442,6,106,rec_symmetric,['<K:BS>']
+443,6,106,rec_symmetric,"[',', '<K:BS>']"
+444,6,106,rec_symmetric,['.']
+445,6,106,rec_symmetric,"['v', 'a', 'k']"
+446,6,106,rec_symmetric,"['<K:BS>', 'k']"
+447,6,106,rec_symmetric,"['<K:BS x=2>', 'k']"
+448,6,106,rec_symmetric,"['<K:BS>', 'l']"
+449,6,106,rec_symmetric,[' ']
+450,6,106,rec_symmetric,[]
+451,6,106,rec_symmetric,[]
+452,6,106,rec_symmetric,[]
+453,6,106,rec_symmetric,[]
+454,6,106,rec_symmetric,[]
+455,6,106,rec_symmetric,[]
+456,6,106,rec_symmetric,[]
+457,6,106,rec_symmetric,[]
+458,6,106,rec_symmetric,[]
+459,6,106,rec_symmetric,[]
+460,6,106,rec_symmetric,[]
+461,6,106,rec_symmetric,[]
+462,6,106,rec_symmetric,[]
+463,6,106,rec_symmetric,[]
+464,6,106,rec_symmetric,[]
+465,6,106,rec_symmetric,[]
+466,6,106,rec_symmetric,[]
+467,6,106,rec_symmetric,[]
+468,6,106,rec_symmetric,[]
+469,6,106,rec_symmetric,[]
+470,6,106,rec_symmetric,[]
+471,6,106,rec_symmetric,[]
+472,6,106,rec_symmetric,[]
+473,6,106,rec_symmetric,[]
+474,6,106,rec_symmetric,['<K:CTRLT>']
