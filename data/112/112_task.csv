@@ -1,0 +1,154 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+112,5,pro_size,302,pro,"than a pea, which is smaller than a button, which is smaller than a clementine, which is smaller than an orange, which is smaller than a cantaloupe, which is smaller than a watermelon, which is smaller than a cat, which is smaller than a cow, which is smaller than a house, which is smaller than a skyscraperqq",2025-09-27 08:26:22.950872,3.946
+112,5,pro_loud,307,pro,"quieter than a microwave, which is quieter than an AC unit, which is quieter than a barking dog, which is quieter than a grand piano, which is quieter than an MRI machine, which is quieter than a trumpet, which is quieter than a roaring lion,qq which is quieter than a detonation",2025-09-27 08:28:50.530240,2.012
+112,5,it_fibonacci,201,it,"### ITERATION ###                     
+
+# Please complete the function to iteratively calculate 
+# the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+
+    # loop header (can do for or while loop)
+    while n > 0
+        # loop body
+        if n < 1:
+            arr.append(n)
+        else:
+            arr.append(arr[n-1] + arr[n-2])
+        return arr[-1]
+    
+
+    # return statement
+
+
+",2025-09-27 08:34:54.723638,4.369
+112,5,rec_permutations,102,rec,"### RECURSION ###
+
+# Please complete the function to recursively print 
+# all permutations of a given string. 
+# (i.e., 'ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA')
+# Parameters: string - string to be permuted
+#            left - index for beginning of subsequence
+#           right - index for end of subsequence
+def permute(string, left, right) -> None:
+     # Base case
+	if not string:
+        print("""")
+		return
+    # Active flow
+else: 
+    
+
+    # Passive flow
+
+
+",2025-09-27 08:43:32.642546,2.646
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+112,1,pro_weight,300,pro,-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------c--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------,2025-09-27 08:49:42.311432,2.138
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+112,1,pro_weight,300,pro,"a semivan, which is heavier than a Corolla, which is heavier than a human male, which is heavier than a dog, which is heavier than a table, which is heavier than a chair, which is heavier than a pot, which is heavier than a bowl, which is heavier than a spatula, which is heavier than chopsticksQQQqq",2025-09-27 09:03:15.467718,1.373
+112,1,pro_bright,304,pro,"the moon, which is brighter than a fluorescent light, which is brighter than streetlamps, which is brighter than a flashlight, which is brighter than a phone light, which is brighter than a computer screen, which is brighter than glow in the dark stickers, which are brighter than neon stickers, which are brighter than black pantsqq",2025-09-27 09:05:15.514770,4.052
+112,1,it_sum,205,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+	res = 0
+    # loop header (can do for or while loop)
+    for i in range(n)    :
+        # loop body
+		res += i
+
+    # return statement
+	return resqq
+
+",2025-09-27 09:07:01.722315,1.871
+112,1,rec_fibonacci,100,rec,"### RECURSION ###
+
+# Please complete the function to recursively 
+# calculate the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+
+
+def fibonacci(n) -> int:
+    
+    # Base case
+	if n <= 1:
+        return n
+
+    # Active flow
+	return fibonacci(n-1)+fibonacci(n-2)
+
+    # Passive flow
+	# do I meed amything here?qq
+
+
+
+",2025-09-27 09:09:31.006780,2.963
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+112,2,pro_hot,306,pro,"a lamp from the 1900s, which is hotter than a steaming bowl of rice, which is hotter than a room temperature cup of tea, which is hotter than food in the fridge, which is hotter than ice cream, which is hotter than ice, which is hotter than dry ice, which is hotter than Plutoqq",2025-09-27 09:13:25.068032,4.118
+112,2,it_binSearch,200,it,"### ITERATION ###                      
+
+# Please complete the function to iteratively perform binary search. 
+# Parameters: array - list to be searched, 
+#                 x - integer to find
+def binarySearch(array, x) -> bool:
+
+    # loop header (can do for or while loop)
+    a, b = 0, len(array)
+    while a < b:     : 
+        # loop body
+        mid = (a + b) // 2
+        if array[mid] > x:
+            b = mid
+        elif array[mid] < x:
+            a = mid
+        else return mid
+   
+
+    # return statement
+    return 
+
+",2025-09-27 09:19:30.762643,2.59
+112,2,rec_reverse,103,rec,"### RECURSION ### 
+
+# Please complete the function to recursively reverse 
+# a given string.
+# Parameters: string - string to be reversed
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def reverseString(string, start, end) -> str:
+
+    # Base case
+    qq
+	if start >= end:
+        return string
+
+    # Active flow
+    string = string[end] + string[start+1, end] + string[start]
+    
+	return reverseString(string, start + 1, end - 1)
+
+    # Passive flow
+       
+",2025-09-27 09:24:01.871080,3.632
+112,2,rec_sum,104,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+    
+    # Base case
+	if n == 0:
+        return 0
+
+    # Active flow
+	return n + sumOfNaturalNumbers(n-1)qq
+
+    # Passive flow
+    
+",2025-09-27 09:24:54.055719,2.351

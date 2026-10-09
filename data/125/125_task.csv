@@ -1,0 +1,93 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+125,6,lis_office,401,lis,"staples, pencil, laptop, pen, post=",2025-10-26 13:41:29.274042,3.257
+125,6,pro_cost,301,pro,a tesla ,2025-10-26 13:42:35.386643,4.519
+125,6,rec_symmetric,106,rec,"### RECURSION ###
+
+# Please complete the function to recursively compute 
+# whether the binary tree is symmetric 
+# (i.e., the left subtree is a mirror-image of the right subtree)
+# Parameters: root - TreeNode object of root node with fields: root.left, 
+#       5                                                      root.right, 
+#     3    3                                                   root.val
+#    2  1 1  2
+def is_symmetric(root) -> bool:
+        
+    # Base case
+    if not root
+    	return True
+        
+
+    # Active flow
+    return issymmetric(root.lef
+",2025-10-26 13:50:41.936756,4.629
+125,6,it_palindrome,202,it,"### ITERATION ###  
+
+# Please complete the function to iteratively check 
+# if a given string is a palindrome 
+# (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+def isPalindrome(string) -> bool:
+    l, r = 0, len(str{
+q}
+
+    # loop header (can do for or while loop)
+    for    :
+        # loop body
+        
+   
+
+    # return statement
+
+
+",2025-10-26 13:53:51.817060,2.501
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+125,4,lis_vegetables,403,lis,"eggplant, carrot, celery, cucumber, radish, lettu",2025-10-26 14:00:36.352890,4.774
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+125,3,lis_fruits,404,lis,"bansna, grape, apple, plum, cherry, kiwi. durian.",2025-10-26 14:08:28.549355,3.097
+125,3,pro_length,308,pro,a person,2025-10-26 14:09:21.367145,3.176
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+125,2,rec_sum,104,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+    
+    # Base case
+    if not n
+    	retern 0
+ 
+    # Active flow
+    d = sumofnaturalnumbr(n - 1)
+
+
+    # Passive flow
+    return n + d 	qq
+",2025-10-26 14:17:49.971867,3.948
+125,2,pro_hot,306,pro,soup is h,2025-10-26 14:20:25.022660,1.028
+125,2,rec_reverse,103,rec,"### RECURSION ### 
+
+# Please complete the function to recursively reverse 
+# a given string.
+# Parameters: string - string to be reversed
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def reverseString(string, start, end) -> str:
+
+    # Base case
+    if start == emd
+		return str
+
+    # Active flow
+    tmp = str[str]
+    str[st] = str[end]
+    
+    
+    rev = revrseStrin(st4 /qqn)
+    
+
+
+    # Passive flow
+       
+",2025-10-26 14:27:14.020854,4.308

@@ -1,0 +1,191 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+110,3,lis_instruments,407,lis,"clarinet, oboe, recorder, violin, guitar, bass guitar, flute, theramin, drums, trumpetqq",2025-09-22 20:04:19.612543,3.895
+110,3,it_reverse,203,it,"### ITERATION ### 
+
+# Please complete the function to iteratively reverse 
+# a given string. 
+# Parameters: string - string to be reversed
+def reverseString(string) -> str:
+    return string[-1:qq:-1]
+    # loop header (can do for or while loop)
+    #for     :
+        # loop body
+
+    
+
+    # return statement
+
+",2025-09-22 20:05:09.451974,4.106
+110,3,lis_fruits,404,lis,"lemon, grape, orange, tomato, dragon fruit, watermelon, pineapple, strawberry, blueberry, blackberryqq",2025-09-22 20:07:34.588664,4.329
+110,3,it_intPalindrome,206,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# --- Without converting it into a string --- 
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+	x_array = []
+    while (x > 1):
+		new_x = int(x / 10)
+        current_digit = x - (new_x * 10)
+        x_array.append(current_digit)
+        x = new_x
+    # We should have the digits in reverse order
+    max_index = int(len(x_array) / 2)
+    for i in range(max_index):
+    	digit_entry_left = x_array[i]
+        digit_entry_right = x_array[len(x_ar
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ",2025-09-22 20:13:40.508842,3.708
+110,3,pro_length,308,pro,"a power brick, which is shorter than a purse, which is shorter than a desk, which is shorter than a car, which is shorter than a truck, which is shorter than an aircraft carrier, which is shorter than an ocean, which is shorter than a planet, which is shorter than the solar system",2025-09-22 20:15:21.372617,4.908
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+110,2,pro_hot,306,pro,"which is hotter than a hot-tub, which is hotter than lukewarm tap water, which is hotter than a swimming pool (maybe), which is hotter than cold tap water, which is hotter than icy ocean water, which is hotter than ice, which is hotter than antarctica, which is hotter than the dark side of the moon, ",2025-09-22 20:22:10.294486,1.015
+110,2,it_binSearch,200,it,"### ITERATION ###                      
+
+# Please complete the function to iteratively perform binary search. 
+# Parameters: array - list to be searched, 
+#                 x - integer to find
+def binarySearch(array, x) -> bool:
+    copied_array = array.copy()
+	sort(copied_array)
+    lowest_index = 0
+    highest_index = len(array) - 1
+    while (lowest_index != highest_index):
+        middle_index = (lowest_index + highest_index) / 2
+        if copied_array[middle_index] > x:
+            highest_index = middle_index
+        elif copied_array[middle_index] < x:
+            lowest_index = middle_index
+        else:qq
+            return True
+    return copied_array[lowest_index] == x",2025-09-22 20:25:33.714316,3.625
+110,2,rec_reverse,103,rec,"### RECURSION ### 
+
+# Please complete the function to recursively reverse 
+# a given string.
+# Parameters: string - string to be reversed
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+# Assuming end is inclusive
+def reverseString(string, start, end) -> str:
+	str_len = (end - start) + 1
+    # Base case
+	if (str_len <= 1)
+        return string[start:(end + 1)]
+    middle = int((start + end) / 2)
+
+    # Active flow
+	a = reverseString(string, start, middle)
+    b = reverseString(string, middle + 1, end)
+
+    # Passive fqqlow
+    return b + a
+",2025-09-22 20:29:20.626472,3.004
+110,2,rec_sum,104,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+    
+    # Base case
+	if (n == 0):
+        return 0
+
+    # Active flow
+	lower_sum = sumOfNaturalNumbers(n - 1)
+
+    # Passive flow
+    return lower_sum + nqq
+",2025-09-22 20:30:31.887716,1.904
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+110,6,lis_clothing,405,lis,"jeans, skirts, long dress, velvet, plaid, jacket, coat, boots, sneakers, hatsqq",2025-09-22 20:34:26.940644,1.379
+110,6,it_palindrome,202,it,"### ITERATION ###  
+
+# Please complete the function to iteratively check 
+# if a given string is a palindrome 
+# (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+def isPalindrome(string) -> bool:
+	for i in range(int(len(string) / 2)):
+        corresponding_i = len(string) - i - 1
+        if string[i] != string[corresponding_i]:
+            return False
+    return True
+    qq",2025-09-22 20:36:10.161181,2.967
+110,6,lis_office,401,lis,"pens, papers, post it notes, notebooks, pencils, sharpies, markers, mechanical pencils, chairs, laptopsqq",2025-09-22 20:37:27.013385,1.455
+110,6,rec_symmetric,106,rec,"### RECURSION ###
+
+# Please complete the function to recursively compute 
+whether the binary tree is symmetric 
+# (i.e., the left subtree is the same as the right subtree)
+# Parameters: root - TreeNode object of root node with fields: root.left, 
+#                                                              root.right, 
+#                                                              root.val
+# Totally forget what symmetry means, and also isn't the whole point of a binary tree
+# everything less than the root is to the left, and everything greater to the right?
+# If we could skip because I'm forgetful, I'd appreciate it. Give me 2-3 minutes
+# to think first though haha
+# Best guess is this lmao
+def is_symmetric(root) -> bool:
+        
+    # Base case
+    if (root.left is None) and (root.right is None):
+        return True
+    elif (root.left is None) and (not (root.right is None)):
+        return False
+    elif (not (root.left is None)) and (root.right is None):
+        return False
+
+    # Active flow
+	return is_symmetric(root.left) and is_symmetric(root.right)
+qq",2025-09-22 20:41:56.613223,4.33
+110,6,pro_cost,301,pro,"which is cheaper than a ballpoint pen, which is cheaper than a gourmet restaurant meal, which is cheaper than a good laptop, which is cheaper than a bad used car, which is cheaper than a good used car, which is cheaper than a new car, which is cheaper than a rundown house, which is cheaper than a good new house, which is cheaper than a luxury jet, which is cheaper than being Mark Zuckerbergqq",2025-09-22 20:43:54.330683,3.355
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+110,1,pro_weight,300,pro,"which is heavier than a sedan, which is heavier than a minicooper, which is heavier than the Arnold guy, which is heavier than me, which is heavier than a moped, which is heavier than a bicycle, which is heavier than a small laptop, which is heavier than a phone, which is heavier than a card, which is heavier than a fleaqq",2025-09-22 20:48:15.720183,4.742
+110,1,pro_bright,304,pro,"which is brighter than a lighthouse, which is brighter than a high-powered flashlight, which is brighter than an arc lamp, which is brighter than a plane's strobe lights, which is brighter than an LED light in a building, which is brighter than an incandescent light, which is brighter than",2025-09-22 20:50:51.559722,1.487
+110,1,it_sum,205,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+	sum = 0
+    # loop header (can do for or while loop)
+    for i in range(1, n + 1qq, 1):
+        sum += i
+    return sum",2025-09-22 20:51:50.008074,4.674
+110,1,rec_fibonacci,100,rec,"### RECURSION ###
+
+# Please complete the function to recursively 
+# calculate the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+    
+    # Base case
+    if (n == 0):
+        return 0
+   	if (n == 1):
+        return 1
+
+
+    # Active flow
+	a = fibonacci(n - 2)
+    b = fibonacci(n - 1)
+
+    # Passive flow
+	return a + bqq
+
+
+
+",2025-09-22 20:52:59.744967,1.723

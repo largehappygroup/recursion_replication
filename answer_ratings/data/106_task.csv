@@ -1,0 +1,115 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+106,5,pro_size,302,pro,"than a grain of wheat, which is smaller than a grain of barley, which is smaller than a grain of malt, which is smaller than a grain of corn, which is smaller than a cob of ",2025-09-03 17:27:57.263017,3.584
+106,5,rec_permutations,102,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# all permutations of a given string. (i.e., 'ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA')
+# Parameters: string - string to be permuted
+#            left_idx - index for beginning of subsequence
+#           right_idx - index for end of subsequence
+def permute(string, left_idx, right_idx):
+
+    arr = []
+    permutation = """"
+    # Base case
+    if len(string) is equal to 1:
+        return arr.push(permutation + string)
+    # Active flow
+    permute(string, leftidx plus one, rightidx)
+
+    # Passive flow
+    
+    return arr",2025-09-03 17:36:01.262016,3.813
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+106,3,pro_length,308,pro,"a ruler, which is shorter than a branch, which is shorter than a football field, which is shorter than an airline runway, which is shorter than the Great Barrier Reef, which is shorter than the distance from the Earth to the Moon, which is shorter than the distance from the Earth to the Sun, which is shorter than the distance from Mars to the Sun, which is shorter than a light year, which is shorter than the width of the observable universe.qq",2025-09-03 17:44:02.908797,2.262
+106,3,lis_instruments,407,lis,"guitar, piano, saxophone, violin, viola, bass, double bass, tamborine, trumpet, flute, recorder, piccolo, drum, cassenet, bass drum, clarinetqq",2025-09-03 17:45:31.796979,4.319
+106,3,lis_fruits,404,lis,"apple, orange, pineapple, dragon fruit, grapefruit, pear, lychee, winter melon, tomato, peach, canteloupe, watermelon, rambutanqq",2025-09-03 17:46:53.847303,3.169
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+106,4,rec_palindrome,101,rec,"### RECURSION ### 
+
+# Please complete the function to recursively check if 
+# a given string is a palindrome.  (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+#           start_idx - index for beginning of subsequence
+#             end_idx - index for end of subsequence
+def isPalindrome(string, start_idx, end_idx):
+    
+    # Base case
+    if start_idx >= end_idx:
+        return True
+
+    # Passive flow
+    if string[start_idx] != string[end_idx]:
+        return False
+
+    # Active flow
+    return isPalindrome(string, start_idx + 1, end_idx - 1)
+qq",2025-09-03 17:53:43.209339,1.917
+106,4,lis_tools,409,lis,"hammer, jackhammer, screwdriver, wrench, saw, alan wrench, drill, chainsaw, kitchenaid, wj",2025-09-03 17:56:15.360047,1.307
+106,4,lis_vegetables,403,lis,"cabbage, lettuce, bok choy, gai lan, cauliflower, broccoli, green beans, long beans, spinach, romaine, carrot, eggplant, potato, lotus rootqq",2025-09-03 17:58:07.982525,3.226
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+106,6,pro_cost,301,pro,"a pen, which is cheaper than a fountain pen, which is cheaper than a restaurant bill, which is cheaper than a car, which is cheaper than a camper van, which is cheaper than a house, which is cheaper than a mansion, which is cheaper than a skyscraper, which is cheaper than a rocket, which is cheaper than a warqq",2025-09-03 18:02:18.634292,2.322
+106,6,lis_clothing,405,lis,"T-shirt, crewneck, sweatshirt, jacket, sweater, hoodie, pants, sweatpants, jeans, blazer, tie, suit, button-up, blouse, shorts, dress, onesie, cardiganqq",2025-09-03 18:04:21.651577,4.136
+106,6,lis_office,401,lis,"pencil, pen, eraser, marker, paperclip, bulldog clip, stapler, staples, lined paper, printer paper, whiteboard eraser, notebookqq",2025-09-03 18:05:30.452246,1.459
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+106,1,pro_weight,300,pro,"a minivan, which is heavier than a car, which is heavier than an adult human, which is heavier than a child, which is heavier than a bag of rice, which is heavier than a book, which is heavier than a pencil, which is heavier than a grain of sugar, which is heavier than a uranium atom, which is heavier than a hydrogen atom, which is heavier than a proton, which is heavier than a quark. ",2025-09-03 18:09:30.130321,1.168
+106,1,it_sum,205,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n):
+
+    sum = 0
+    # loop header (can do for or while loop)
+    for i in range(n+1):
+        # loop body
+        sum += i
+
+    # return statement
+    return sum
+qq
+
+
+",2025-09-03 18:11:29.092166,3.701
+106,1,it_fibonacci,201,it,"### ITERATION ###                     
+
+# Please complete the function to iteratively calculate 
+# the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n):
+	minus1 = 1
+    minus2 = 0
+    fib = minus1 + minus2
+    if n <= 1:
+        return n
+    # loop header (can do for or while loop)
+    for i in range(n-2):
+        # loop body
+        temp = minus1 + minus2
+        minus2 = minus1
+        minus1 = temp
+
+    # return statement
+    return 
+
+",2025-09-03 18:17:32.961640,1.959
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+106,2,pro_hot,306,pro,"90C water, which is hotter than a hot chocolate, which is hotter than room temperature water, which is hotter than cold water, which is hotter than ice, which is hotter than liquid nitrogen, which is hotter than absolute zero",2025-09-03 18:21:42.998321,4.988
+106,2,rec_sum,104,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n):
+    
+    # Base case
+    if n <= 0:
+        return n
+
+    # Active flow
+    sumRecursive = sumOfNaturalNumbers(n-1)
+
+    # Passive flow
+    return n + sumRecursive
+qq",2025-09-03 18:23:52.594574,2.977

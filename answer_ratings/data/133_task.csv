@@ -1,0 +1,210 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+133,1,pro_weight,300,pro,"a car, which is heavier than a bike, which is heavier than a scooter, which is heavier than a bat, which is heavier than a phone, which is heavier than a stick, which is heavier than a small bone, which is heavier than a piece of clothe, which is heavier than a grain of saltqq",2025-10-24 10:57:34.535939,4.097
+133,1,it_sum,205,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+
+    # loop header (can do for or while loop)
+    sum = 0
+    for i in range(n + 1):
+        # loop body
+		sum += i
+
+    # return statement
+	return sum
+
+qq
+
+",2025-10-24 10:59:04.184625,1.348
+133,1,rec_fibonacci,100,rec,"### RECURSION ###
+
+# Please complete the function to recursively 
+# calculate the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+    
+    # Base case
+    if(n == 0):
+        return 0
+    
+    elif(n == 1 or n == 2):
+        return 1
+    
+    # Active flow
+	x = fibonacci(n - 2) + fibonacci(n - 1)
+
+    # Passive flow
+	return x
+
+	qq
+
+
+",2025-10-24 11:03:23.761881,4.334
+133,1,pro_bright,304,pro,"a stage light, which is brighter than a flash light, which is brighter than a house light, which is brighter than a lamp, which is brighter than a phone light, which is brighter than a",2025-10-24 11:05:59.226694,3.612
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+133,4,rec_palindrome,101,rec,"### RECURSION ### 
+
+# Please complete the function to recursively check if 
+# a given string is a palindrome.  (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def isPalindrome(string, start, end) -> bool:
+    
+    # Base case
+	if start >= end:
+        return True
+    elif string[start] != string[end]:
+        return False
+    
+    # Active flow
+	return isPalindrome(string, start + 1, end - 1)
+
+qq
+
+
+",2025-10-24 11:10:39.401160,2.943
+133,4,lis_vehicles,402,lis,"car, plane, scooter, bicycle, truck, bus, helicopter, boat, jetski, cruiseqq",2025-10-24 11:11:47.401668,2.758
+133,4,lis_vegetables,403,lis,"carrot, celery, broccoli, green beans, asparagus, lettuce, brussel sprouts, eggplant, cauliflowerqq",2025-10-24 11:13:33.402048,1.312
+133,4,rec_intPalindrome,105,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# --- Without converting it into a string --- 
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+
+
+    # Base case
+	if(x < 10):
+        return True
+	
+    first = x
+    while first > 10:
+        first %= 10
+    
+    second = x
+    while second < 0:
+    
+    # Active flow
+    return is_num_palindrome
+",2025-10-24 11:21:36.611193,4.362
+133,4,lis_tools,409,lis,"shovel, hammer, scissors, knife, hammerjack, screwdriver, measuring tape, ruler, qq",2025-10-24 11:22:52.882077,1.021
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+133,2,pro_hot,306,pro,"a cup of hot coffee, which is hotter than warm water, which is hotter than room temperature water, which is hotter than pool water, which is hotter than ocean water, which is hotter than cold water, which is hotter than ice water, which is hotter than ice, which is hotter than dried ice, which is hotter than spaceqq",2025-10-24 11:26:53.897596,1.747
+133,2,rec_reverse,103,rec,"### RECURSION ### 
+
+# Please complete the function to recursively reverse 
+# a given string.
+# Parameters: string - string to be reversed
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def reverseString(string, start, end) -> str:
+
+    # Base case
+	if start >= end:
+        return string
+
+    # Active flow
+	new_string = reverseString(start + 1, end - 1)
+
+    # Passive flow
+    new_start = string[start]
+    new_end = string[end]
+    new_string[start] = new_end
+    new_string[end] = new_start
+    qq
+",2025-10-24 11:31:09.911948,3.731
+133,2,rec_sum,104,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+    
+    # Base case
+	if n == 1:
+        return 1
+
+    # Active flow
+	sum = sumOfNaturalNumbers(n - 1) + n
+
+    # Passive flow
+    return sumqq
+",2025-10-24 11:32:36.571292,4.176
+133,2,it_binSearch,200,it,"### ITERATION ###                      
+
+# Please complete the function to iteratively perform binary search. 
+# Parameters: array - list to be searched, 
+#                 x - integer to find
+def binarySearch(array, x) -> bool:
+
+    # loop header (can do for or while loop)
+    start = 0
+    end = len(array) - 1
+    while start < end:
+        i = ( start + end )/ 2
+        if array[i] == x:
+            return True
+        elif array[i] < x:
+            end = i
+        else:
+            start = i + 1
+    qq        
+        # loop body
+
+    # return statement
+	return False
+",2025-10-24 11:37:58.313680,4.921
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+133,6,pro_cost,301,pro,"a pen, which is cheaper than a mouse, which is cheaper than a keyboard, which is cheaper than a monitor, which is cheaper than a laptop, which is cheaper than a pc, which is cheaper than a tv, which is cheaper than movie theater, which is cheaper than an opera house, which is cheaper than a space station",2025-10-24 11:44:16.695086,2.59
+133,6,rec_symmetric,106,rec,"### RECURSION ###
+
+# Please complete the function to recursively compute 
+# whether the binary tree is symmetric 
+# (i.e., the left subtree is a mirror-image of the right subtree)
+# Parameters: root - TreeNode object of root node with fields: root.left, 
+#       5                                                      root.right, 
+#     3    3                                                   root.val
+#    2  1 1  2
+def is_symmetric(root) -> bool:
+        
+    # Base case
+    if root.val == null:
+        return True
+
+
+    # Active flow
+	if root.left and root.right:
+        if root.left.val != root.right.val:
+            return False
+    return is_symmetric(root.left) and is_symmetric(root.right)qq
+",2025-10-24 11:49:50.593946,3.609
+133,6,lis_office,401,lis,"paper, paper clip, stapler, pencil, pen, copier, printer, ink, computer, ruler, mugqq",2025-10-24 11:50:37.932974,4.435
+133,6,it_palindrome,202,it,"### ITERATION ###  
+
+# Please complete the function to iteratively check 
+# if a given string is a palindrome 
+# (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+def isPalindrome(string) -> bool:
+	start = 0
+    end = len(string)
+    # loop header (can do for or while loop)
+    while start < end:
+        # loop body
+        if string[start] != string[end]:
+            return False
+   		start += 1
+        end -= 1
+
+    # return statement
+	return True 
+
+
+",2025-10-24 11:53:00.480972,3.612
+133,6,lis_clothing,405,lis,"shirt, jacket, sweatshirt, hoodie, pants, shorts, jeans, socks, jorts, underwearqq",2025-10-24 11:53:57.777890,4.857

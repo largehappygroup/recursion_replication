@@ -1,0 +1,271 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+114,1,it_sum,205,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+	suim,6=0
+    # loop header (can do for or while loop)
+    for     ui uin range(12m, n^+12):
+        # loop body
+		suim,^+6=ui
+
+    # return statement
+	retuirn suim,
+    qq
+
+",2025-09-25 19:55:48.201249,4.218
+114,1,pro_weight,300,pro,"a carm, whuich uis heavuier than a m,otorcy]clem, whuich uis heavuier than a buicy]clem, whuich uis heavuier than a scooterm, whcuih uis heavuier than a sjkateboardm, whuich uis heavuier than a bananam, whuich uis heavuier than a buigm, whuich uis heavuier than an atom,.qq",2025-09-25 19:57:27.283297,3.093
+114,1,pro_bright,304,pro,"a luight builbm, whuich uis bruighter than a com,puiterm, whuich uis bruighter than a phonem, whuich uis bruighter than a sparjkm, whuich uis bruighter than a puiece of paperm, whuich uis bruighter than blacjk uinjkm, whuich uis bruighter than a darjk room,m, whuich uis bruighter than a blacjk hole.qq",2025-09-25 19:59:37.647262,3.855
+114,1,rec_fibonacci,100,rec,"### RECURSION ###
+
+# Please complete the function to recursively 
+# calculate the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+    
+    # Base case
+	uif n6=6=0:
+        retuirn 0
+
+    # Active flow
+	suim, 6= fuibonaccui(n6-12) ^+ fuibonaccui(n-12)
+
+    # Passive flow
+	retuirn suim,qq
+
+
+
+",2025-09-25 20:00:55.142413,2.404
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+114,3,pro_length,308,pro,"a handm, whuich uis shorter than an arm,m, whuich uis shorter than a personm, whuich uis shorter than a ladderm, whuich uis shorter than a houisem, whuich uis shorter than a aparttm,ent buiuilduingm, whuich uis shorter than a sjky]scraperm, whuich uis shorter than a m,ouintauinm, qq",2025-09-25 20:04:32.136635,4.48
+114,3,lis_fruits,404,lis,"applem, bananam, orangem, tangeruinem, blacjkberry]m, strawberry]m, raspberry]m, peachm, pluim,m, nectaruineqq",2025-09-25 20:05:10.767766,2.067
+114,3,it_intPalindrome,206,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# --- Without converting it into a string --- 
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+    val 6= 12
+    nuim,duiguits 6= floor(log10(x))
+    # loop header (can do for or while loop)
+    whuile uiM<x:
+        # loop body
+		uif x/ui % 120 !@6= ui*x / pow(10m, nuim,duiguits):
+            retuirn false
+
+    # return statement
+    retuirn truieqq",2025-09-25 20:09:09.027772,1.579
+114,3,lis_instruments,407,lis,"vuioluinm, vuiolam, cellom, puianom, harpm, fluitem, recorderm, bassm, guiuitarm, claruiney]qq",2025-09-25 20:09:47.667476,2.672
+114,3,it_reverse,203,it,"### ITERATION ### 
+
+# Please complete the function to iteratively reverse 
+# a given string. 
+# Parameters: string - string to be reversed
+def reverseString(string) -> str:
+	newstruing6=""""    
+    # loop header (can do for or while loop)
+    for     c uin struing:
+        # loop body
+		newstruing6=c^+newstruing
+    
+
+    # return statement
+	retuirn newstruingqq
+",2025-09-25 20:10:32.246042,3.539
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+114,6,pro_cost,301,pro,"a penm, whuich uis cheaper than a noteboojkm, whuich uis cheaper than a novelm, whuich uis cheaper than a textboojkm, whuich uis cheaper than a plane tuicjketm, whuich uis cheaper than a carm, whuich uis cheaper than a pruivate jketm, whuich uis cheaper than a pruivate uisland.qq",2025-09-25 20:14:01.814718,4.02
+114,6,lis_office,401,lis,"penm, staplerm, pruinterm, paper cluipsm, broom,sm, envelopesm, foldersm, fuile cabuinetsm, huighluighters.qq",2025-09-25 20:14:54.649254,2.258
+114,6,rec_symmetric,106,rec,"### RECURSION ###
+
+# Please complete the function to recursively compute 
+# whether the binary tree is symmetric 
+# (i.e., the left subtree is a mirror-image of the right subtree)
+# Parameters: root - TreeNode object of root node with fields: root.left, 
+#       5                                                      root.right, 
+#     3    3                                                   root.val
+#    2  1 1  2
+def is_symmetric(root) -> bool:
+        
+    # Base case
+    uif root 6=6=None: 
+        retuirn Truie
+    if root.left !@=6root.ruight:
+        retuirn False
+
+    # Active flow
+	retuirn uis_sy]m,m,etruic(root.left) and uis_sy]m,m,etruic(root.ruight)
+    
+    #UI don't thuinjk thuis uis correct. UI reallly] don't see how thuis can be recuirsuive.qq
+",2025-09-25 20:19:17.971756,2.725
+114,6,lis_clothing,405,lis,"shirt, sweatshiurtm, jkkacjket,m tuiem, dressm, sjkuirtm, hatm, shortsm, jkeansm, jkhajkhuis.qq",2025-09-25 20:19:52.835915,3.384
+114,6,it_palindrome,202,it,"### ITERATION ###  
+
+# Please complete the function to iteratively check 
+# if a given string is a palindrome 
+# (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+def isPalindrome(string) -> bool:
+	
+    # loop header (can do for or while loop)
+    whuile len(struing)>12:
+        # loop body
+        uif struing[0y]!@6=struing[-12y]:
+            retuirn False
+        struing 6= struing.suibstr(12m, len(struing)-1)
+   
+
+    # return statement
+	retuirn Truieqq
+
+",2025-09-25 20:21:19.430996,2.181
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+114,5,it_fibonacci,201,it,"### ITERATION ###                     
+
+# Please complete the function to iteratively calculate 
+# the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+	last 6= 1
+    secondtolast6=0
+    # loop header (can do for or while loop)
+    for     i in range(2, n+1):
+        # loop body
+        cuirr6=last+secondtolast
+        secondtolast=last
+        last=curr
+    
+
+    # return statement
+	retuirn cuirrqq
+
+",2025-09-25 20:24:32.726823,1.704
+114,5,pro_size,302,pro,"than a pebble, which is smaller than a stone, which is smaller than a table, which is smaller than a person, which is smaller than a room, which is smaller than a housem, which is smaller than a cityqq",2025-09-25 20:25:33.058200,3.499
+114,5,pro_loud,307,pro,"a popcorn maker, which is quiter than a drill, which is quiter than a jackhammer, which is quiter than an mri machine, which is quiter than a plane, which is quiter than an explosion, which is quiter than a nuclear bomb.qq",2025-09-25 20:26:59.953829,4.225
+114,5,rec_permutations,102,rec,"### RECURSION ###
+
+# Please complete the function to recursively print 
+# all permutations of a given string. 
+# (i.e., 'ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA')
+# Parameters: string - string to be permuted
+#            left - index for beginning of subsequence
+#           right - index for end of subsequence
+def permute(string, left, right) -> None:
+    
+    # Base case
+	if left==right:
+        return []
+
+    # Active flow
+	remaining_perm = permute(string, left+1, right)
+
+    # Passive flow
+	answer = []
+    for perm in remaining_perm:
+        for i in len(perm):
+            answer+=(perm.substr(i)+string[left]+perm.substr(i+1, len(perm))
+    return answerqq
+
+",2025-09-25 20:30:33.256771,3.334
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+114,2,rec_reverse,103,rec,"### RECURSION ### 
+
+# Please complete the function to recursively reverse 
+# a given string.
+# Parameters: string - string to be reversed
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def reverseString(string, start, end) -> str:
+
+    # Base case
+	if start==end:
+        return """"
+
+    # Active flow
+	rest = reversestring(start+1, end)
+
+    # Passive flow
+       return rest+string[start]qq
+",2025-09-25 20:43:16.322008,1.232
+114,2,pro_hot,306,pro,"coffee, which is hotter than warm water, which is hotter than room temperature, which is hotter than a fridge, which is hotter than ice, which is hotter than dry ice, which is hotter than the coldest weather, which is hotter than outer space, which is hotter than absolute zero.qq",2025-09-25 20:45:22.273473,1.051
+114,2,it_binSearch,200,it,"### ITERATION ###                      
+
+# Please complete the function to iteratively perform binary search. 
+# Parameters: array - list to be searched, 
+#                 x - integer to find
+def binarySearch(array, x) -> bool:
+	left=0
+    right = len(array)
+    # loop header (can do for or while loop)
+    while left<right: 
+        # loop body
+        curr=(left+right)//2
+        if array[curr]=x:
+            return True
+        elif array[curr]>x:
+            right=curr
+        else:
+            left=curr+1
+   
+
+    # return statement
+	return Falseqq
+",2025-09-25 20:47:21.811384,1.661
+114,2,rec_sum,104,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+    
+    # Base case
+	if n==0:
+        return 0
+
+    # Active flow
+	sum=sumOfNaturalNumbers(n-1)
+
+    # Passive flow
+    return n+sum qq
+",2025-09-25 20:47:58.133140,4.796
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+114,4,rec_palindrome,101,rec,"### RECURSION ### 
+
+# Please complete the function to recursively check if 
+# a given string is a palindrome.  (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def isPalindrome(string, start, end) -> bool:
+    
+    # Base case
+	if end-start<=1:
+        return True
+
+    # Active flow
+	return string[start]==string[end] and isPalindrome(string, start+1, end-1) qq
+
+
+",2025-09-25 20:51:29.716776,1.288
+114,4,lis_vegetables,403,lis,"carrot, broccoli, potato, eggplant, tomato, zucchini, cauliflower, turnip, bok choi. qq",2025-09-25 20:51:59.916915,4.22
+114,4,lis_vehicles,402,lis,"rv, sedan, motorcycle, electric bike, bus, train, airplane, boat, scooter, truck. qq",2025-09-25 20:53:00.729896,1.231
+114,4,lis_tools,409,lis,"hammer, screwdriver, jackhammer, bottle opener, spatula, wrench, fork, saw. qq",2025-09-25 20:53:49.198946,4.448
+114,4,rec_intPalindrome,105,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# --- Without converting it into a string --- 
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+
+
+    # Base case
+	if x<10:
+        return True
+   
+    # Active flow
+    numdigits = floor(pow10(x))
+    return x%10 == x//pow(10, numdigits) and isPalindrome((x%pow(10, numdigits))//10) qq
+",2025-09-25 20:55:57.492716,1.536

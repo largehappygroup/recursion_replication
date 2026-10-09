@@ -1,0 +1,221 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+107,1,it_sum,205,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+	
+    result = 0
+    # loop header (can do for or while loop)
+    for i in range(n):     :
+        # loop body
+        result += i
+
+
+    # return statement
+	return result
+
+
+qq
+
+",2025-09-23 13:43:14.808466,1.867
+107,1,pro_weight,300,pro,"a car, which is heavier than a bike
+which is heavier than a skateboard
+which is heavier than a wheel
+which is heavier than a bearing
+which is heavier than a screw
+which is heavier than a molecule
+which is heavier than an atom
+which is heavier than a quark
+which is heavier than a string
+qq",2025-09-23 13:44:50.359917,2.091
+107,1,pro_bright,304,pro,"a flash from a camera
+which is brighter than an iridiscent light bulb
+whcih is brighter than a desk lamp
+which is brighter than the moon
+which is brighter than a very far away star
+which is brigther than nothing 
+qq",2025-09-23 13:46:42.957415,4.876
+107,1,rec_fibonacci,100,rec,"### RECURSION ###
+
+# Please complete the function to recursively 
+# calculate the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+    
+    # Base case
+	if n == 0:
+        return 0
+   	if n == 1:
+        return 1
+
+    # Active flow
+	curr_number = fibonacci(n - 1) + fibonacci(n - 2)
+
+    # Passive flow
+	return curr_number
+
+qq
+
+
+
+",2025-09-23 13:48:31.274965,2.273
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+107,3,pro_length,308,pro,"a pencil, which is shorter than
+a piece of paper, which is shorter than
+a desk, which is shorter than
+a classroom, which is shorter than
+a school building, which is shorter than
+a city block, which is shorter than
+a river, which is shorter than
+the earth, which is shorter than
+the milky way, which is shorter than
+the observable universe, which is shorter than
+the abyss
+qq",2025-09-23 13:52:16.402926,1.182
+107,3,lis_fruits,404,lis,"fruit, orange, pear, dragonfruit, grape, apple, watermelon, canataloupe, cucumber, tomato
+
+qq",2025-09-23 13:52:48.159771,3.668
+107,3,it_intPalindrome,206,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# --- Without converting it into a string --- 
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+    stack = []
+    # % 10 to get last digit
+    # // 10 to move on to next digit
+    # loop header (can do for or while loop)
+    while x != 0:
+        stack.append(x % 10)
+        x //= 10
+    
+    
+        :
+        # loop body
+
+
+    # return statement
+    ",2025-09-23 13:58:53.434009,4.702
+107,3,lis_instruments,407,lis,"violin, guitar, banjo, piano, bass, trumpet, saxophone, drums, harp, clarinet
+
+qq",2025-09-23 13:59:35.413963,1.925
+107,3,it_reverse,203,it,"### ITERATION ### 
+
+# Please complete the function to iteratively reverse 
+# a given string. 
+# Parameters: string - string to be reversed
+def reverseString(string) -> str:
+	
+    result = ''
+    # loop header (can do for or while loop)
+    for i in range(len(string) -1, -1, -1):
+        # loop body
+        result += string[i]
+        
+
+    
+
+    # return statement
+	return result
+qq",2025-09-23 14:01:17.299698,4.497
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+107,6,pro_cost,301,pro,"a notebook, which is cheaper than
+a binder, which is cheaper than
+a backpack, which is cheaper than
+a phone, which is cheaper than
+a laptop, which is cheaper than
+a car, which is cheaper than
+a house, which is cheaper than
+a mansion, which is cheaper than
+a city, which is cheaper than
+a country, which is cheaper than
+antimatter
+qq",2025-09-23 14:05:19.537007,4.581
+107,6,lis_office,401,lis,"stapler, glue, scissors, paper, printer, notepads, post-its, laptops, coffee machine, snacks",2025-09-23 14:05:58.522716,1.544
+107,6,rec_symmetric,106,rec,"### RECURSION ###
+
+# Please complete the function to recursively compute 
+whether the binary tree is symmetric 
+# (i.e., the left subtree is the same as the right subtree)
+# Parameters: root - TreeNode object of root node with fields: root.left, 
+#                                                              root.right, 
+#                                                              root.val
+def is_symmetric(root) -> bool:
+	def recurse(left, right):
+        if not left and not right:
+            return True
+        if not left or nto right:
+            return False
+        return left.val == right.val and recurse(left.left, right.right) and recurse(left.right, right.right)
+    
+    return recurse(root.left, root.right)qq",2025-09-23 14:12:42.247963,1.467
+107,6,lis_clothing,405,lis,"hat, shirt, sweater, vest, jacket, tie, polo, tshirt, shorts, socks, pants, slacks, underwear, bra",2025-09-23 14:13:22.867700,2.336
+107,6,it_palindrome,202,it,"### ITERATION ###  
+
+# Please complete the function to iteratively check 
+# if a given string is a palindrome 
+# (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+def isPalindrome(string) -> bool:
+    
+    n = len(string) 
+    r = n - 1
+
+    # loop header (can do for or while loop)
+    for i in range(n // 2):
+        if string[i] != string [r]:
+            return False
+        r -= 1
+        # loop body
+        
+   
+
+    # return statement
+	return True
+qq
+
+",2025-09-23 14:14:52.942921,4.143
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+107,5,it_fibonacci,201,it,"### ITERATION ###                     
+
+# Please complete the function to iteratively calculate 
+# the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+
+  	prev = 0
+    curr = 1
+    # loop header (can do for or while loop)
+    for i in range(2, n):
+        temp = curr
+        curr = prev + curr
+        prev = temp
+        # loop body
+        
+    
+
+    # return statement
+	return curr if n != 0 else 0qq
+
+",2025-09-23 14:20:04.105788,2.838
+107,5,pro_size,302,pro,"a cheerio, which is smaller than
+a piece of bread, which is smaller than
+a loaf of bread, which is smaller than
+a cat, which is smaller than 
+a dog, which is smaller than
+a bear, which is smaller than
+a car, which is smaller than
+a truck, which is smaller than
+a road, which is smaller than
+an interstate",2025-09-23 14:21:23.172575,3.386
+107,5,pro_loud,307,pro,"a washing machine, which is quieter than
+a tv, which is quieter than
+a loudspeaker, which is quieter than
+a stadium during a sports game, which is quieter than 
+a concert, which is quieter than 
+a plane engine, which is quieter than
+a rocket engine, which is quieter than
+the big boomqq",2025-09-23 14:23:02.239195,2.33

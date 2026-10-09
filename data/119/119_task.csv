@@ -1,0 +1,172 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+119,4,rec_palindrome,101,rec,"### RECURSION ### 
+
+# Please complete the function to recursively check if 
+# a given string is a palindrome.  (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def isPalindrome(string, start, end) -> bool:
+    
+    # Base case
+    if (start >= end):
+    	return string[start] == string[end]
+    
+    # Active flow
+    if (string[start] == string[end]):
+    	return isPalindrome(string, start +1, end -qq 1)
+    else:
+        return false
+
+
+",2026-03-19 17:34:09.414350,2.075
+119,4,rec_intPalindrome,105,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# --- Without converting it into a string --- 
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+    trailing_digit = x % 10
+    # Base case 
+	if (x < 10):
+        return true
+    elif (x < 20):
+        qrq
+
+    # Active flow
+    
+",2026-03-19 17:42:07.478920,4.148
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+119,2,pro_hot,306,pro,"the  temperature at which butter melts, which is hotter than the temperature of an average room, which is hotter than the temperature of my house at night, which is hotter than the temperature of this morning, which is hotter than the temperature at which water freezes, which is hotter than the temperature at which most people can survive comfortably, which is hotter than the average temperature of winter in siberia, which is hotter than the temperature at which supercomputers are chilled to, which is hotter than the temperature of absolute zeroqq",2026-03-19 17:46:40.132823,2.368
+119,2,it_binSearch,200,it,"### ITERATION ###                      
+
+# Please complete the function to iteratively perform binary search. 
+# Parameters: array - list to be searched, 
+#                 x - integer to find
+# Assuming that the list is sorted?
+def binarySearch(array, x) -> bool:
+	mid_point = len(array) / 2
+    found = false
+    
+    while (found == false):
+        curr = array[mid_point]
+        if (x == curr):
+            found = true
+            return true
+        elif (x > curr):
+            mid_point = (mid_point + len(array)) / 2
+        else:
+            mid_point = (mid_point / 2)
+    
+    if (x == array[mid_point]):
+        return true
+    else
+    	
+    
+    # loop header (can do for or while loop)
+    for  num in array: 
+        # loop body
+        if
+        
+   
+
+    # return statement
+
+",2026-03-19 17:52:44.231027,2.002
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+119,3,pro_length,308,pro,"which is shorter than a pencil, which is shorter than a standard ruler, which is shorter than the length of my laptop, which is shorter than the length of my monitor, which is shorter than the length of my desk, which is shorter then the length of my car, which is shorter then the length of my house, which is shorter than the length of my driveway, which is shorter than the length of a track, which is shorter than the length of a plane runway, which is shorter than the length of the autobahn, which is shorter than the distance from earth to the moonqq",2026-03-19 18:03:32.481705,4.1
+119,3,it_reverse,203,it,"### ITERATION ### 
+
+# Please complete the function to iteratively reverse 
+# a given string. 
+# Parameters: string - string to be reversed
+def reverseString(string) -> str:
+	rev = """"
+    index = len(string) -1
+    while (index >= 0):
+        rev += string[index]
+        index -= 1
+    return revqq
+
+",2026-03-19 18:06:28.717151,3.868
+119,3,it_intPalindrome,206,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# --- Without converting it into a string --- 
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+	end_index = x % 10
+    num_digits = Math.num_digits(x) # Pseudocode
+    
+    finished = false
+    num = x
+    while (finished == false):
+        end_digit = num % 10
+        start_digit = num / (10 * num_digits)
+        
+        if (end_digit != start_digit)
+        	return false
+        
+        num = num / (100)qq
+    # loop header (can do for or while loop)
+    for    :
+        # loop body
+
+
+    # return statement
+    ",2026-03-19 18:11:27.401073,3.059
+119,3,lis_fruits,404,lis,"Banana, Tomato, Blueberry, Kiwi, Strawberry, Rasberry, Lemon, Lime, Grape, Cranberry, Plum, Apple, Orange, Clementineqq",2026-03-19 18:12:12.538172,4.748
+119,3,lis_instruments,407,lis,"Piano, Guitar, Drums, Saxophone, Clarinet, Flute, Timpani, Xylophone, Cello, Violin, Bass, qq",2026-03-19 18:12:48.112374,1.093
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+119,1,pro_weight,300,pro,"a minivan, which is heavier than a sedan, which is heavier than a motorcycle, which is heavier than a bicycle, which is heavier than a small suitcase, which is heavier than a backpack, which is heavier than a blender, which is heavier than a cutting board, which is heavier than a pen, which is heavier than a paperclip, which is heavier than a pinqq",2026-03-19 18:16:35.547238,2.558
+119,1,pro_bright,304,pro,"a rainbow, which is brighter than a cloud, which is brighter than a shadow, which is brighter than a cave, qqwhich is brighter than a darkroom, which is brighter than space",2026-03-19 18:18:03.351308,4.333
+119,1,it_sum,205,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+	sum = 0
+    return 0 if (n <= 0)
+    # loop header (can do for or while loop)
+    for (x in range(0, n)):
+        sum += x
+        # loop body
+
+    # return statement
+	return sumqq
+
+",2026-03-19 18:19:45.138386,1.953
+119,1,rec_fibonacci,100,rec,"### RECURSION ###
+
+# Please complete the function to recursively 
+# calculate the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+
+# 0 1 1 2 3 5 8
+# 0 1 2 3 4 5 6
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+    #first_number = 0
+    #qqsecond_number = 1
+    # Base case
+    if (n == 0):
+        return 0
+    elif (n == 1):
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+
+    # Active flow
+
+
+    # Passive flow
+
+
+
+
+",2026-03-19 18:24:54.148437,1.846

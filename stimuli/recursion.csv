@@ -1,0 +1,307 @@
+﻿stim_id,name,content,answer
+100,rec_fibonacci,"### RECURSION ###
+
+# Please complete the function to recursively 
+# calculate the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+    
+    # Base case
+
+
+    # Active flow
+
+
+    # Passive flow
+
+
+
+
+","#include <iostream>  #################
+#include <limits>    ### RECURSION ###
+                     #################
+
+// Please complete the function to recursively 
+// calculate the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+// Parameters: n - index for number in fibonacci sequence
+int fibonacci(int n) {
+    
+    // Base case
+    if (n == 0) return 0;
+    if (n == 1) return 1;
+
+    // Active flow
+    int prevFib1 = fibonacci(n - 1);
+    int prevFib2 = fibonacci(n - 2);
+
+    // Passive flow
+    return prevFib1 + prevFib2;
+}
+
+int main() {
+    int number;
+    std::cout << ""Enter a number for calculating the Fibonacci sequence: "";
+    std::cin >> number;
+
+    // Check if the input operation failed
+    if (!std::cin) {
+        std::cout << ""Please input a valid integer number.\n"";
+        // Clear the error state
+        std::cin.clear();
+        // Ignore the rest of the input line
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    } else {
+        std::cout << ""The "" << number << ""th Fibonacci number is: "" << fibonacci(number) << std::endl;
+    }
+
+    return 0;
+}"
+101,rec_palindrome,"### RECURSION ### 
+
+# Please complete the function to recursively check if 
+# a given string is a palindrome.  (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def isPalindrome(string, start, end) -> bool:
+    
+    # Base case
+
+
+    # Active flow
+
+
+
+","#include <iostream>  #################
+#include <string>    ### RECURSION ###
+                     #################
+
+// Please complete the function to recursively check if 
+// a given string is a palindrome.
+// Parameters: str - string to be checked
+//           start - index for beginning of subsequence
+//             end - index for end of subsequence
+bool isPalindrome(const std::string& str, int start, int end) {
+
+    // Base case
+    if (start >= end) {
+        return true;
+    }
+
+    // Passive flow
+    if (str[start] != str[end]) {
+        return false;
+    }
+
+    // Active flow
+    return isPalindrome(str, start + 1, end - 1);
+}
+
+int main() {
+    std::string str = ""racecar"";
+    if (isPalindrome(str, 0, str.length() - 1))
+        std::cout << ""\"""" << str << ""\"" is a palindrome."" << std::endl;
+    else
+        std::cout << ""\"""" << str << ""\"" is not a palindrome."" << std::endl;
+    return 0;
+}"
+102,rec_permutations,"### RECURSION ###
+
+# Please complete the function to recursively print 
+# all permutations of a given string. 
+# (i.e., 'ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA')
+# Parameters: string - string to be permuted
+#            left - index for beginning of subsequence
+#           right - index for end of subsequence
+def permute(string, left, right) -> None:
+    
+    # Base case
+
+
+    # Active flow
+
+
+    # Passive flow
+
+
+","#include <iostream>  #################
+#include <string>    ### RECURSION ###
+                     #################
+
+// Please complete the function to recursively calculate 
+// all permutations of a given string.
+// Parameters: str - string to be permuted
+//            left - index for beginning of subsequence
+//           right - index for end of subsequence
+void permute(std::string str, int left, int right) {
+    
+    // Base case
+    if (left == right) {
+        std::cout << str << std::endl;
+    } else {
+        for (int i = left; i <= right; i++) {
+            // Active flow
+            std::swap(str[left], str[i]);
+            permute(str, left + 1, right);
+
+            // Passive flow
+            std::swap(str[left], str[i]); 
+        }
+    }
+}
+
+int main() {
+    std::string str = ""ABC"";
+    permute(str, 0, str.size() - 1);
+    return 0;
+}"
+103,rec_reverse,"### RECURSION ### 
+
+# Please complete the function to recursively reverse 
+# a given string.
+# Parameters: string - string to be reversed
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def reverseString(string, start, end) -> str:
+
+    # Base case
+
+
+    # Active flow
+
+
+    # Passive flow
+       
+","#include <iostream>  #################
+#include <string>    ### RECURSION ###
+                     #################
+
+// Please complete the function to recursively reverse 
+// a given string.
+// std::swap(a, b) may be useful
+// Parameters: str - string to be reversed
+//           start - index for beginning of subsequence
+//             end - index for end of subsequence
+void reverseString(std::string &str, int start, int end) {
+    
+    // Base case
+    if (start >= end) {
+        return;
+    }
+
+    // Active flow 
+    reverseString(str, start + 1, end - 1);
+
+    // Passive flow 
+    std::swap(str[start], str[end]);
+
+}
+
+int main() {
+    std::string str = ""Hello World"";
+    reverseString(str, 0, str.length() - 1);
+    std::cout << ""Reversed string: "" << str << std::endl;
+    return 0;
+}"
+104,rec_sum,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+    
+    # Base case
+
+
+    # Active flow
+
+
+    # Passive flow
+    
+","#include <iostream>  #################
+                     ### RECURSION ###
+                     #################
+
+// Please complete the function to recursively calculate 
+// the sum of first n natural numbers
+// Parameters: n - quantity of natural numbers to consider
+int sumOfNaturalNumbers(int n) {
+    
+    // Base case
+    if (n <= 1) {
+        return n;
+    }
+
+    // Active flow (recursive call)
+    int partialSum = sumOfNaturalNumbers(n - 1);
+
+    // Passive flow (combine the result)
+    return n + partialSum;
+}
+
+int main() {
+    int number = 10;
+    std::cout << ""Sum of first "" << number << "" natural numbers is: "" << sumOfNaturalNumbers(number) << std::endl;
+    return 0;
+}"
+105,rec_intPalindrome,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# --- Without converting it into a string --- 
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+
+
+    # Base case
+     
+   
+    # Active flow
+    
+","### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# Without converting it into a string
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+    if x < 0:
+        return False
+
+    def helper(n, temp=0):
+        # Base case
+        if n == 0:
+            return rev
+        
+    # Active flow
+        return helper(n // 10, rev * 10 + n % 10)
+
+    return x == helper(x)"
+106,rec_symmetric,"### RECURSION ###
+
+# Please complete the function to recursively compute 
+# whether the binary tree is symmetric 
+# (i.e., the left subtree is a mirror-image of the right subtree)
+# Parameters: root - TreeNode object of root node with fields: root.left, 
+#       5                                                      root.right, 
+#     3    3                                                   root.val
+#    2  1 1  2
+def is_symmetric(root) -> bool:
+        
+    # Base case
+        
+
+    # Active flow
+
+","def is_symmetric_recursive(root) -> bool:
+    
+    def helper(left, right) -> bool:
+    # Base case
+        if not left and not right:
+            return True
+        if not left or not right or left[0] != right[0]:
+            return False
+        # Active flow
+        return is_mirror(left[1], right[2]) and is_mirror(left[2], right[1])
+    
+    return helper(root, root) if root else True"

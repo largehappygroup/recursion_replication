@@ -1,0 +1,256 @@
+pid,stim_name,stim_id,task,language,runs,define_error,tests_passed,tests_total,details
+101,it_fibonacci,201,it,cpp,False,skipped (cpp),0,4,
+101,it_sum,205,it,cpp,False,skipped (cpp),0,3,
+101,rec_sum,104,rec,cpp,False,skipped (cpp),0,3,
+101,rec_reverse,103,rec,cpp,False,skipped (cpp),0,3,
+101,rec_permutations,102,rec,cpp,False,skipped (cpp),0,2,
+101,rec_fibonacci,100,rec,cpp,False,skipped (cpp),0,4,
+101,it_palindrome,202,it,cpp,False,skipped (cpp),0,3,
+102,rec_intPalindrome,105,rec,python,False,,0,4,"[{""expected"": true, ""actual"": null, ""error"": ""TypeError: 'int' object is not subscriptable""}, {""expected"": false, ""actual"": null, ""error"": ""TypeError: 'int' object is not subscriptable""}, {""expected"": true, ""actual"": null, ""error"": ""TypeError: 'int' object is not subscriptable""}, {""expected"": true, ""actual"": null, ""error"": ""TypeError: 'int' object is not subscriptable""}]"
+102,rec_palindrome,101,rec,python,True,,4,4,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}]"
+102,rec_reverse,103,rec,python,True,,0,3,"[{""expected"": ""olleh"", ""actual"": null, ""error"": null}, {""expected"": ""ba"", ""actual"": null, ""error"": null}, {""expected"": ""a"", ""actual"": null, ""error"": null}]"
+102,rec_sum,104,rec,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+102,it_binSearch,200,it,python,False,"IndentationError: expected an indented block after 'if' statement on line 23 (<string>, line 30)",0,4,[]
+102,it_fibonacci,201,it,python,False,,2,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": null, ""error"": ""IndexError: list index out of range""}, {""expected"": 55, ""actual"": null, ""error"": ""IndexError: list index out of range""}]"
+102,rec_permutations,102,rec,python,True,,0,2,"[{""expected"": [""ABC"", ""ACB"", ""BAC"", ""BCA"", ""CAB"", ""CBA""], ""actual"": [], ""error"": null}, {""expected"": [""AB"", ""BA""], ""actual"": [], ""error"": null}]"
+102,it_sum,205,it,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+102,rec_fibonacci,100,rec,python,False,,2,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": null, ""error"": ""NameError: name 'fibonscci' is not defined""}, {""expected"": 55, ""actual"": null, ""error"": ""NameError: name 'fibonscci' is not defined""}]"
+102,it_palindrome,202,it,python,False,,1,3,"[{""expected"": true, ""actual"": false, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": null, ""error"": ""IndexError: string index out of range""}]"
+102,rec_symmetric,106,rec,python,False,,0,3,"[{""expected"": true, ""actual"": null, ""error"": null}, {""expected"": false, ""actual"": null, ""error"": null}, {""expected"": true, ""actual"": null, ""error"": ""AttributeError: 'NoneType' object has no attribute 'val'""}]"
+103,it_sum,205,it,python,False,"SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='? (<string>, line 13)",0,3,[]
+104,rec_symmetric,106,rec,python,False,"SyntaxError: expected ':' (<string>, line 29)",0,3,[]
+104,it_palindrome,202,it,python,False,,0,3,"[{""expected"": true, ""actual"": null, ""error"": ""AttributeError: 'str' object has no attribute 'size'""}, {""expected"": false, ""actual"": null, ""error"": ""AttributeError: 'str' object has no attribute 'size'""}, {""expected"": true, ""actual"": null, ""error"": ""AttributeError: 'str' object has no attribute 'size'""}]"
+104,it_sum,205,it,python,False,TIMEOUT,0,3,[]
+104,rec_fibonacci,100,rec,python,False,"SyntaxError: expected ':' (<string>, line 17)",0,4,[]
+104,it_fibonacci,201,it,python,False,"SyntaxError: expected ':' (<string>, line 39)",0,4,[]
+104,rec_permutations,102,rec,python,False,"SyntaxError: invalid syntax (<string>, line 33)",0,2,[]
+104,it_intPalindrome,206,it,python,False,"SyntaxError: invalid syntax. Perhaps you forgot a comma? (<string>, line 25)",0,4,[]
+104,it_reverse,203,it,python,False,,0,2,"[{""expected"": ""olleh"", ""actual"": null, ""error"": ""AttributeError: 'str' object has no attribute 'size'""}, {""expected"": ""ba"", ""actual"": null, ""error"": ""AttributeError: 'str' object has no attribute 'size'""}]"
+104,it_binSearch,200,it,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,4,[]
+105,it_reverse,203,it,python,False,NameError: name 'q' is not defined,0,2,[]
+105,it_palindrome,202,it,python,False,"SyntaxError: expected ':' (<string>, line 11)",0,3,[]
+105,it_binSearch,200,it,python,False,"SyntaxError: invalid decimal literal (<string>, line 24)",0,4,[]
+105,rec_reverse,103,rec,python,False,,0,3,"[{""expected"": ""olleh"", ""actual"": null, ""error"": ""NameError: name 'returnq' is not defined""}, {""expected"": ""ba"", ""actual"": null, ""error"": ""NameError: name 'returnq' is not defined""}, {""expected"": ""a"", ""actual"": null, ""error"": ""NameError: name 'returnq' is not defined""}]"
+105,rec_sum,104,rec,python,False,"IndentationError: expected an indented block after function definition on line 6 (<string>, line 15)",0,3,[]
+105,it_fibonacci,201,it,python,False,"SyntaxError: invalid syntax (<string>, line 9)",0,4,[]
+105,it_sum,205,it,python,False,,0,3,"[{""expected"": 1, ""actual"": null, ""error"": ""NameError: name 'sumq' is not defined""}, {""expected"": 15, ""actual"": null, ""error"": ""NameError: name 'sumq' is not defined""}, {""expected"": 55, ""actual"": null, ""error"": ""NameError: name 'sumq' is not defined""}]"
+105,rec_fibonacci,100,rec,python,False,"SyntaxError: invalid syntax (<string>, line 15)",0,4,[]
+105,rec_permutations,102,rec,python,False,NameError: name 'q' is not defined,0,2,[]
+106,rec_permutations,102,rec,python,False,"SyntaxError: invalid syntax (<string>, line 25)",0,2,[]
+106,rec_palindrome,101,rec,python,True,,4,4,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}]"
+106,it_sum,205,it,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+106,it_fibonacci,201,it,python,True,,2,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": null, ""error"": null}, {""expected"": 55, ""actual"": null, ""error"": null}]"
+106,rec_sum,104,rec,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+107,it_sum,205,it,python,False,"SyntaxError: invalid syntax (<string>, line 19)",0,3,[]
+107,rec_fibonacci,100,rec,python,True,,4,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 5, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+107,it_intPalindrome,206,it,python,False,"SyntaxError: invalid syntax (<string>, line 33)",0,4,[]
+107,it_reverse,203,it,python,True,,2,2,"[{""expected"": ""olleh"", ""actual"": ""olleh"", ""error"": null}, {""expected"": ""ba"", ""actual"": ""ba"", ""error"": null}]"
+107,rec_symmetric,106,rec,python,False,"SyntaxError: invalid syntax (<string>, line 7)",0,3,[]
+107,it_palindrome,202,it,python,True,,3,3,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}]"
+107,it_fibonacci,201,it,python,True,,2,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 3, ""error"": null}, {""expected"": 55, ""actual"": 34, ""error"": null}]"
+108,it_sum,205,it,python,False,"SyntaxError: invalid syntax (<string>, line 13)",0,3,[]
+108,rec_fibonacci,100,rec,python,False,"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<string>, line 17)",0,4,[]
+108,it_binSearch,200,it,python,False,"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<string>, line 17)",0,4,[]
+108,rec_reverse,103,rec,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,3,[]
+108,rec_sum,104,rec,python,False,"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<string>, line 17)",0,3,[]
+108,it_palindrome,202,it,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,3,[]
+108,rec_symmetric,106,rec,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,3,[]
+108,rec_palindrome,101,rec,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,4,[]
+108,rec_intPalindrome,105,rec,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,4,[]
+109,it_intPalindrome,206,it,python,False,"SyntaxError: expected ':' (<string>, line 23)",0,4,[]
+109,it_reverse,203,it,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,2,[]
+109,it_fibonacci,201,it,python,False,"SyntaxError: invalid syntax (<string>, line 23)",0,4,[]
+109,rec_permutations,102,rec,python,False,"SyntaxError: invalid syntax (<string>, line 37)",0,2,[]
+109,it_sum,205,it,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+109,rec_fibonacci,100,rec,python,True,,2,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 1, ""error"": null}, {""expected"": 55, ""actual"": 1, ""error"": null}]"
+109,rec_intPalindrome,105,rec,python,False,"SyntaxError: invalid syntax (<string>, line 25)",0,4,[]
+109,rec_palindrome,101,rec,python,False,,1,4,"[{""expected"": true, ""actual"": null, ""error"": ""NameError: name 'sring' is not defined""}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'sring' is not defined""}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'sring' is not defined""}]"
+110,it_reverse,203,it,python,True,,2,2,"[{""expected"": ""olleh"", ""actual"": ""olleh"", ""error"": null}, {""expected"": ""ba"", ""actual"": ""ba"", ""error"": null}]"
+110,it_intPalindrome,206,it,python,False,"SyntaxError: '(' was never closed (<string>, line 35)",0,4,[]
+110,it_binSearch,200,it,python,False,,0,4,"[{""expected"": true, ""actual"": null, ""error"": ""NameError: name 'sort' is not defined""}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'sort' is not defined""}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'sort' is not defined""}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'sort' is not defined""}]"
+110,rec_reverse,103,rec,python,False,"SyntaxError: expected ':' (<string>, line 23)",0,3,[]
+110,rec_sum,104,rec,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+110,it_palindrome,202,it,python,True,,3,3,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}]"
+110,rec_symmetric,106,rec,python,False,"SyntaxError: invalid syntax (<string>, line 7)",0,3,[]
+110,it_sum,205,it,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+110,rec_fibonacci,100,rec,python,True,,4,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 5, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+112,it_fibonacci,201,it,python,False,"SyntaxError: expected ':' (<string>, line 17)",0,4,[]
+112,rec_permutations,102,rec,python,False,"SyntaxError: invalid syntax (<string>, line 29)",0,2,[]
+112,it_sum,205,it,python,True,,0,3,"[{""expected"": 1, ""actual"": 0, ""error"": null}, {""expected"": 15, ""actual"": 10, ""error"": null}, {""expected"": 55, ""actual"": 45, ""error"": null}]"
+112,rec_fibonacci,100,rec,python,True,,4,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 5, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+112,it_binSearch,200,it,python,False,"SyntaxError: invalid syntax (<string>, line 19)",0,4,[]
+112,rec_reverse,103,rec,python,False,,1,3,"[{""expected"": ""olleh"", ""actual"": null, ""error"": ""TypeError: string indices must be integers, not 'tuple'""}, {""expected"": ""ba"", ""actual"": null, ""error"": ""TypeError: string indices must be integers, not 'tuple'""}, {""expected"": ""a"", ""actual"": ""a"", ""error"": null}]"
+112,rec_sum,104,rec,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+113,rec_reverse,103,rec,python,False,"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<string>, line 21)",0,3,[]
+113,rec_sum,104,rec,python,False,"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<string>, line 17)",0,3,[]
+113,it_binSearch,200,it,python,False,"SyntaxError: invalid syntax (<string>, line 15)",0,4,[]
+113,it_sum,205,it,python,False,"IndentationError: unexpected indent (<string>, line 17)",0,3,[]
+113,rec_fibonacci,100,rec,python,False,"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<string>, line 17)",0,4,[]
+113,it_fibonacci,201,it,python,False,"SyntaxError: invalid syntax (<string>, line 21)",0,4,[]
+113,rec_permutations,102,rec,python,False,"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<string>, line 23)",0,2,[]
+113,rec_palindrome,101,rec,python,False,"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<string>, line 21)",0,4,[]
+113,rec_intPalindrome,105,rec,python,False,"SyntaxError: invalid syntax (<string>, line 21)",0,4,[]
+113,it_reverse,203,it,python,False,"SyntaxError: invalid syntax (<string>, line 19)",0,2,[]
+113,it_intPalindrome,206,it,python,False,"SyntaxError: invalid syntax (<string>, line 19)",0,4,[]
+113,it_palindrome,202,it,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,3,[]
+113,rec_symmetric,106,rec,python,False,"SyntaxError: invalid syntax (<string>, line 25)",0,3,[]
+114,it_sum,205,it,python,False,"SyntaxError: invalid decimal literal (<string>, line 17)",0,3,[]
+114,rec_fibonacci,100,rec,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,4,[]
+114,it_intPalindrome,206,it,python,False,"SyntaxError: invalid decimal literal (<string>, line 25)",0,4,[]
+114,it_reverse,203,it,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,2,[]
+114,rec_symmetric,106,rec,python,False,"SyntaxError: invalid decimal literal (<string>, line 29)",0,3,[]
+114,it_palindrome,202,it,python,False,"SyntaxError: invalid decimal literal (<string>, line 23)",0,3,[]
+114,it_fibonacci,201,it,python,False,"SyntaxError: invalid syntax (<string>, line 13)",0,4,[]
+114,rec_permutations,102,rec,python,False,"SyntaxError: '(' was never closed (<string>, line 43)",0,2,[]
+114,rec_reverse,103,rec,python,False,"IndentationError: unexpected indent (<string>, line 35)",0,3,[]
+114,it_binSearch,200,it,python,False,"SyntaxError: cannot assign to subscript here. Maybe you meant '==' instead of '='? (<string>, line 25)",0,4,[]
+114,rec_sum,104,rec,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+114,rec_palindrome,101,rec,python,True,,3,4,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": true, ""error"": null}]"
+114,rec_intPalindrome,105,rec,python,False,,1,4,"[{""expected"": true, ""actual"": null, ""error"": ""NameError: name 'floor' is not defined""}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'floor' is not defined""}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'floor' is not defined""}]"
+115,it_binSearch,200,it,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,4,[]
+115,it_sum,205,it,python,False,"SyntaxError: invalid syntax (<string>, line 19)",0,3,[]
+115,rec_fibonacci,100,rec,python,False,,0,4,"[{""expected"": 0, ""actual"": null, ""error"": ""NameError: name 'm' is not defined""}, {""expected"": 1, ""actual"": null, ""error"": ""NameError: name 'm' is not defined""}, {""expected"": 5, ""actual"": null, ""error"": ""NameError: name 'm' is not defined""}, {""expected"": 55, ""actual"": null, ""error"": ""NameError: name 'm' is not defined""}]"
+115,it_palindrome,202,it,python,False,"SyntaxError: closing parenthesis '}' does not match opening parenthesis '(' (<string>, line 33)",0,3,[]
+115,rec_symmetric,106,rec,python,False,"SyntaxError: invalid syntax (<string>, line 31)",0,3,[]
+115,rec_palindrome,101,rec,python,False,"SyntaxError: invalid syntax (<string>, line 23)",0,4,[]
+115,rec_intPalindrome,105,rec,python,False,"SyntaxError: invalid syntax (<string>, line 21)",0,4,[]
+116,it_intPalindrome,206,it,python,False,"SyntaxError: invalid syntax (<string>, line 21)",0,4,[]
+116,it_reverse,203,it,python,False,"SyntaxError: invalid syntax (<string>, line 19)",0,2,[]
+116,it_sum,205,it,python,False,"SyntaxError: expected ':' (<string>, line 19)",0,3,[]
+116,rec_fibonacci,100,rec,python,False,,1,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": null, ""error"": ""NameError: name 'm' is not defined""}, {""expected"": 5, ""actual"": null, ""error"": ""NameError: name 'm' is not defined""}, {""expected"": 55, ""actual"": null, ""error"": ""NameError: name 'm' is not defined""}]"
+116,it_binSearch,200,it,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,4,[]
+116,rec_reverse,103,rec,python,False,,0,3,"[{""expected"": ""olleh"", ""actual"": null, ""error"": ""IndexError: string index out of range""}, {""expected"": ""ba"", ""actual"": null, ""error"": ""IndexError: string index out of range""}, {""expected"": ""a"", ""actual"": null, ""error"": ""IndexError: string index out of range""}]"
+116,rec_symmetric,106,rec,python,False,"SyntaxError: invalid syntax (<string>, line 25)",0,3,[]
+117,it_intPalindrome,206,it,python,False,"SyntaxError: expected ':' (<string>, line 31)",0,4,[]
+117,it_reverse,203,it,python,True,,0,2,"[{""expected"": ""olleh"", ""actual"": ""holle"", ""error"": null}, {""expected"": ""ba"", ""actual"": ""ab"", ""error"": null}]"
+117,rec_palindrome,101,rec,python,True,,4,4,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}]"
+117,rec_intPalindrome,105,rec,python,True,,1,4,"[{""expected"": true, ""actual"": false, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": false, ""error"": null}]"
+117,it_fibonacci,201,it,python,True,,2,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 3, ""error"": null}, {""expected"": 55, ""actual"": 34, ""error"": null}]"
+117,rec_permutations,102,rec,python,False,"SyntaxError: '(' was never closed (<string>, line 45)",0,2,[]
+117,rec_reverse,103,rec,python,True,,0,3,"[{""expected"": ""olleh"", ""actual"": [""oellh"", 1, 3], ""error"": null}, {""expected"": ""ba"", ""actual"": [""ba"", 1, 0], ""error"": null}, {""expected"": ""a"", ""actual"": [""aa"", 1, -1], ""error"": null}]"
+117,rec_sum,104,rec,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+117,it_binSearch,200,it,python,False,,1,4,"[{""expected"": true, ""actual"": null, ""error"": ""TypeError: list indices must be integers or slices, not float""}, {""expected"": false, ""actual"": null, ""error"": ""TypeError: list indices must be integers or slices, not float""}, {""expected"": true, ""actual"": null, ""error"": ""TypeError: list indices must be integers or slices, not float""}, {""expected"": false, ""actual"": 0, ""error"": null}]"
+117,rec_symmetric,106,rec,python,False,,1,3,"[{""expected"": true, ""actual"": false, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": null, ""error"": ""AttributeError: 'NoneType' object has no attribute 'left'""}]"
+117,it_palindrome,202,it,python,True,,3,3,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}]"
+117,it_sum,205,it,python,True,,0,3,"[{""expected"": 1, ""actual"": 0, ""error"": null}, {""expected"": 15, ""actual"": 4, ""error"": null}, {""expected"": 55, ""actual"": 9, ""error"": null}]"
+117,rec_fibonacci,100,rec,python,True,,4,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 5, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+118,it_sum,205,it,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,3,[]
+118,it_reverse,203,it,python,False,"SyntaxError: invalid syntax (<string>, line 11)",0,2,[]
+118,it_intPalindrome,206,it,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,4,[]
+118,it_binSearch,200,it,python,False,"SyntaxError: invalid syntax. Perhaps you forgot a comma? (<string>, line 23)",0,4,[]
+118,rec_reverse,103,rec,python,False,"SyntaxError: invalid syntax (<string>, line 21)",0,3,[]
+119,rec_palindrome,101,rec,python,False,,2,4,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'false' is not defined""}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'false' is not defined""}]"
+119,rec_intPalindrome,105,rec,python,False,,0,4,"[{""expected"": true, ""actual"": null, ""error"": null}, {""expected"": false, ""actual"": null, ""error"": null}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'true' is not defined""}, {""expected"": true, ""actual"": null, ""error"": null}]"
+119,it_binSearch,200,it,python,False,"SyntaxError: expected ':' (<string>, line 45)",0,4,[]
+119,it_reverse,203,it,python,True,,2,2,"[{""expected"": ""olleh"", ""actual"": ""olleh"", ""error"": null}, {""expected"": ""ba"", ""actual"": ""ba"", ""error"": null}]"
+119,it_intPalindrome,206,it,python,False,"SyntaxError: expected ':' (<string>, line 33)",0,4,[]
+119,it_sum,205,it,python,False,"SyntaxError: expected 'else' after 'if' expression (<string>, line 15)",0,3,[]
+119,rec_fibonacci,100,rec,python,True,,4,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 5, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+120,rec_fibonacci,100,rec,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,4,[]
+120,it_sum,205,it,python,False,"SyntaxError: invalid syntax (<string>, line 23)",0,3,[]
+120,rec_palindrome,101,rec,python,False,"SyntaxError: invalid syntax (<string>, line 21)",0,4,[]
+120,rec_intPalindrome,105,rec,python,False,"SyntaxError: unmatched ')' (<string>, line 31)",0,4,[]
+120,it_intPalindrome,206,it,python,False,"SyntaxError: invalid syntax (<string>, line 23)",0,4,[]
+120,it_reverse,203,it,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,2,[]
+120,rec_symmetric,106,rec,python,False,"SyntaxError: expected ':' (<string>, line 25)",0,3,[]
+120,it_palindrome,202,it,python,False,"SyntaxError: invalid syntax (<string>, line 19)",0,3,[]
+120,rec_permutations,102,rec,python,False,"SyntaxError: invalid syntax (<string>, line 23)",0,2,[]
+120,it_fibonacci,201,it,python,False,"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<string>, line 21)",0,4,[]
+121,it_palindrome,202,it,python,False,,0,3,"[{""expected"": true, ""actual"": null, ""error"": ""TypeError: 'float' object cannot be interpreted as an integer""}, {""expected"": false, ""actual"": null, ""error"": ""TypeError: 'float' object cannot be interpreted as an integer""}, {""expected"": true, ""actual"": null, ""error"": ""TypeError: 'float' object cannot be interpreted as an integer""}]"
+121,rec_symmetric,106,rec,python,False,,1,3,"[{""expected"": true, ""actual"": false, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": null, ""error"": ""AttributeError: 'NoneType' object has no attribute 'left'""}]"
+121,it_sum,205,it,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+121,rec_fibonacci,100,rec,python,True,,0,4,"[{""expected"": 0, ""actual"": 1, ""error"": null}, {""expected"": 1, ""actual"": 0, ""error"": null}, {""expected"": 5, ""actual"": 3, ""error"": null}, {""expected"": 55, ""actual"": 34, ""error"": null}]"
+121,rec_palindrome,101,rec,python,True,,3,4,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": true, ""error"": null}]"
+121,rec_intPalindrome,105,rec,python,True,,2,4,"[{""expected"": true, ""actual"": false, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": true, ""actual"": false, ""error"": null}]"
+121,it_fibonacci,201,it,python,True,,1,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 0, ""error"": null}, {""expected"": 5, ""actual"": 3, ""error"": null}, {""expected"": 55, ""actual"": 34, ""error"": null}]"
+121,rec_permutations,102,rec,python,False,"SyntaxError: '[' was never closed (<string>, line 39)",0,2,[]
+122,it_binSearch,200,it,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,4,[]
+122,rec_reverse,103,rec,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,3,[]
+122,it_sum,205,it,python,False,"SyntaxError: cannot assign to function call (<string>, line 17)",0,3,[]
+122,rec_fibonacci,100,rec,python,False,"SyntaxError: expected ':' (<string>, line 17)",0,4,[]
+122,it_palindrome,202,it,python,False,"SyntaxError: cannot assign to function call (<string>, line 21)",0,3,[]
+122,rec_symmetric,106,rec,python,False,"SyntaxError: '(' was never closed (<string>, line 25)",0,3,[]
+124,it_binSearch,200,it,python,True,,0,4,"[{""expected"": true, ""actual"": 3, ""error"": null}, {""expected"": false, ""actual"": -1, ""error"": null}, {""expected"": true, ""actual"": 0, ""error"": null}, {""expected"": false, ""actual"": -1, ""error"": null}]"
+124,rec_sum,104,rec,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+124,rec_reverse,103,rec,python,False,,1,3,"[{""expected"": ""olleh"", ""actual"": null, ""error"": ""IndexError: string index out of range""}, {""expected"": ""ba"", ""actual"": ""ba"", ""error"": null}, {""expected"": ""a"", ""actual"": ""aa"", ""error"": null}]"
+124,rec_palindrome,101,rec,python,True,,4,4,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}]"
+124,rec_intPalindrome,105,rec,python,False,,0,4,"[{""expected"": true, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}]"
+124,rec_permutations,102,rec,python,False,,0,2,"[{""expected"": [""ABC"", ""ACB"", ""BAC"", ""BCA"", ""CAB"", ""CBA""], ""actual"": null, ""error"": ""NameError: name 'l' is not defined""}, {""expected"": [""AB"", ""BA""], ""actual"": null, ""error"": ""NameError: name 'l' is not defined""}]"
+124,it_fibonacci,201,it,python,True,,1,4,"[{""expected"": 0, ""actual"": 1, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 3, ""error"": null}, {""expected"": 55, ""actual"": 34, ""error"": null}]"
+124,rec_symmetric,106,rec,python,False,,1,3,"[{""expected"": true, ""actual"": false, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": null, ""error"": ""AttributeError: 'NoneType' object has no attribute 'left'""}]"
+124,it_palindrome,202,it,python,True,,3,3,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}]"
+124,it_intPalindrome,206,it,python,False,,0,4,"[{""expected"": true, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}]"
+124,it_reverse,203,it,python,True,,2,2,"[{""expected"": ""olleh"", ""actual"": ""olleh"", ""error"": null}, {""expected"": ""ba"", ""actual"": ""ba"", ""error"": null}]"
+124,rec_fibonacci,100,rec,python,True,,4,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 5, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+124,it_sum,205,it,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+125,rec_symmetric,106,rec,python,False,"SyntaxError: expected ':' (<string>, line 25)",0,3,[]
+125,it_palindrome,202,it,python,False,"SyntaxError: '(' was never closed (<string>, line 15)",0,3,[]
+125,rec_sum,104,rec,python,False,"SyntaxError: expected ':' (<string>, line 17)",0,3,[]
+125,rec_reverse,103,rec,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,3,[]
+126,it_fibonacci,201,it,python,True,,1,4,"[{""expected"": 0, ""actual"": 1, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 16, ""error"": null}, {""expected"": 55, ""actual"": 512, ""error"": null}]"
+126,rec_permutations,102,rec,python,False,,0,2,"[{""expected"": [""ABC"", ""ACB"", ""BAC"", ""BCA"", ""CAB"", ""CBA""], ""actual"": null, ""error"": ""TypeError: object of type 'int' has no len()""}, {""expected"": [""AB"", ""BA""], ""actual"": null, ""error"": ""TypeError: object of type 'int' has no len()""}]"
+126,rec_symmetric,106,rec,python,True,,3,3,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}]"
+126,it_palindrome,202,it,python,False,,0,3,"[{""expected"": true, ""actual"": null, ""error"": ""TypeError: 'float' object cannot be interpreted as an integer""}, {""expected"": false, ""actual"": null, ""error"": ""TypeError: 'float' object cannot be interpreted as an integer""}, {""expected"": true, ""actual"": null, ""error"": ""TypeError: 'float' object cannot be interpreted as an integer""}]"
+126,it_sum,205,it,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+126,rec_fibonacci,100,rec,python,True,,4,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 5, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+126,rec_reverse,103,rec,python,True,,0,3,"[{""expected"": ""olleh"", ""actual"": ""lleh"", ""error"": null}, {""expected"": ""ba"", ""actual"": ""a"", ""error"": null}, {""expected"": ""a"", ""actual"": """", ""error"": null}]"
+126,rec_sum,104,rec,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+126,it_binSearch,200,it,python,False,"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<string>, line 17)",0,4,[]
+126,rec_intPalindrome,105,rec,python,False,,1,4,"[{""expected"": true, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}]"
+126,rec_palindrome,101,rec,python,True,,2,4,"[{""expected"": true, ""actual"": false, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": true, ""error"": null}]"
+126,it_intPalindrome,206,it,python,False,,0,4,"[{""expected"": true, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'math' is not defined""}]"
+126,it_reverse,203,it,python,True,,2,2,"[{""expected"": ""olleh"", ""actual"": ""olleh"", ""error"": null}, {""expected"": ""ba"", ""actual"": ""ba"", ""error"": null}]"
+127,it_sum,205,it,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+127,rec_fibonacci,100,rec,python,True,,4,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 5, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+127,it_binSearch,200,it,python,False,TIMEOUT,0,4,[]
+127,rec_reverse,103,rec,python,True,,3,3,"[{""expected"": ""olleh"", ""actual"": ""olleh"", ""error"": null}, {""expected"": ""ba"", ""actual"": ""ba"", ""error"": null}, {""expected"": ""a"", ""actual"": ""a"", ""error"": null}]"
+127,rec_sum,104,rec,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+127,rec_palindrome,101,rec,python,True,,3,4,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": true, ""error"": null}]"
+127,rec_intPalindrome,105,rec,python,False,,0,4,"[{""expected"": true, ""actual"": null, ""error"": ""NameError: name 'false' is not defined""}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'false' is not defined""}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'false' is not defined""}, {""expected"": true, ""actual"": null, ""error"": ""NameError: name 'false' is not defined""}]"
+127,it_reverse,203,it,python,False,,0,2,"[{""expected"": ""olleh"", ""actual"": null, ""error"": ""TypeError: 'float' object cannot be interpreted as an integer""}, {""expected"": ""ba"", ""actual"": null, ""error"": ""TypeError: 'float' object cannot be interpreted as an integer""}]"
+127,it_intPalindrome,206,it,python,True,,1,4,"[{""expected"": true, ""actual"": false, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": false, ""error"": null}]"
+127,it_fibonacci,201,it,python,False,,0,4,"[{""expected"": 0, ""actual"": null, ""error"": ""IndexError: list assignment index out of range""}, {""expected"": 1, ""actual"": null, ""error"": ""IndexError: list assignment index out of range""}, {""expected"": 5, ""actual"": null, ""error"": ""IndexError: list assignment index out of range""}, {""expected"": 55, ""actual"": null, ""error"": ""IndexError: list assignment index out of range""}]"
+127,rec_permutations,102,rec,python,False,"SyntaxError: invalid syntax (<string>, line 39)",0,2,[]
+128,rec_palindrome,101,rec,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,4,[]
+128,it_fibonacci,201,it,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,4,[]
+128,rec_reverse,103,rec,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,3,[]
+128,it_binSearch,200,it,python,False,"SyntaxError: expected ':' (<string>, line 25)",0,4,[]
+128,rec_sum,104,rec,python,False,"SyntaxError: expected ':' (<string>, line 17)",0,3,[]
+128,rec_symmetric,106,rec,python,False,"SyntaxError: expected ':' (<string>, line 25)",0,3,[]
+128,it_palindrome,202,it,python,False,"SyntaxError: invalid syntax (<string>, line 19)",0,3,[]
+130,it_sum,205,it,python,True,,0,3,"[{""expected"": 1, ""actual"": null, ""error"": null}, {""expected"": 15, ""actual"": null, ""error"": null}, {""expected"": 55, ""actual"": null, ""error"": null}]"
+130,rec_fibonacci,100,rec,python,False,"SyntaxError: expected ':' (<string>, line 17)",0,4,[]
+130,rec_reverse,103,rec,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,3,[]
+130,rec_sum,104,rec,python,False,"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='? (<string>, line 17)",0,3,[]
+130,it_binSearch,200,it,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,4,[]
+130,it_intPalindrome,206,it,python,False,"SyntaxError: invalid syntax (<string>, line 27)",0,4,[]
+130,it_reverse,203,it,python,False,"SyntaxError: invalid syntax (<string>, line 25)",0,2,[]
+130,rec_symmetric,106,rec,python,False,"SyntaxError: expected ':' (<string>, line 25)",0,3,[]
+130,it_palindrome,202,it,python,False,"SyntaxError: expected ':' (<string>, line 23)",0,3,[]
+131,it_fibonacci,201,it,python,False,"SyntaxError: cannot assign to expression (<string>, line 21)",0,4,[]
+131,rec_permutations,102,rec,python,False,,0,2,"[{""expected"": [""ABC"", ""ACB"", ""BAC"", ""BCA"", ""CAB"", ""CBA""], ""actual"": null, ""error"": ""RecursionError: maximum recursion depth exceeded""}, {""expected"": [""AB"", ""BA""], ""actual"": null, ""error"": ""RecursionError: maximum recursion depth exceeded""}]"
+131,it_intPalindrome,206,it,python,False,,1,4,"[{""expected"": true, ""actual"": null, ""error"": ""IndexError: string index out of range""}, {""expected"": false, ""actual"": null, ""error"": ""IndexError: string index out of range""}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": true, ""actual"": null, ""error"": ""IndexError: string index out of range""}]"
+131,it_reverse,203,it,python,False,,0,2,"[{""expected"": ""olleh"", ""actual"": null, ""error"": ""IndexError: string index out of range""}, {""expected"": ""ba"", ""actual"": null, ""error"": ""IndexError: string index out of range""}]"
+131,rec_symmetric,106,rec,python,False,"SyntaxError: expected ':' (<string>, line 25)",0,3,[]
+131,it_palindrome,202,it,python,False,,0,3,"[{""expected"": true, ""actual"": null, ""error"": ""TypeError: 'int' object is not iterable""}, {""expected"": false, ""actual"": null, ""error"": ""TypeError: 'int' object is not iterable""}, {""expected"": true, ""actual"": null, ""error"": ""TypeError: 'int' object is not iterable""}]"
+131,it_sum,205,it,python,True,,0,3,"[{""expected"": 1, ""actual"": 0, ""error"": null}, {""expected"": 15, ""actual"": 10, ""error"": null}, {""expected"": 55, ""actual"": 45, ""error"": null}]"
+131,rec_fibonacci,100,rec,python,False,"SyntaxError: expected ':' (<string>, line 17)",0,4,[]
+131,rec_reverse,103,rec,python,False,"SyntaxError: expected ':' (<string>, line 21)",0,3,[]
+131,it_binSearch,200,it,python,False,"SyntaxError: expected ':' (<string>, line 29)",0,4,[]
+131,rec_sum,104,rec,python,False,,1,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": null, ""error"": ""UnboundLocalError: cannot access local variable 'answer' where it is not associated with a value""}, {""expected"": 55, ""actual"": null, ""error"": ""UnboundLocalError: cannot access local variable 'answer' where it is not associated with a value""}]"
+131,rec_palindrome,101,rec,python,False,"SyntaxError: invalid syntax (<string>, line 21)",0,4,[]
+133,it_sum,205,it,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+133,rec_fibonacci,100,rec,python,True,,4,4,"[{""expected"": 0, ""actual"": 0, ""error"": null}, {""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 5, ""actual"": 5, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+133,rec_palindrome,101,rec,python,True,,4,4,"[{""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": true, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}]"
+133,rec_intPalindrome,105,rec,python,False,"IndentationError: expected an indented block after 'while' statement on line 37 (<string>, line 43)",0,4,[]
+133,rec_reverse,103,rec,python,False,,1,3,"[{""expected"": ""olleh"", ""actual"": null, ""error"": ""TypeError: reverseString() missing 1 required positional argument: 'end'""}, {""expected"": ""ba"", ""actual"": null, ""error"": ""TypeError: reverseString() missing 1 required positional argument: 'end'""}, {""expected"": ""a"", ""actual"": ""a"", ""error"": null}]"
+133,rec_sum,104,rec,python,True,,3,3,"[{""expected"": 1, ""actual"": 1, ""error"": null}, {""expected"": 15, ""actual"": 15, ""error"": null}, {""expected"": 55, ""actual"": 55, ""error"": null}]"
+133,it_binSearch,200,it,python,False,,1,4,"[{""expected"": true, ""actual"": null, ""error"": ""TypeError: list indices must be integers or slices, not float""}, {""expected"": false, ""actual"": null, ""error"": ""TypeError: list indices must be integers or slices, not float""}, {""expected"": true, ""actual"": null, ""error"": ""TypeError: list indices must be integers or slices, not float""}, {""expected"": false, ""actual"": false, ""error"": null}]"
+133,rec_symmetric,106,rec,python,False,,0,3,"[{""expected"": true, ""actual"": null, ""error"": ""NameError: name 'null' is not defined""}, {""expected"": false, ""actual"": null, ""error"": ""NameError: name 'null' is not defined""}, {""expected"": true, ""actual"": null, ""error"": ""AttributeError: 'NoneType' object has no attribute 'val'""}]"
+133,it_palindrome,202,it,python,False,,0,3,"[{""expected"": true, ""actual"": null, ""error"": ""IndexError: string index out of range""}, {""expected"": false, ""actual"": null, ""error"": ""IndexError: string index out of range""}, {""expected"": true, ""actual"": null, ""error"": ""IndexError: string index out of range""}]"
+203,it_binSearch,200,it,python,False,,0,4,"[{""expected"": true, ""actual"": null, ""error"": ""TypeError: 'int' object is not iterable""}, {""expected"": false, ""actual"": null, ""error"": ""TypeError: 'int' object is not iterable""}, {""expected"": true, ""actual"": null, ""error"": ""TypeError: 'int' object is not iterable""}, {""expected"": false, ""actual"": null, ""error"": ""TypeError: 'int' object is not iterable""}]"
+203,rec_sum,104,rec,python,False,"SyntaxError: invalid syntax (<string>, line 17)",0,3,[]
+203,rec_palindrome,101,rec,python,False,"SyntaxError: invalid syntax (<string>, line 29)",0,4,[]
+203,rec_intPalindrome,105,rec,python,False,"IndentationError: expected an indented block after function definition on line 13 (<string>, line 26)",0,4,[]
+203,rec_permutations,102,rec,python,False,"SyntaxError: invalid syntax (<string>, line 23)",0,2,[]
+203,rec_symmetric,106,rec,python,False,,1,3,"[{""expected"": true, ""actual"": false, ""error"": null}, {""expected"": false, ""actual"": false, ""error"": null}, {""expected"": true, ""actual"": null, ""error"": ""AttributeError: 'NoneType' object has no attribute 'right'""}]"

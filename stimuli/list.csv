@@ -1,0 +1,11 @@
+﻿stim_id,name,content,answer
+400,lis_materials,Please list ~10 different types of materials.,
+401,lis_office,Please list ~10 different types of office supplies.,
+402,lis_vehicles,Please list ~10 different types of vehicles.,
+403,lis_vegetables,Please list ~10 different vegetables.,
+404,lis_fruits,Please list ~10 different fruits.,
+405,lis_clothing,Please list ~10 types of clothing.,
+406,lis_pastries,Please list ~10 different types of pastries.,
+407,lis_instruments,Please list ~10 different instruments.,
+408,lis_footwear,Please list ~10 different types of footwear.,
+409,lis_tools,Please list ~10 different tools.,

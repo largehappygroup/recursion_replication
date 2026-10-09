@@ -1,0 +1,132 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+122,2,pro_hot,306,pro,"snow, which is hotter than dry ice, which is hotter than nothingness. hot tea is hotter than a can of coke, which is hotter than an iced coffee. Pool water is hotter than a glacier h",2025-10-30 13:38:10.232880,1.783
+122,2,it_binSearch,200,it,"### ITERATION ###                      
+
+# Please complete the function to iteratively perform binary search. 
+# Parameters: array - list to be searched, 
+#                 x - integer to find
+def binarySearch(array, x) -> bool:
+
+    i=0
+    arraysize = array.length
+    # loop header (can do for or while loop)
+    while(i != arrazysize)
+    	if(array[i] == x)
+        	return true
+        i = i + 1
+        # loop bodl
+   qq
+    # return statement
+	returm false
+",2025-10-30 13:44:02.494068,2.747
+122,2,rec_reverse,103,rec,"### RECURSION ### 
+
+# Please complete the function to recursively reverse 
+# a given string.
+# Parameters: string - string to be reversed
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def reverseString(string, start, end) -> str:
+
+    # Base case
+	if string == emd
+    	return string
+
+    # Active flow
+	else`
+    	stqaqr
+    	string.appemd(reversseString(string, start, end)
+
+
+    # Passive flow
+       
+",2025-10-30 13:50:09.016530,3.414
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+122,3,pro_length,308,pro,rice.a-car-is-sorter-tan-a-skyscraper-wicu,2025-10-30 13:57:24.145637,3.411
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+122,1,pro_weight,300,pro,"A car is heavier than a phone, which is heavier than a mouse, which is heavier than a piece of paper, which is heavier than a grain of rice, which is heavier than a drop of water, which is heavier than spec of dirt, which is heavier than a protein molecule, which is heavier than a carbon atom, which is heavier than a helium atom, which is heavier than a proton, which is heavier than an electron. qq",2025-10-30 14:05:32.280740,2.739
+122,1,pro_bright,304,pro,"a projector light, which is brighter than a computer screen, which is brighter than a lamp light, which is brighter than a light shined through sunglasses, which is brighter than dim led lights on the lowest setting, which is brighter than bioluminessence, which is brighter than the night sky, which is brighter than a dark area. qq",2025-10-30 14:08:04.730622,2.251
+122,1,it_sum,205,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+    sum = 0
+    # loop header (can do for or while loop)
+    for range(1,n)
+        # loop body
+		sum = n
+        n = n - 1
+
+    # return statement
+	return sum
+
+qq",2025-10-30 14:10:26.527887,4.328
+122,1,rec_fibonacci,100,rec,"### RECURSION ###
+
+# Please complete the function to recursively 
+# calculate the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+    
+    # Base case
+	if(n == 0)
+    	return 0
+	elif(n == 1)
+    	return 1
+
+    # Active flow
+	else
+    	n = n + fibonacci(n-1)
+        
+    # Passive flow
+	print(n) 
+    
+    qq
+
+
+
+",2025-10-30 14:13:27.760368,2.938
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+122,6,pro_cost,301,pro,"A printer, which is cheaper than a car, which is cheaper than a house, which is cheaper than a jet, which is cheaper than a cruise ship, which is cheaper than a building a rocketship, which is cheaper than building an entire city, which is cheaper than the ",2025-10-30 14:18:00.251756,1.601
+122,6,it_palindrome,202,it,"### ITERATION ###  
+
+# Please complete the function to iteratively check 
+# if a given string is a palindrome 
+# (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+def isPalindrome(string) -> bool:
+	reverse = """"
+    i = string.length - 1
+    # loop header (can do for or while loop)
+    for range(1, string.length)
+        # loop body
+        reverse.append(string.substring(i-1, i)
+
+    # return statement
+    return (string == reverse)
+                       
+                       qq
+
+",2025-10-30 14:23:45.940892,4.425
+122,6,rec_symmetric,106,rec,"### RECURSION ###
+
+# Please complete the function to recursively compute 
+# whether the binary tree is symmetric 
+# (i.e., the left subtree is a mirror-image of the right subtree)
+# Parameters: root - TreeNode object of root node with fields: root.left, 
+#       5                                                      root.right, 
+#     3    3                                                   root.val
+#    2  1 1  2
+def is_symmetric(root) -> bool:
+        
+    # Base case
+    if (root.right ==q q
+
+    # Active flow
+
+",2025-10-30 14:25:32.784805,4.143

@@ -1,0 +1,349 @@
+﻿stim_id,name,content,answer
+200,it_binSearch,"### ITERATION ###                      
+
+# Please complete the function to iteratively perform binary search. 
+# Parameters: array - list to be searched, 
+#                 x - integer to find
+def binarySearch(array, x) -> bool:
+
+    # loop header (can do for or while loop)
+    for     : 
+        # loop body
+        
+   
+
+    # return statement
+
+","#include <iostream>  #################
+#include <vector>    ### ITERATION ###
+                     #################
+
+// Please complete the function to iteratively perform binary search. 
+// Parameters: arr - vector to be searched, 
+//               x - integer to find
+int binarySearch(const std::vector<int>& arr, int x) {
+    int left = 0, right = arr.size() - 1;
+
+    // loop header
+    while (left <= right) {
+        // loop body
+        int mid = left + (right - left) / 2;
+
+        if (arr[mid] == x)
+            return mid;
+
+        if (arr[mid] < x)
+            left = mid + 1;
+        else
+            right = mid - 1;
+    }
+
+    return -1;
+}
+
+int main() {
+    std::vector<int> arr = {2, 3, 4, 10, 40};
+    int x = 10;
+    int result = binarySearch(arr, x);
+    if(result == -1)
+        std::cout << ""Element is not present in array"" << std::endl;
+    else
+        std::cout << ""Element is present at index "" << result << std::endl;
+    return 0;
+}"
+201,it_fibonacci,"### ITERATION ###                     
+
+# Please complete the function to iteratively calculate 
+# the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+
+    # loop header (can do for or while loop)
+    for     :
+        # loop body
+        
+    
+
+    # return statement
+
+
+","#include <iostream>  #################
+                     ### ITERATION ###
+                     #################
+
+// Please complete the function to iteratively calculate 
+// the nth Fibonacci number.
+// Parameters: n - index for number in fibonacci sequence
+int fibonacci(int n) {
+    if (n <= 1) return n;
+    int first = 0, second = 1, fibonacci = 0;
+
+    // loop header
+    for (int i = 2; i <= n; i++) {
+        // loop body
+        fibonacci = first + second;
+        first = second;
+        second = fibonacci;
+    }
+
+    return fibonacci;
+}
+
+int main() {
+    int number = 5;
+    std::cout << ""The "" << number << ""th Fibonacci number is: "" << fibonacci(number) << std::endl;
+    return 0;
+}"
+202,it_palindrome,"### ITERATION ###  
+
+# Please complete the function to iteratively check 
+# if a given string is a palindrome 
+# (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+def isPalindrome(string) -> bool:
+
+    # loop header (can do for or while loop)
+    for    :
+        # loop body
+        
+   
+
+    # return statement
+
+
+","#include <iostream>  #################
+#include <string>    ### ITERATION ###
+                     #################
+
+// Please complete the function to iteratively check 
+// if a given string is a palindrome.
+// Parameters: str - string to be checked
+bool isPalindrome(const std::string& str) {
+    int start = 0;
+    int end = str.length() - 1;
+
+    // loop header
+    while (start < end) {
+        // loop body
+        if (str[start] != str[end]) {
+            return false;
+        }
+        start++;
+        end--;
+    }
+
+    return true;
+}
+
+int main() {
+    std::string str = ""racecar"";
+    if (isPalindrome(str))
+        std::cout << ""\"""" << str << ""\"" is a palindrome."" << std::endl;
+    else
+        std::cout << ""\"""" << str << ""\"" is not a palindrome."" << std::endl;
+    return 0;
+}"
+203,it_reverse,"### ITERATION ### 
+
+# Please complete the function to iteratively reverse 
+# a given string. 
+# Parameters: string - string to be reversed
+def reverseString(string) -> str:
+    
+    # loop header (can do for or while loop)
+    for     :
+        # loop body
+
+    
+
+    # return statement
+
+","#include <iostream>  #################
+#include <string>    ### ITERATION ###
+                     #################
+
+// Please complete the function to iteratively reverse 
+// a given string.
+// std::swap(a, b) may be useful
+// Parameters: str - string to be reversed
+void reverseString(std::string &str) {
+    int start = 0;
+    int end = str.length() - 1;
+
+    // loop header
+    while (start < end) {
+        // loop body
+        std::swap(str[start], str[end]);
+        start++;
+        end--;
+    }
+}
+
+int main() {
+    std::string str = ""Hello World"";
+    reverseString(str);
+    std::cout << ""Reversed string: "" << str << std::endl;
+    return 0;
+}"
+204,it_reverseStack,"### ITERATION ###  
+
+# Please complete the function to iteratively reverse a given list.
+# Parameters: lst - lst to be reversed 
+def reverseList(lst) -> list:
+
+    # loop header (can do for or while loop)
+    for    :
+        # loop body
+
+    # return statement
+
+
+","#include <iostream>  #################
+#include <stack>     ### ITERATION ###
+#include <vector>    #################
+
+// Please complete the function to iteratively reverse a given stack.
+// Parameters: st - stack to be reversed
+void reverseStack(std::stack<int>& st) {
+    std::vector<int> elements;
+
+    // loop header 1
+    while (!st.empty()) {
+        // loop body 1
+        elements.push_back(st.top());
+        st.pop();
+    }
+
+    // loop header 2
+    for (int i = elements.size() - 1; i >= 0; --i) {
+        // loop body 2
+        st.push(elements[i]);
+    }
+
+    // return statement
+
+}
+
+int main() {
+    std::stack<int> st;
+    st.push(1);
+    st.push(2);
+    st.push(3);
+    st.push(4);
+
+    reverseStack(st);
+
+    while (!st.empty()) {
+        std::cout << st.top() << "" "";
+        st.pop();
+    }
+
+    return 0;
+}"
+205,it_sum,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+
+    # loop header (can do for or while loop)
+    for     :
+        # loop body
+
+
+    # return statement
+
+
+","#include <iostream>  #################
+                     ### ITERATION ###
+                     #################
+
+// Please complete the function to iteratively calculate 
+// the sum of first n natural numbers
+// Parameters: n - quantity of natural numbers to consider
+int sumOfNaturalNumbers(int n) {
+    int sum = 0;
+
+    // loop header
+    for (int i = 1; i <= n; i++) {
+        sum += i; // active flow
+    }
+    return sum;
+}
+
+int main() {
+    int number = 10;
+    std::cout << ""Sum of first "" << number << "" natural numbers is: "" << sumOfNaturalNumbers(number) << std::endl;
+    return 0;
+}"
+206,it_intPalindrome,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# --- Without converting it into a string --- 
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+    
+    # loop header (can do for or while loop)
+    for    :
+        # loop body
+
+
+    # return statement
+    ","def is_num_palindrome(x) -> bool:
+    if x < 0 or (x % 10 == 0 and x != 0):
+        return False
+    reversed_half = 0
+    # loop header (can use for or while loop)
+    while x > reversed_half:
+        # loop body
+        reversed_half = reversed_half * 10 + x % 10
+        x //= 10
+    # return statement
+    return x == reversed_half or x == reversed_half // 10"
+207,it_symmetric,"### ITERATION ###
+
+# Please complete the function to iteratively compute 
+# whether the binary tree is symmetric 
+# (i.e., the left subtree is the same as the right subtree)
+# Parameters: root - TreeNode object of root node with fields: root.left, 
+#                  5                                          root.right, 
+#            3         3                                    root.val
+#         2    1   1   2
+def is_symmetric(root) -> bool:    
+
+
+    # loop header (can do for or while loop)
+    for      :
+        # loop body
+ 
+    # return statement
+","class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+def is_symmetric_iterative(root) -> bool:
+    if not root:
+        return True
+
+    queue = [root, root]  # Start by comparing the root with itself
+
+    while len(queue) > 0:
+        left = queue.pop(0)
+        right = queue.pop(0)
+
+        if not left and not right:
+            continue
+        if not left or not right or left.val != right.val:
+            return False
+
+        # Enqueue children in the order needed to check for symmetry
+        queue.append(left.left)
+        queue.append(right.right)
+        queue.append(left.right)
+        queue.append(right.left)
+
+    return True"

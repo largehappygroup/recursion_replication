@@ -1,0 +1,179 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+108,1,pro_weight,300,pro,"a table, whicj is heavier than a chair, whicj is heavier than a laptop, which is heavier than a cellphone, which is heavier than a ",2025-09-11 17:54:39.515904,3.143
+108,1,pro_bright,304,pro,"a lighthouse light, whicj is brighter than a military-grade light, which is brighter than a car highbeams light, which is brighter than a headlight, which is brighter than a handheld flashlight, which is brighter than a phone flashlight, which is brighter than an rgb keu",2025-09-11 17:57:13.849076,4.401
+108,1,it_sum,205,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n):
+	int sumqq = 0
+    # loop header (can do for or while loop)
+    for (i = 0; i <= n; ++i
+         suim += i
+     
+        # loop body
+
+
+    # return statement
+	retutn sum
+
+",2025-09-11 18:00:05.976684,4.341
+108,1,rec_fibonacci,100,rec,"### RECURSION ###
+
+# Please complete the function to recursively 
+# calculate and print the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> None:
+    
+    # Base case
+	if (n = 0)
+    retirmn 0
+
+    # Active flow
+	qq
+
+    # Passive flow
+
+
+
+
+",2025-09-11 18:03:01.972334,1.608
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+108,2,pro_hot,306,pro,"a tiaster. wjicj is hotter than shpwer water on max heat, whucj id hottrt than a room w",2025-09-11 18:07:54.399225,3.469
+108,2,it_binSearch,200,it,"### ITERATION ###                      
+
+# Please complete the function to iteratively perform binary search. 
+# Parameters: array - list to be searched, 
+#                 x - integer to find
+def binarySearch(array, x):
+
+    # loop header (can do for or while loop)
+    for (i = 0; i < array.size; ++i)
+    	if array[i] == x
+        retirm i
+        # loop body
+        
+   else 
+returm 0qq
+
+    # return statement
+
+",2025-09-11 18:10:37.973358,4.131
+108,2,rec_reverse,103,rec,"### RECURSION ### 
+
+# Please complete the function to recursively reverse 
+# a given string.
+# Parameters: string - string to be reversed
+#           start_idx - index for beginning of subsequence
+#             end_idx - index for end of subsequence
+def reverseString(string, start_idx, end_idx) -> str:
+
+    # Base case
+	if string == """"
+    return """"
+    	
+
+    # Active flow
+str firstHalf = reverseString(substrimg(startidx + 1, endidx - 1), st
+
+    # Passive flow
+       
+",2025-09-11 18:18:44.020234,3.644
+108,2,rec_sum,104,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+    
+    # Base case
+	if n = 0
+    return 0
+
+    # Active flow
+    sum = n + sumOfNaturalNumbers(n-1)
+
+    # Passive flow
+    retirn sumqq
+",2025-09-11 18:20:10.800706,3.019
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+108,6,pro_cost,301,pro,"a bookbag. whicj os vjea[er tjan a new pair pf shoes. whicj is cheaper than a laptop, whicj is chea[er tjam a gaming PC, wkovj is cjea[er tjam a car, wjicj is cjea[er tjam a yavht",2025-09-11 18:24:16.367054,3.238
+108,6,it_palindrome,202,it,"### ITERATION ###  
+
+# Please complete the function to iteratively check 
+# if a given string is a palindrome (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+def isPalindrome(string):
+
+    # loop header (can do for or while loop)
+    for i = 0; i< strimg.size / 2; ++i
+        # loop body
+        if string(i) != strinh(strimg,size - i)
+        return 0
+   
+
+    # return statement
+retirn 1qq
+
+",2025-09-11 18:27:04.015620,4.746
+108,6,rec_symmetric,106,rec,"### RECURSION ###
+
+# Please complete the function to recursively compute whether the binary
+# tree is symmetric (i.e., the left subtree is the same as the right subtree) 
+# Parameters: root - TreeNode object of root node with fields: root.left, root.right, root.val
+def is_symmetric(root) -> bool:
+        
+    # Base case
+        i dony get qq
+        
+
+    # Active flow
+	return 
+",2025-09-11 18:33:03.110546,2.915
+108,6,lis_office,401,lis,pens. paper sticky notes printer desk organizer keuboard moniter PC chairqq,2025-09-11 18:34:36.729180,3.834
+108,6,lis_clothing,405,lis,"shorts, leggings, sweatpants, jeans, socks, tanktop, t-shirt, dress, sweater jacket",2025-09-11 18:36:00.730241,1.223
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+108,4,rec_palindrome,101,rec,"### RECURSION ### 
+
+# Please complete the function to recursively check if 
+# a given string is a palindrome.  (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+#           start_idx - index for beginning of subsequence
+#             end_idx - index for end of subsequence
+def isPalindrome(string, start_idx, end_idx) -> bool:
+    
+    # Base case
+	if string(startidx) != string(endidx)
+    retirn false
+   elseif startidx == emdifx
+	retirn true
+    # Active flow
+	
+    return ispalindrome(string, startidx+1, endidx-1)
+qq
+	
+
+",2025-09-11 18:42:14.453519,4.96
+108,4,rec_intPalindrome,105,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# --- Without converting it into a string --- 
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+
+
+    # Base case
+	if x % 10 == x
+    return true 
+   
+    # Active flow
+    idkqq
+",2025-09-11 18:44:52.624683,2.655
+108,4,lis_vehicles,402,lis,"nissan sentra, nissan altima, jeep cherokee, fordf150, honda ridgeline, semitruck, tesla, honda civic, motorcycleqq",2025-09-11 18:46:57.591025,4.507
+108,4,lis_vegetables,403,lis,"okra, broccoli, squash, zuccinni, corn, bell peppers, cabbage, lettuce, carrots, raddishesqq",2025-09-11 18:48:39.717615,1.996
+108,4,lis_tools,409,lis,"screwdriver, power drill, handsaw, miter saw, hammer, bandsaw, sander, shovel, hoe, rake. qq",2025-09-11 18:50:49.595557,2.477
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+108,5,pro_size,302,pro,"than a pebble, wjocj is smaller than a mouse, which is smaller than a rabbit, which is smaller than a dog, which is smaller than a deer. which is smaller than a boulder, which is smaller than a knoll, whicg id smaller than a mountain, which is smaller than a tectonic plate",2025-09-11 18:55:23.093860,3.569

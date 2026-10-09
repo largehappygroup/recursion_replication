@@ -1,0 +1,145 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+128,4,rec_palindrome,101,rec,"### RECURSION ### 
+
+# Please complete the function to recursively check if 
+# a given string is a palindrome.  (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def isPalindrome(string, start, end) -> bool:
+    
+    # Base case {}.(_). p[]
+	if (string[start] != string[end])
+    	return false
+
+    # Active flow
+	isPalindrome(string, (start+1), (end-1))
+
+
+",2026-03-28 16:10:41.889998,4.678
+128,4,lis_vehicles,402,lis,"suv, sedan, van, semi-truck, bus, motorcycle, bike, scooter, RV, trailerqq",2026-03-28 16:12:49.866470,1.424
+128,4,lis_tools,409,lis,"hammer, screw driver, ranch, saw, ruler. leveler, can-opener, drill, qq",2026-03-28 16:15:15.167432,4.473
+128,4,lis_vegetables,403,lis,"broccoli, carrot, asparagus, beets, cauliflower, green beans, lettuce, onionqq",2026-03-28 16:17:35.098472,1.464
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+128,5,it_fibonacci,201,it,"### ITERATION ###                     
+
+# Please complete the function to iteratively calculate 
+# the nth Fibonacci number (i.e., 0, 1, 1, 2, 3, 5, 8...)
+# Parameters: n - index for number in fibonacci sequence
+def fibonacci(n) -> int:
+	sum = 0
+    # loop header (can do for or while loop)
+    for (i in range (n))
+        # loop body
+        sum += i
+    
+
+    # return statement
+
+
+",2026-03-28 16:25:19.167562,1.759
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+128,2,rec_reverse,103,rec,"### RECURSION ### 
+
+# Please complete the function to recursively reverse 
+# a given string.
+# Parameters: string - string to be reversed
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def reverseString(string, start, end) -> str:
+    reversed = """"
+    # Base case
+	if (start == end)
+    	return reversed
+
+    # Active flow
+    reversed += string[end]
+	reverseString(string, start, end-1)
+    # Passive flow
+    print(reversed)
+       qq
+",2026-03-28 16:37:03.919106,1.403
+128,2,it_binSearch,200,it,"### ITERATION ###                      
+
+# Please complete the function to iteratively perform binary search. 
+# Parameters: array - list to be searched, 
+#                 x - integer to find
+def binarySearch(array, x) -> bool:
+
+    # loop header (can do for or while loop)
+    for i in range(array):
+        # loop body
+        if x > array[i/2]:
+            
+            if x <= array[i/2]
+            
+         
+        	
+        
+   
+
+    # return statement
+
+",2026-03-28 16:43:06.937937,2.241
+128,2,rec_sum,104,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+    
+    # Base case
+	if (n < q0q)
+
+    # Active flow
+
+
+    # Passive flow
+    
+",2026-03-28 16:44:02.290069,1.386
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+128,6,pro_cost,301,pro,"paper, which is cheaper than a notebook, which is cheaper than a folder, which is cheaper than a binder, which is cheaper than a cabinet, which is cheaper than a desk, which is cheaper than printer, which is cheaper than a computerqq",2026-03-28 16:48:06.081907,2.097
+128,6,rec_symmetric,106,rec,"### RECURSION ###
+
+# Please complete the function to recursively compute 
+# whether the binary tree is symmetric 
+# (i.e., the left subtree is a mirror-image of the right subtree)
+# Parameters: root - TreeNode object of root node with fields: root.left, 
+#       5                                                      root.right, 
+#     3    3                                                   root.val
+#    2  1 1  2
+def is_symmetric(root) -> bool:
+    
+    # Base case
+	if (root == null)
+    	return
+
+    # Active flow
+    if 
+    is_symmetric(root.left)
+    is_symmetric(root.right)
+    
+	
+",2026-03-28 16:56:10.071694,2.186
+128,6,lis_clothing,405,lis,"blouse, tshirt, jeans, skirt, shorts, shoes, blazer, leggings, dress qq",2026-03-28 16:58:15.397542,4.444
+128,6,lis_office,401,lis,"pen, paper, notebook, binder, stapler, paper clips, folder, printer ink, qq",2026-03-28 17:00:13.443755,2.886
+128,6,it_palindrome,202,it,"qq### ITERATION ###  
+
+# Please complete the function to iteratively check 
+# if a given string is a palindrome 
+# (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+def isPalindrome(string) -> bool:
+
+    # loop header (can do for or while loop)
+    for    :
+        # loop body
+        
+   
+
+    # return statement
+
+
+",2026-03-28 17:00:26.507023,2.62

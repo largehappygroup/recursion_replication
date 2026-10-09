@@ -1,0 +1,22 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+103,3,pro_length,308,pro,a hand. wh,2025-09-02 18:15:03.856698,3.641
+103,3,lis_instruments,407,lis,"claruinem, tubam, flutem, truimpet",2025-09-02 18:17:37.780745,1.616
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+103,1,it_sum,205,it,"### ITERATION ###
+
+# Please complete the function to iteratively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n):
+	suim,s 6= 0
+    # loop header (can do for or while loop)
+    for nuims uin range(n):
+        # loop bodyqq
+		suim 6= suim, ^+ nuim,d
+
+    # return statement
+	return suim 
+
+",2025-09-02 18:26:29.050514,3.366

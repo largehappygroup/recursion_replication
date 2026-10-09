@@ -1,0 +1,126 @@
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+203,2,it_binSearch,200,it,"### ITERATION ###                      
+
+# Please complete the function to iteratively perform binary search. 
+# Parameters: array - list to be searched, 
+#                 x - integer to find
+def binarySearch(array, x) -> bool:
+
+    # loop header (can do for or while loop)
+    for i in len(array)    :qq
+        # loop body
+        if arrau[i] == x:
+            return True 
+    return False
+   
+
+    # return statement
+
+",2025-09-30 17:55:55.257719,2.844
+203,2,pro_hot,306,pro,"which is hotter than lukewarm water, which is hotter than cold water, which is hotter than ice water, which is hotter than li",2025-09-30 17:57:56.645707,2.703
+203,2,rec_sum,104,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# the sum of the first n natural numbers
+# Parameters: n - quantity of natural numbers to consider
+def sumOfNaturalNumbers(n) -> int:
+    
+    # Base case
+    if n equal qq= 0:
+        return 0
+    # Active flow
+	else 
+    	return m + sumOfNaturalNumbers(n-1)
+
+    # Passive flow
+    
+",2025-09-30 18:02:10.770419,3.397
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+203,4,lis_vegetables,403,lis,"potatoes, tomatoes, zucchini, squash, spinach, carrots, turnips, brocoli, green beans, cucumber",2025-09-30 18:13:30.393698,4.919
+203,4,lis_vehicles,402,lis,"cars, boats. motorcycles, trains, airplanes, trucks, tractors, dirt bikes, race cars, bikesqq",2025-09-30 18:15:27.607169,2.093
+203,4,rec_palindrome,101,rec,"### RECURSION ### 
+
+# Please complete the function to recursively check if 
+# a given string is a palindrome.  (i.e., 'racecar' <--> 'racecar')
+# Parameters: string - string to be checked
+#           start - index for beginning of subsequence
+#             end - index for end of subsequence
+def isPalindrome(string, start, end) -> bool:
+    
+    # Base case
+	if len(string) <= 1:
+        return True
+
+    # Active flow
+elif string[start] not equal string[end]:
+    return False
+else isPalindrome(string[start:endqq]
+                  
+
+
+",2025-09-30 18:23:07.852758,4.525
+203,4,lis_tools,409,lis,"hammer, saw, wrench, screw driver, hand saw, scissors, level, measuring tape, drill, mallet qq",2025-09-30 18:24:33.794626,4.196
+203,4,rec_intPalindrome,105,rec,"### RECURSION ###
+
+# Please complete the function to recursively calculate 
+# whether a given integer is a palindrome (i.e., 12321, 2442)
+# --- Without converting it into a string --- 
+# Parameters: x - integer to test
+def is_num_palindrome(x) -> bool:
+
+    # Base case
+    qq 
+   
+    # Active flow
+    
+",2025-09-30 18:26:09.780327,1.745
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+203,5,pro_loud,307,pro,"a yell, which is quieter than a scream, which is quieter than a police siren, which is quieter than a tornado siren, which is quieter than an explosion, which is quieter than thunder, which is q",2025-09-30 18:30:19.148485,1.392
+203,5,pro_size,302,pro,"than a chicken, which is smaller than a dog, which is smaller than a person, which is smaller than a house, which is smaller than a skyscraper, which is smaller than a city, which is smaller than a state, which is smaller than a country, which is smaller than a planet, which is smaller than a galaxy qq",2025-09-30 18:32:23.721567,1.903
+203,5,rec_permutations,102,rec,"### RECURSION ###
+
+# Please complete the function to recursively print 
+# all permutations of a given string. 
+# (i.e., 'ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA')
+# Parameters: string - string to be permuted
+#            left - index for beginning of subsequence
+#           right - index for end of subsequence
+def permute(string, left, right) -> None:
+    res = []
+    # Base case
+	if 	
+
+    # Active flow
+	qq
+
+    # Passive flow
+
+
+",2025-09-30 18:39:12.683550,1.986
+participant_id,block_num,stim_name,stim_id,task,participant_output,end_time,next_jitter
+203,6,lis_office,401,lis,"pens, pencils. sticky notes, legal pads, paper, ink, paper clips, stapler. computer, shredder, hole puncherqq",2025-09-30 18:45:34.184930,1.865
+203,6,rec_symmetric,106,rec,"### RECURSION ###
+
+# Please complete the function to recursively compute 
+# whether the binary tree is symmetric 
+# (i.e., the left subtree is a mirror-image of the right subtree)
+# Parameters: root - TreeNode object of root node with fields: root.left, 
+#       5                                                      root.right, 
+#     3    3                                                   root.val
+#    2  1 1  2
+def is_symmetric(root) -> bool:
+        
+    # Base case
+    if root.right != root.left:
+		return False      
+    if root.right is Null and root.left is Null:
+        return True
+    # Active flowqq
+	else:
+		is_symmetric(root.left)
+    	is_symmetric(root.right)
+",2025-09-30 18:51:14.290919,2.082
+203,6,pro_cost,301,pro,"than a pen, which is cheaper than a fountain pen, which is cheaper than a laptop, which is cheaper than a desktop ",2025-09-30 18:53:47.485465,3.443
+203,6,lis_clothing,405,lis,"shirt.pants skirt, dress, leggings. socks, underwear, tank. tights, boots. shoes qq",2025-09-30 18:55:19.483272,1.204
