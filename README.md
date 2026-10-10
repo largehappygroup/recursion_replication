@@ -13,13 +13,15 @@ The analysis scripts are numbered, and designed to be run in order (i.e., `1_ali
 
 - `design_matrices`: Boolean matrices that indicate volume numbers during the scans corresponding to the four study conditions, where the value is 1 for a timepoint when a participant was working on a recursion question, and 0 otherwise, respective to each condition.
 
-- `midprocess`: Contains the midprocessed data such as the keystrokes aligned by volumes, and the formatted keystrokes that serve as prompts to an LLM. 
+- `midprocess`: Where the midprocessed data will be saved, such as the keystrokes aligned by volumes, and the formatted keystrokes that serve as prompts to an LLM. 
 
 - `misc`: Helper files such as brain atlases, and corresponding keys for special characters.
 
 - `output`: Where we save the heavily processed data, such as the LLM embeddings and results from the VEMs
 
 - `stimuli`: The original study questions and the specific questions for each block.
+
+- `FMRI_Codebook.xlsx`: Our finalized codebook from semi-structured interviews with participants.
 
 ### Helpers
 -  **`_load_brain_atlases.py`:** 
@@ -50,7 +52,8 @@ The analysis scripts are numbered, and designed to be run in order (i.e., `1_ali
 
 ## Research Questions
 **RQ1: How does the neural basis of recursive programming compare to that of iterative programming?** (`rq1_reccode_vs_itercode.ipynb`)
-- We investigate differences between recursive and iterative programming by examining set intersections and differences in each participant between their top-modeled voxels for the two conditions. We perform these steps, as well as permutation testing and correction for multiple comparisons in the script. Results are plotted onto brains using pycortex, which opens as a locally hosted webpage
+- We investigate differences between recursive and iterative programming by examining set intersections and differences in each participant between their top-modeled voxels for the two conditions. We perform these steps, as well as permutation testing and correction for multiple comparisons in the script. Results are plotted onto brains using pycortex, which opens as a locally hosted webpage. 
+*NOTE: With an earlier version of the null-distributions file we used for initially computing the number of significant parcels, we found that the number of significant voxels for RecCode was slightly different compared to a newer run that contained the null distributions for RQ2. Through some investigation, we found that some parcels were close to the significance threshold and therefore sensitive to minor changes. We therefore doubled the number of permutations to $10{,}000$ for increased sensitivity to p-values near the threshold. With this number of permutations, we found an additional parcel that was significant.*
 
 **RQ2: How does recursion in programming relate to recursion in natural language?** (`rq2_reccode_vs_recprose.ipynb`)
 - We perform nearly the same steps as those in the first research question for comparing recursion in code to recursion in natural language. For this part though, to isolate the recursive aspects of code and recursive aspects of prose, we first take the set differences between these conditions and their iterative counterparts. That is, we compute RecCode' as the set difference of (RecCode - IterCode), and RecProse' as (RecProse - IterProse). Results are plotted onto brains using pycortex, which opens as a locally hosted webpage.

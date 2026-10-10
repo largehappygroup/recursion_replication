@@ -6,7 +6,8 @@ from itertools import combinations
 from collections import defaultdict, Counter
 
 seed = 888
-nperms = 5000
+# nperms = 5000
+nperms = 10000 # there were some p-values around the significance threshold at 5000, so increasing perms here for increased stability
 n_parcels = 401
 rng = np.random.default_rng(seed)
 
@@ -222,7 +223,7 @@ def add_top_parcel_nulls(null_intersections, records, nperms, rng, n_parcels=n_p
 def main():
     datapath = f"output/VEMs"
     recordspath = "output/organized_results_by_condition.pkl"
-    outpath = "output/null_distribution_condition_intersections.pkl"
+    outpath = "output/null_distributions.pkl"
     participants = os.listdir(datapath)
 
     null_intersections = defaultdict(dict)
