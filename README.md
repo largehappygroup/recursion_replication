@@ -19,6 +19,8 @@ The analysis scripts are numbered, and designed to be run in order (i.e., `1_ali
 
 - `output`: Where we save the heavily processed data, such as the LLM embeddings and results from the VEMs
 
+- `prompts`: Additional text provided to the LLM (DeepSeek 6B) as we prompted the model with snapshots of participants' answers for the four conditions. These provide additional context about how a recursive code question should be answered, for instance.
+
 - `stimuli`: The original study questions and the specific questions for each block.
 
 - `FMRI_Codebook.xlsx`: Our finalized codebook from semi-structured interviews with participants.

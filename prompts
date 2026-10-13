@@ -1,0 +1,8 @@
+Recursion: Please fill in the scaffolding for this question using a recursive implementation in Python, where active flow involves making recursive calls that build up the recursive stack, whereas passive flow is the work on the way down as the calls finish executing.
+
+Iteration: Please fill in the scaffolding for this question using an iterative implementation in Python.
+
+
+Prose: Please use right-branching phrases following this same phrase structure to add 10 more examples for this sentence:
+
+List: (Pretty self explanatory)
